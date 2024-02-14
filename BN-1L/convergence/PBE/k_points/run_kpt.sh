@@ -6,7 +6,7 @@ do
 kpt=$i
 echo "starting calculation for kpt = $kpt"
 
-sed "s/3 3 1 0 0 0/$kpt $kpt 1 0 0 0/" c_1l.scf.in > kpt_$kpt.in
+sed "s/3 3 1 0 0 0/$kpt $kpt 1 0 0 0/" bn_1l.scf.in > kpt_$kpt.in
 
 pw.x < kpt_$kpt.in > kpt_$kpt.out
 

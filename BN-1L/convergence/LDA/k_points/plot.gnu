@@ -9,11 +9,13 @@ Ry_to_eV = 13.6057
 
 set xlabel 'k grid'
 set ylabel 'E_{tot} [eV]'
+set ytics 0.01
 
 stats "kpt.dat" u 1:2 nooutput
 stats "kpt.dat" u (lastX=$1,lastY=$2) nooutput
 elast = lastY*13.6057
 set key out horizontal center top
+
 
 f(x) = elast + 0.01
 g(x) = elast - 0.01

@@ -6,7 +6,7 @@ do
 ecut=$i
 echo "starting calculation for ecut = $ecut"
 
-sed "s/ecutwfc = 20/ecutwfc = $ecut/" c_1l.scf.in > ecut_$ecut.in
+sed "s/ecutwfc = 20/ecutwfc = $ecut/" bn_1l.scf.in > ecut_$ecut.in
 
 pw.x < ecut_$ecut.in > ecut_$ecut.out
 

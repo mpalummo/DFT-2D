@@ -15,7 +15,7 @@ stats "ecut.dat" u 1:2 nooutput
 stats "ecut.dat" u (lastX=$1,lastY=$2) nooutput
 elast = lastY*13.6057
 
-set yrange [elast:elast+2]
+set yrange [elast:elast+1.5]
 set key out horizontal center top
 
 f(x) = elast + 0.1
