@@ -1,0 +1,6 @@
+&bands
+prefix = "graphene"
+outdir = "./tmp"
+filband = "graphene_PBE.dat"
+lsym=.true.
+/
