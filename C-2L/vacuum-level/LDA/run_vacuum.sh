@@ -3,12 +3,12 @@ LANG=en_US
 #it should be en_US.UTF-8
 LC_NUMERIC=de_DE.UTF-8
 
-for i in  $(seq 0.2100 0.01 0.2700)
+for i in  $(seq 3.400920045 0.2 4.800920045)
 do
 
 z=$i
 echo "starting  scf calculation for celldm(3) = $z"
-sed "s/0.250000000/$z/" c_2l_AA.scf.in > $z.in
+sed "s/3.800920045/$z/" c_2l_AA.scf.in > $z.in
 
 pw.x < $z.in > $z.out &&
 

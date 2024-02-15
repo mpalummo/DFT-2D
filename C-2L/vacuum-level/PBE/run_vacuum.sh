@@ -3,19 +3,19 @@ LANG=en_US
 #it should be en_US.UTF-8
 LC_NUMERIC=de_DE.UTF-8
 
-for i in  $(seq 0.2000 0.01 0.2700)
+for i in  $(seq 3.400920045 0.2 4.800920045)
 do
 
 z=$i
-echo "starting  scf calculation for kpt = $z"
-sed "s/0.250000000/$z/" c_2l_AA.scf.in > $z.in
+echo "starting  scf calculation for celldm(3) = $z"
+sed "s/3.691083885/$z/" c_2l_AA.scf.in > $z.in
 
 pw.x < $z.in > $z.out &&
 
-echo "starting  pp.x calculation for kpt = $z"
+echo "starting  pp.x calculation for celldm(3) = $z"
 pp.x < pp.in > pp.out &&
 
-echo "starting  average.x calculation for kpt = $z"
+echo "starting  average.x calculation for celldm(3) = $z"
 average.x < average.in > average.out &&
 
 cp avg.dat avg_$z.dat
