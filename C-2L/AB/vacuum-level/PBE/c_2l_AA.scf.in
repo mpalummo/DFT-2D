@@ -1,0 +1,40 @@
+&CONTROL
+    calculation       = 'scf'
+    restart_mode      = 'from_scratch'
+    prefix            = 'graphene'
+    tstress           = .true.
+    tprnfor           = .true.
+    pseudo_dir        = '../../../Pseudo/PBE'
+    outdir            = './tmp'
+    verbosity         = 'high'
+    disk_io = 'minimal'
+    wf_collect        = .true.
+/
+&SYSTEM
+                       ibrav = 0,
+                   celldm(1) = 4.6203,
+                   !celldm(3) = 6,
+                         nat = 4,
+                        ntyp = 1,
+                     ecutwfc = 60 ,
+                        nbnd = 8,
+                 occupations = 'smearing' ,
+                     degauss = 0.01 ,
+                    smearing = 'm-v' ,
+/
+&ELECTRONS
+                 mixing_beta = 0.7 ,
+/
+ATOMIC_SPECIES
+    C   12.01100  C.upf 
+CELL_PARAMETERS (alat=  4.62030000)
+   1.006509932   0.000000000  -0.000000000
+  -0.503254966   0.871663170   0.000000000
+  -0.000000000  -0.000000000   3.691083885
+ATOMIC_POSITIONS (crystal)
+C            -0.0000000000       -0.0000000000       -0.1166032761
+C             0.3333333330        0.6666666670       -0.1166032761
+C            -0.0000000000       -0.0000000000        0.3666032761
+C             0.3333333330        0.6666666670        0.3666032761
+K_POINTS automatic
+12 12 1	0 0 0
