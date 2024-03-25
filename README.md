@@ -40,3 +40,6 @@ The repository can be updated by running
   git pull
   ```
 Alternatively, you can download a static copy by browsing to https://github.com/mpalummo/DFT-2D , click the green Code button and Download zip (unzip to extract)
+
+### [C_1L ](graphene)
+  1. Run calculations for graphene monolayer
