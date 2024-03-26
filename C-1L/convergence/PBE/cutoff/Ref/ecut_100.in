@@ -16,7 +16,7 @@
                    celldm(3) = 6,
                          nat = 2,
                         ntyp = 1,
-                     ecutwfc = 20 ,
+                     ecutwfc = 100 ,
                         nbnd = 8,
                  occupations = 'smearing' ,
                      degauss = 0.01 ,
