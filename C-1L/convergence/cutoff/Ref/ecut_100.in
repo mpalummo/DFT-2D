@@ -4,7 +4,7 @@
     prefix            = 'graphene'
     tstress           = .true.
     tprnfor           = .true.
-    pseudo_dir        = '../../../Pseudo'
+    pseudo_dir        = '../../../Pseudo/LDA'
     outdir            = './tmp'
     verbosity         = 'high'
     disk_io = 'minimal'
@@ -16,7 +16,7 @@
                    celldm(3) = 6,
                          nat = 2,
                         ntyp = 1,
-                     ecutwfc = 20 ,
+                     ecutwfc = 100 ,
                         nbnd = 8,
                  occupations = 'smearing' ,
                      degauss = 0.01 ,
@@ -26,7 +26,7 @@
                  mixing_beta = 0.7 ,
 /
 ATOMIC_SPECIES
-    C   12.01100  C.pz-vbc.UPF 
+    C   12.01100  C.UPF 
 ATOMIC_POSITIONS crystal 
     C      0.000000000    0.000000000    0.000000000    
     C      0.333333333    0.666666667    0.000000000    

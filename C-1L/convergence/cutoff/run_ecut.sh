@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 for i in  20 30 40 50 60 70 80 90 100
 do
@@ -17,8 +17,9 @@ echo "calculation for ecut = $ecut completed"
 done
 
 grep '!  ' *.out >> ecuttmp.dat
-sed -i "s/ecut_//" ecuttmp.dat
-sed -i "s/.out:!    total energy              =//" ecuttmp.dat
+sed -i '' -e "s/ecut_//" ecuttmp.dat
+sed -i '' -e "s/.out:!    total energy              =//" ecuttmp.dat
+
 
 sort -n ecuttmp.dat > ecut.dat
-rm ecuttmp.dat
+!rm ecuttmp.dat
