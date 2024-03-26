@@ -21,5 +21,5 @@ sed -i '' -e "s/ecut_//" ecuttmp.dat
 sed -i '' -e "s/.out:!    total energy              =//" ecuttmp.dat
 
 
-sort -n ecuttmp.dat > ecut.dat
-!rm ecuttmp.dat
+sort -n ecuttmp.dat > Etot_vs_ecut.dat
+rm ecuttmp.dat

@@ -1,5 +1,5 @@
 
-     Program PWSCF v.7.2 starts on 26Mar2024 at  9:16:33 
+     Program PWSCF v.7.2 starts on 26Mar2024 at  9:50:25 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -568,17 +568,17 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
 
      Forces acting on atoms (cartesian axes, Ry/au):
 
-     atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom    1 type  1   force =     0.00000000   -0.00000000    0.00000000
      atom    2 type  1   force =     0.00000000    0.00000000    0.00000000
      The non-local contrib.  to forces
-     atom    1 type  1   force =     0.00000000   -0.00000000    0.00000000
+     atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
      atom    2 type  1   force =     0.00000000    0.00000000    0.00000000
      The ionic contribution  to forces
      atom    1 type  1   force =    -0.00000001    0.00000000   -0.00000000
      atom    2 type  1   force =     0.00000001   -0.00000000   -0.00000000
      The local contribution  to forces
-     atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
-     atom    2 type  1   force =     0.00000000   -0.00000000    0.00000000
+     atom    1 type  1   force =     0.00000000   -0.00000000   -0.00000000
+     atom    2 type  1   force =     0.00000000   -0.00000000   -0.00000000
      The core correction contribution to forces
      atom    1 type  1   force =     0.00000000   -0.00000000    0.00000000
      atom    2 type  1   force =    -0.00000000    0.00000000    0.00000000
@@ -586,8 +586,8 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
      atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
      atom    2 type  1   force =     0.00000000    0.00000000    0.00000000
      The SCF correction term to forces
-     atom    1 type  1   force =     0.00000000   -0.00000000    0.00000000
-     atom    2 type  1   force =    -0.00000000    0.00000000    0.00000000
+     atom    1 type  1   force =     0.00000000   -0.00000000   -0.00000000
+     atom    2 type  1   force =    -0.00000000    0.00000000   -0.00000000
 
      Total force =     0.000000     Total SCF correction =     0.000000
 
@@ -595,33 +595,33 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
      Computing stress (Cartesian axis) and pressure
 
           total   stress  (Ry/bohr**3)                   (kbar)     P=     -187.53
-  -0.00101745  -0.00000000  -0.00000000         -149.67       -0.00       -0.00
-  -0.00000000  -0.00101745  -0.00000000           -0.00     -149.67       -0.00
-  -0.00000000  -0.00000000  -0.00178946           -0.00       -0.00     -263.24
+  -0.00101745   0.00000000   0.00000000         -149.67        0.00        0.00
+   0.00000000  -0.00101745   0.00000000            0.00     -149.67        0.00
+   0.00000000   0.00000000  -0.00178946            0.00        0.00     -263.24
 
-     kinetic stress (kbar)   2805.49     -0.00      0.00
-                               -0.00   2805.49      0.00
+     kinetic stress (kbar)   2805.49      0.00      0.00
+                                0.00   2805.49      0.00
                                 0.00      0.00   3039.93
 
-     local   stress (kbar) -46961.50      0.00      0.00
-                                0.00 -46961.50     -0.00
-                                0.00     -0.00  47811.42
+     local   stress (kbar) -46961.50      0.00     -0.00
+                                0.00 -46961.50      0.00
+                               -0.00      0.00  47811.42
 
      nonloc. stress (kbar)   -170.20     -0.00      0.00
                                -0.00   -170.20      0.00
                                 0.00      0.00   -111.97
 
-     hartree stress (kbar)  22039.02     -0.00     -0.00
-                               -0.00  22039.02     -0.00
+     hartree stress (kbar)  22039.02      0.00     -0.00
+                                0.00  22039.02     -0.00
                                -0.00     -0.00 -21836.30
 
      exc-cor stress (kbar)   -243.76      0.00      0.00
                                 0.00   -243.76      0.00
                                 0.00      0.00   -243.76
 
-     corecor stress (kbar)   -452.23      0.00      0.00
-                                0.00   -452.23     -0.00
-                                0.00     -0.00   -440.20
+     corecor stress (kbar)   -452.23      0.00     -0.00
+                                0.00   -452.23      0.00
+                               -0.00      0.00   -440.20
 
      ewald   stress (kbar)  22833.51     -0.00     -0.00
                                -0.00  22833.51     -0.00
@@ -675,7 +675,7 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
      sum_band     :      0.01s CPU      0.01s WALL (       4 calls)
      v_of_rho     :      0.00s CPU      0.00s WALL (       5 calls)
      v_h          :      0.00s CPU      0.00s WALL (       5 calls)
-     v_xc         :      0.00s CPU      0.00s WALL (       7 calls)
+     v_xc         :      0.00s CPU      0.01s WALL (       7 calls)
      mix_rho      :      0.00s CPU      0.00s WALL (       4 calls)
 
      Called by c_bands:
@@ -706,14 +706,14 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
      calbec       :      0.00s CPU      0.00s WALL (     112 calls)
      fft          :      0.23s CPU      0.23s WALL (      22 calls)
      ffts         :      0.00s CPU      0.00s WALL (       4 calls)
-     fftw         :      0.15s CPU      0.15s WALL (     820 calls)
+     fftw         :      0.15s CPU      0.16s WALL (     820 calls)
 
      Parallel routines
 
-     PWSCF        :      0.55s CPU      0.54s WALL
+     PWSCF        :      0.55s CPU      0.55s WALL
 
 
-   This run was terminated on:   9:16:33  26Mar2024            
+   This run was terminated on:   9:50:26  26Mar2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.
