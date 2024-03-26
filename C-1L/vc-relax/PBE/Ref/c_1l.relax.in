@@ -1,5 +1,5 @@
 &CONTROL
-    calculation       = 'vc-relax'
+    calculation       = 'relax'
     restart_mode      = 'from_scratch'
     prefix            = 'graphene_PBE'
     tstress           = .true.
@@ -12,7 +12,7 @@
 /
 &SYSTEM
                        ibrav = 4,
-                   celldm(1) = 4.635,
+                   celldm(1) = 4.659777,
                    celldm(3) = 6,
                          nat = 2,
                         ntyp = 1,
