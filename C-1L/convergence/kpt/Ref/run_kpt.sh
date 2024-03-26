@@ -1,4 +1,5 @@
-#!/bin/bash
+##!/bin/bash
+#!/bin/zsh
 
 for i in  4 8 12 16 20 24 28 32
 do
@@ -17,8 +18,8 @@ echo "calculation for kpt = $kpt completed"
 done
 
 grep '!  ' *.out >> kpttmp.dat
-sed -i "s/kpt_//" kpttmp.dat
-sed -i "s/.out:!    total energy              =//" kpttmp.dat
+sed -i '' -e "s/kpt_//" kpttmp.dat
+sed -i '' -e "s/.out:!    total energy              =//" kpttmp.dat
 
 sort -n kpttmp.dat > kpt.dat
 rm kpttmp.dat
