@@ -1,5 +1,5 @@
 
-     Program PWSCF v.7.2 starts on 26Mar2024 at 11:13:14 
+     Program PWSCF v.7.2 starts on 26Mar2024 at 13: 7:24 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -1277,19 +1277,19 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
      Forces acting on atoms (cartesian axes, Ry/au):
 
      atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
-     atom    2 type  1   force =    -0.00000000   -0.00000000    0.00000000
-     The non-local contrib.  to forces
-     atom    1 type  1   force =    -0.00000000    0.00000000   -0.00000000
      atom    2 type  1   force =     0.00000000    0.00000000    0.00000000
+     The non-local contrib.  to forces
+     atom    1 type  1   force =    -0.00000000   -0.00000000   -0.00000000
+     atom    2 type  1   force =     0.00000000   -0.00000000    0.00000000
      The ionic contribution  to forces
      atom    1 type  1   force =    -0.00000001    0.00000000   -0.00000000
      atom    2 type  1   force =     0.00000001   -0.00000000   -0.00000000
      The local contribution  to forces
-     atom    1 type  1   force =    -0.00000000   -0.00000000   -0.00000000
+     atom    1 type  1   force =     0.00000000   -0.00000000   -0.00000000
      atom    2 type  1   force =     0.00000000   -0.00000000   -0.00000000
      The core correction contribution to forces
      atom    1 type  1   force =     0.00000000   -0.00000000    0.00000000
-     atom    2 type  1   force =    -0.00000000    0.00000000   -0.00000000
+     atom    2 type  1   force =    -0.00000000    0.00000000    0.00000000
      The Hubbard contrib.    to forces
      atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
      atom    2 type  1   force =     0.00000000    0.00000000    0.00000000
@@ -1304,24 +1304,24 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
 
           total   stress  (Ry/bohr**3)                   (kbar)     P=     -192.36
   -0.00106508   0.00000000   0.00000000         -156.68        0.00        0.00
-   0.00000000  -0.00106508  -0.00000000            0.00     -156.68       -0.00
+   0.00000000  -0.00106508   0.00000000            0.00     -156.68        0.00
    0.00000000  -0.00000000  -0.00179283            0.00       -0.00     -263.73
 
-     kinetic stress (kbar)   2772.20      0.00      0.00
-                                0.00   2772.20      0.00
+     kinetic stress (kbar)   2772.20     -0.00      0.00
+                               -0.00   2772.20      0.00
                                 0.00      0.00   3034.06
 
-     local   stress (kbar) -46952.87      0.00      0.00
-                                0.00 -46952.87      0.00
-                                0.00      0.00  47801.73
+     local   stress (kbar) -46952.87      0.00     -0.00
+                                0.00 -46952.87     -0.00
+                               -0.00     -0.00  47801.73
 
      nonloc. stress (kbar)   -150.21      0.00      0.00
                                 0.00   -150.21      0.00
                                 0.00      0.00    -98.01
 
-     hartree stress (kbar)  22035.99     -0.00     -0.00
-                               -0.00  22035.99     -0.00
-                               -0.00     -0.00 -21835.50
+     hartree stress (kbar)  22035.99     -0.00      0.00
+                               -0.00  22035.99      0.00
+                                0.00      0.00 -21835.50
 
      exc-cor stress (kbar)   -243.35      0.00      0.00
                                 0.00   -243.35      0.00
@@ -1367,9 +1367,9 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
      Writing all to output data dir ./tmp/graphene.save/
 
      init_run     :      0.51s CPU      0.51s WALL (       1 calls)
-     electrons    :      2.73s CPU      2.30s WALL (       1 calls)
+     electrons    :      2.73s CPU      2.31s WALL (       1 calls)
      forces       :      0.04s CPU      0.04s WALL (       1 calls)
-     stress       :      0.29s CPU      0.30s WALL (       1 calls)
+     stress       :      0.30s CPU      0.30s WALL (       1 calls)
 
      Called by init_run:
      wfcinit      :      0.26s CPU      0.26s WALL (       1 calls)
@@ -1381,15 +1381,15 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
      Called by electrons:
      c_bands      :      2.56s CPU      2.13s WALL (       4 calls)
      sum_band     :      0.16s CPU      0.17s WALL (       4 calls)
-     v_of_rho     :      0.00s CPU      0.01s WALL (       5 calls)
+     v_of_rho     :      0.00s CPU      0.00s WALL (       5 calls)
      v_h          :      0.00s CPU      0.00s WALL (       5 calls)
-     v_xc         :      0.00s CPU      0.01s WALL (       7 calls)
+     v_xc         :      0.00s CPU      0.00s WALL (       7 calls)
      mix_rho      :      0.00s CPU      0.00s WALL (       4 calls)
 
      Called by c_bands:
      init_us_2    :      0.07s CPU      0.07s WALL (     880 calls)
      init_us_2:cp :      0.07s CPU      0.07s WALL (     880 calls)
-     cegterg      :      2.47s CPU      2.04s WALL (     320 calls)
+     cegterg      :      2.48s CPU      2.05s WALL (     320 calls)
 
      Called by sum_band:
      sum_band:wei :      0.00s CPU      0.00s WALL (       4 calls)
@@ -1407,21 +1407,21 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
 
      Called by h_psi:
      h_psi:calbec :      0.09s CPU      0.10s WALL (    2506 calls)
-     vloc_psi     :      1.31s CPU      1.34s WALL (    2506 calls)
+     vloc_psi     :      1.31s CPU      1.35s WALL (    2506 calls)
      add_vuspsi   :      0.33s CPU      0.13s WALL (    2506 calls)
 
      General routines
      calbec       :      0.11s CPU      0.12s WALL (    2906 calls)
-     fft          :      0.22s CPU      0.23s WALL (      22 calls)
+     fft          :      0.23s CPU      0.23s WALL (      22 calls)
      ffts         :      0.00s CPU      0.00s WALL (       4 calls)
-     fftw         :      1.11s CPU      1.13s WALL (   21820 calls)
+     fftw         :      1.12s CPU      1.14s WALL (   21820 calls)
 
      Parallel routines
 
-     PWSCF        :      3.65s CPU      3.27s WALL
+     PWSCF        :      3.67s CPU      3.31s WALL
 
 
-   This run was terminated on:  11:13:18  26Mar2024            
+   This run was terminated on:  13: 7:27  26Mar2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

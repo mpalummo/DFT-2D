@@ -1,5 +1,5 @@
 
-     Program PWSCF v.7.2 starts on 26Mar2024 at 11:13: 6 
+     Program PWSCF v.7.2 starts on 26Mar2024 at 13: 7:16 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -715,19 +715,19 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
      Forces acting on atoms (cartesian axes, Ry/au):
 
      atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
-     atom    2 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom    2 type  1   force =    -0.00000000   -0.00000000    0.00000000
      The non-local contrib.  to forces
-     atom    1 type  1   force =     0.00000000   -0.00000000   -0.00000000
-     atom    2 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom    2 type  1   force =     0.00000000   -0.00000000    0.00000000
      The ionic contribution  to forces
      atom    1 type  1   force =    -0.00000001    0.00000000   -0.00000000
      atom    2 type  1   force =     0.00000001   -0.00000000   -0.00000000
      The local contribution  to forces
-     atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
-     atom    2 type  1   force =     0.00000000   -0.00000000    0.00000000
+     atom    1 type  1   force =     0.00000000    0.00000000   -0.00000000
+     atom    2 type  1   force =     0.00000000   -0.00000000   -0.00000000
      The core correction contribution to forces
      atom    1 type  1   force =     0.00000000   -0.00000000    0.00000000
-     atom    2 type  1   force =    -0.00000000    0.00000000    0.00000000
+     atom    2 type  1   force =    -0.00000000    0.00000000   -0.00000000
      The Hubbard contrib.    to forces
      atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
      atom    2 type  1   force =     0.00000000    0.00000000    0.00000000
@@ -741,33 +741,33 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
      Computing stress (Cartesian axis) and pressure
 
           total   stress  (Ry/bohr**3)                   (kbar)     P=     -192.23
-  -0.00106312   0.00000000   0.00000000         -156.39        0.00        0.00
-   0.00000000  -0.00106312   0.00000000            0.00     -156.39        0.00
-  -0.00000000  -0.00000000  -0.00179398           -0.00       -0.00     -263.90
+  -0.00106312  -0.00000000  -0.00000000         -156.39       -0.00       -0.00
+  -0.00000000  -0.00106312   0.00000000           -0.00     -156.39        0.00
+  -0.00000000   0.00000000  -0.00179398           -0.00        0.00     -263.90
 
-     kinetic stress (kbar)   2772.74      0.00      0.00
-                                0.00   2772.74      0.00
+     kinetic stress (kbar)   2772.74     -0.00      0.00
+                               -0.00   2772.74      0.00
                                 0.00      0.00   3033.91
 
-     local   stress (kbar) -46952.73      0.00     -0.00
+     local   stress (kbar) -46952.73      0.00      0.00
                                 0.00 -46952.73      0.00
-                               -0.00      0.00  47801.64
+                                0.00      0.00  47801.64
 
-     nonloc. stress (kbar)   -150.44      0.00     -0.00
-                                0.00   -150.44     -0.00
+     nonloc. stress (kbar)   -150.44      0.00      0.00
+                                0.00   -150.44      0.00
                                 0.00      0.00    -98.12
 
-     hartree stress (kbar)  22035.85     -0.00     -0.00
+     hartree stress (kbar)  22035.85     -0.00      0.00
                                -0.00  22035.85     -0.00
-                               -0.00     -0.00 -21835.33
+                                0.00     -0.00 -21835.33
 
      exc-cor stress (kbar)   -243.35      0.00      0.00
                                 0.00   -243.35      0.00
                                 0.00      0.00   -243.35
 
      corecor stress (kbar)   -451.97      0.00      0.00
-                                0.00   -451.97      0.00
-                                0.00      0.00   -440.29
+                                0.00   -451.97     -0.00
+                                0.00     -0.00   -440.29
 
      ewald   stress (kbar)  22833.51     -0.00     -0.00
                                -0.00  22833.51     -0.00
@@ -804,30 +804,30 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
 
      Writing all to output data dir ./tmp/graphene.save/
 
-     init_run     :      0.40s CPU      0.41s WALL (       1 calls)
-     electrons    :      0.68s CPU      0.58s WALL (       1 calls)
-     forces       :      0.01s CPU      0.01s WALL (       1 calls)
-     stress       :      0.08s CPU      0.09s WALL (       1 calls)
+     init_run     :      0.42s CPU      0.42s WALL (       1 calls)
+     electrons    :      0.67s CPU      0.57s WALL (       1 calls)
+     forces       :      0.02s CPU      0.02s WALL (       1 calls)
+     stress       :      0.09s CPU      0.10s WALL (       1 calls)
 
      Called by init_run:
      wfcinit      :      0.16s CPU      0.16s WALL (       1 calls)
      wfcinit:atom :      0.00s CPU      0.00s WALL (      19 calls)
-     wfcinit:wfcr :      0.15s CPU      0.15s WALL (      19 calls)
+     wfcinit:wfcr :      0.15s CPU      0.16s WALL (      19 calls)
      potinit      :      0.00s CPU      0.00s WALL (       1 calls)
-     hinit0       :      0.24s CPU      0.24s WALL (       1 calls)
+     hinit0       :      0.25s CPU      0.25s WALL (       1 calls)
 
      Called by electrons:
-     c_bands      :      0.63s CPU      0.53s WALL (       4 calls)
-     sum_band     :      0.04s CPU      0.04s WALL (       4 calls)
+     c_bands      :      0.62s CPU      0.52s WALL (       4 calls)
+     sum_band     :      0.04s CPU      0.05s WALL (       4 calls)
      v_of_rho     :      0.00s CPU      0.00s WALL (       5 calls)
      v_h          :      0.00s CPU      0.00s WALL (       5 calls)
-     v_xc         :      0.00s CPU      0.00s WALL (       7 calls)
+     v_xc         :      0.01s CPU      0.01s WALL (       7 calls)
      mix_rho      :      0.00s CPU      0.00s WALL (       4 calls)
 
      Called by c_bands:
      init_us_2    :      0.02s CPU      0.02s WALL (     209 calls)
      init_us_2:cp :      0.02s CPU      0.02s WALL (     209 calls)
-     cegterg      :      0.61s CPU      0.51s WALL (      76 calls)
+     cegterg      :      0.60s CPU      0.50s WALL (      76 calls)
 
      Called by sum_band:
      sum_band:wei :      0.00s CPU      0.00s WALL (       4 calls)
@@ -839,8 +839,8 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
      cdiaghg      :      0.04s CPU      0.04s WALL (     594 calls)
      cegterg:over :      0.04s CPU      0.04s WALL (     518 calls)
      cegterg:upda :      0.08s CPU      0.04s WALL (     518 calls)
-     cegterg:last :      0.06s CPU      0.02s WALL (     236 calls)
-     h_psi        :      0.52s CPU      0.49s WALL (     613 calls)
+     cegterg:last :      0.05s CPU      0.02s WALL (     236 calls)
+     h_psi        :      0.51s CPU      0.48s WALL (     613 calls)
      g_psi        :      0.01s CPU      0.01s WALL (     518 calls)
 
      Called by h_psi:
@@ -850,16 +850,16 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
 
      General routines
      calbec       :      0.03s CPU      0.03s WALL (     708 calls)
-     fft          :      0.23s CPU      0.23s WALL (      22 calls)
+     fft          :      0.23s CPU      0.24s WALL (      22 calls)
      ffts         :      0.00s CPU      0.00s WALL (       4 calls)
-     fftw         :      0.37s CPU      0.38s WALL (    5222 calls)
+     fftw         :      0.36s CPU      0.37s WALL (    5222 calls)
 
      Parallel routines
 
-     PWSCF        :      1.22s CPU      1.14s WALL
+     PWSCF        :      1.23s CPU      1.16s WALL
 
 
-   This run was terminated on:  11:13: 7  26Mar2024            
+   This run was terminated on:  13: 7:17  26Mar2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.
