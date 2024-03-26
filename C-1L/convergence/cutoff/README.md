@@ -2,7 +2,7 @@
  We start by testing convergence with respect to the kinetic energy cutoff, ecutwfc.
   1. First take a look at the system with xcrysden.
       ```
-      % xcrysden --pwi C_1L_scf.in
+      % xcrysden --pwi C_1L.scf.in
       ```
       First leave "Do not reduce dimensionality" checked.
       Click Modify -> Numer of units drawn -> Expand to 3x3x3.
@@ -10,24 +10,13 @@
 
       We have constructed what is known as a "supercell". Each supercell contains a thin slab sandwiched between thicker layers of empty space (vacuum). The unit cell contains 2 atoms of C, and the slab is only a single atom thick (a monolayer). Since quantum-ESPRESSO uses periodic boundary conditions, the system is composed of infinite sheets in the x-y plane, periodically repeated in the z direction. We will look more closely at the geometry in the following tutorials. First, however, we must carry out some convergence tests.
 
-  2. As in the case of bulk Si, we start with the kinetic energy cutoff. Change the value of `ecutwfc` from 10 up to 100 Ry in regular steps. Change the name of the output file each time.
+  2. As in the case of bulk Si, we start with the kinetic energy cutoff. You can Change manually the value of `ecutwfc` from 10 up to 100 Ry in regular steps.
+     and then Change the name of the output file each time such as:
       ```
-      % pw.x < C_1L_scf.in > C_1L_.scf.out_10Ry
+      % pw.x < C_1L.scf.in > C_1L.scf.out_10Ry
       ```
-      You can also make this change directly to the original input file using the `sed` command:
-ecutwfc = 20
-      ```
-      % sed -e 's/ecutwfc = 20/ecutwfc = 10/' C_1L_scf.in > C_1L_scf.in_ecut
-      % grep 'ecutwfc' C_1L_scf.in_ecut 
-      ecutwfc   = 10,
-      % pw.x < C_1L_scf.in_ecut > C_1L_scf.out_10Ry
-      ```
-      Repeat for 10,20,30,50,70,100 Ry.
-      ```
-      [...]
-      % pw.x < C_1L_scf.in_ecut > C_1L_scf.out_100Ry
-      ```
-  4. Using grep (See Si bulk tutorial) paste the cutoffs and total energies into a 2 column file (Ecut,Etot) called 'Etot_vs_Ecut.dat' and plot it. 
+      
+  3. or use directly the script run_ecut.sh which will run the inputs with increasing cutoff and will create a file call 'Etot_vs_Ecut.dat' at the end 
 
      ![Total energy vs kinetic energy cutoff](Ref/Etot_vs_Ecut.png?raw=true "Total energy vs kinetic energy cutoff")
 
