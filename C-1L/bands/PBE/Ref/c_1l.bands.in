@@ -1,0 +1,38 @@
+&CONTROL
+    calculation       = 'bands'
+    restart_mode      = 'from_scratch'
+    prefix            = 'graphene_PBE'
+    tstress           = .true.
+    tprnfor           = .true.
+    pseudo_dir        = '../../../Pseudo/PBE'
+    outdir            = './tmp'
+    verbosity         = 'high'
+    disk_io = 'minimal'
+    wf_collect        = .true.
+/
+&SYSTEM
+                       ibrav = 4,
+                   celldm(1) = 4.659777,
+                   celldm(3) = 6,
+                         nat = 2,
+                        ntyp = 1,
+                     ecutwfc = 60 ,
+                        nbnd = 8,
+                 occupations = 'smearing' ,
+                     degauss = 0.005 ,
+                    smearing = 'm-v' ,
+/
+&ELECTRONS
+                 mixing_beta = 0.7 ,
+/
+ATOMIC_SPECIES
+    C   12.01100  C.upf 
+ATOMIC_POSITIONS crystal 
+    C      0.000000000    0.000000000    0.000000000    
+    C      0.333333333    0.666666667    0.000000000
+K_POINTS {crystal_b}
+4
+0.00000 0.00000 0.00000 21 !Gamma
+-0.33333 0.666667 0.00000 11 !K
+0.00000 0.50000 0.00000 18  !M
+0.00000 0.00000 0.00000 1 !Gamma

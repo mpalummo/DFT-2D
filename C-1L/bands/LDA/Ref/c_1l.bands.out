@@ -1,0 +1,975 @@
+
+     Program PWSCF v.7.2 starts on 27Mar2024 at  6:29:42 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       1 processor cores
+     Number of MPI processes:                 1
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     1 nodes
+     0 MiB available memory on the printing compute node when the environment starts
+
+     Waiting for input...
+     Reading input from standard input
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+
+     Atomic positions and unit cell read from directory:
+     ./tmp/graphene_LDA.save/
+     Atomic positions from file used, from input discarded
+
+
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         361     361    109                32429    32429    5621
+
+     Using Slab Decomposition
+
+
+
+     bravais-lattice index     =            4
+     lattice parameter (alat)  =       4.6288  a.u.
+     unit-cell volume          =     515.3177 (a.u.)^3
+     number of atoms/cell      =            2
+     number of atomic types    =            1
+     number of electrons       =         8.00
+     number of Kohn-Sham states=            8
+     kinetic-energy cutoff     =      60.0000  Ry
+     charge density cutoff     =     240.0000  Ry
+     Exchange-correlation= PZ
+                           (   1   1   0   0   0   0   0)
+
+     celldm(1)=   4.628757  celldm(2)=   0.000000  celldm(3)=   6.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (  -0.500000   0.866025   0.000000 )  
+               a(3) = (   0.000000   0.000000   6.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.577350 -0.000000 )  
+               b(2) = (  0.000000  1.154701  0.000000 )  
+               b(3) = (  0.000000 -0.000000  0.166667 )  
+
+
+     PseudoPot. # 1 for C  read from file:
+     ../../../Pseudo/LDA/C.upf
+     MD5 check sum: 9ef9f0a1c6c947210c7947280cfb54e2
+     Pseudo is Norm-conserving + core correction, Zval =  4.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of 1230 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+
+     atomic species   valence    mass     pseudopotential
+        C              4.00    12.01100     C ( 1.00)
+
+     24 Sym. Ops., with inversion, found (12 have fractional translation)
+
+
+                                    s                        frac. trans.
+
+      isym =  1     identity                                     
+
+ cryst.   s( 1) = (     1          0          0      )
+                  (     0          1          0      )
+                  (     0          0          1      )
+
+ cart.    s( 1) = (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym =  2     180 deg rotation - cart. axis [0,0,1]        
+
+ cryst.   s( 2) = (    -1          0          0      )    f =( -0.3333333 )
+                  (     0         -1          0      )       (  0.3333333 )
+                  (     0          0          1      )       (  0.0000000 )
+
+ cart.    s( 2) = ( -1.0000000  0.0000000  0.0000000 )    f =( -0.5000000 )
+                  (  0.0000000 -1.0000000  0.0000000 )       (  0.2886751 )
+                  (  0.0000000  0.0000000  1.0000000 )       (  0.0000000 )
+
+
+      isym =  3     180 deg rotation - cart. axis [0,1,0]        
+
+ cryst.   s( 3) = (    -1          0          0      )
+                  (     1          1          0      )
+                  (     0          0         -1      )
+
+ cart.    s( 3) = ( -1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+
+
+      isym =  4     180 deg rotation - cart. axis [1,0,0]        
+
+ cryst.   s( 4) = (     1          0          0      )    f =( -0.3333333 )
+                  (    -1         -1          0      )       (  0.3333333 )
+                  (     0          0         -1      )       (  0.0000000 )
+
+ cart.    s( 4) = (  1.0000000  0.0000000  0.0000000 )    f =( -0.5000000 )
+                  (  0.0000000 -1.0000000  0.0000000 )       (  0.2886751 )
+                  (  0.0000000  0.0000000 -1.0000000 )       (  0.0000000 )
+
+
+      isym =  5      60 deg rotation - cryst. axis [0,0,1]       
+
+ cryst.   s( 5) = (     1          1          0      )    f =( -0.3333333 )
+                  (    -1          0          0      )       (  0.3333333 )
+                  (     0          0          1      )       (  0.0000000 )
+
+ cart.    s( 5) = (  0.5000000 -0.8660254  0.0000000 )    f =( -0.5000000 )
+                  (  0.8660254  0.5000000  0.0000000 )       (  0.2886751 )
+                  (  0.0000000  0.0000000  1.0000000 )       (  0.0000000 )
+
+
+      isym =  6      60 deg rotation - cryst. axis [0,0,-1]      
+
+ cryst.   s( 6) = (     0         -1          0      )    f =( -0.3333333 )
+                  (     1          1          0      )       (  0.3333333 )
+                  (     0          0          1      )       (  0.0000000 )
+
+ cart.    s( 6) = (  0.5000000  0.8660254  0.0000000 )    f =( -0.5000000 )
+                  ( -0.8660254  0.5000000  0.0000000 )       (  0.2886751 )
+                  (  0.0000000  0.0000000  1.0000000 )       (  0.0000000 )
+
+
+      isym =  7     120 deg rotation - cryst. axis [0,0,1]       
+
+ cryst.   s( 7) = (     0          1          0      )
+                  (    -1         -1          0      )
+                  (     0          0          1      )
+
+ cart.    s( 7) = ( -0.5000000 -0.8660254  0.0000000 )
+                  (  0.8660254 -0.5000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym =  8     120 deg rotation - cryst. axis [0,0,-1]      
+
+ cryst.   s( 8) = (    -1         -1          0      )
+                  (     1          0          0      )
+                  (     0          0          1      )
+
+ cart.    s( 8) = ( -0.5000000  0.8660254  0.0000000 )
+                  ( -0.8660254 -0.5000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym =  9     180 deg rotation - cryst. axis [1,-1,0]      
+
+ cryst.   s( 9) = (     0         -1          0      )
+                  (    -1          0          0      )
+                  (     0          0         -1      )
+
+ cart.    s( 9) = (  0.5000000 -0.8660254  0.0000000 )
+                  ( -0.8660254 -0.5000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+
+
+      isym = 10     180 deg rotation - cryst. axis [2,1,0]       
+
+ cryst.   s(10) = (     1          1          0      )
+                  (     0         -1          0      )
+                  (     0          0         -1      )
+
+ cart.    s(10) = (  0.5000000  0.8660254  0.0000000 )
+                  (  0.8660254 -0.5000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+
+
+      isym = 11     180 deg rotation - cryst. axis [0,1,0]       
+
+ cryst.   s(11) = (    -1         -1          0      )    f =( -0.3333333 )
+                  (     0          1          0      )       (  0.3333333 )
+                  (     0          0         -1      )       (  0.0000000 )
+
+ cart.    s(11) = ( -0.5000000 -0.8660254  0.0000000 )    f =( -0.5000000 )
+                  ( -0.8660254  0.5000000  0.0000000 )       (  0.2886751 )
+                  (  0.0000000  0.0000000 -1.0000000 )       (  0.0000000 )
+
+
+      isym = 12     180 deg rotation - cryst. axis [1,1,0]       
+
+ cryst.   s(12) = (     0          1          0      )    f =( -0.3333333 )
+                  (     1          0          0      )       (  0.3333333 )
+                  (     0          0         -1      )       (  0.0000000 )
+
+ cart.    s(12) = ( -0.5000000  0.8660254  0.0000000 )    f =( -0.5000000 )
+                  (  0.8660254  0.5000000  0.0000000 )       (  0.2886751 )
+                  (  0.0000000  0.0000000 -1.0000000 )       (  0.0000000 )
+
+
+      isym = 13     inversion                                    
+
+ cryst.   s(13) = (    -1          0          0      )    f =( -0.3333333 )
+                  (     0         -1          0      )       (  0.3333333 )
+                  (     0          0         -1      )       (  0.0000000 )
+
+ cart.    s(13) = ( -1.0000000  0.0000000  0.0000000 )    f =( -0.5000000 )
+                  (  0.0000000 -1.0000000  0.0000000 )       (  0.2886751 )
+                  (  0.0000000  0.0000000 -1.0000000 )       (  0.0000000 )
+
+
+      isym = 14     inv. 180 deg rotation - cart. axis [0,0,1]   
+
+ cryst.   s(14) = (     1          0          0      )
+                  (     0          1          0      )
+                  (     0          0         -1      )
+
+ cart.    s(14) = (  1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+
+
+      isym = 15     inv. 180 deg rotation - cart. axis [0,1,0]   
+
+ cryst.   s(15) = (     1          0          0      )    f =( -0.3333333 )
+                  (    -1         -1          0      )       (  0.3333333 )
+                  (     0          0          1      )       (  0.0000000 )
+
+ cart.    s(15) = (  1.0000000  0.0000000  0.0000000 )    f =( -0.5000000 )
+                  (  0.0000000 -1.0000000  0.0000000 )       (  0.2886751 )
+                  (  0.0000000  0.0000000  1.0000000 )       (  0.0000000 )
+
+
+      isym = 16     inv. 180 deg rotation - cart. axis [1,0,0]   
+
+ cryst.   s(16) = (    -1          0          0      )
+                  (     1          1          0      )
+                  (     0          0          1      )
+
+ cart.    s(16) = ( -1.0000000  0.0000000  0.0000000 )
+                  (  0.0000000  1.0000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym = 17     inv.  60 deg rotation - cryst. axis [0,0,1]  
+
+ cryst.   s(17) = (    -1         -1          0      )
+                  (     1          0          0      )
+                  (     0          0         -1      )
+
+ cart.    s(17) = ( -0.5000000  0.8660254  0.0000000 )
+                  ( -0.8660254 -0.5000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+
+
+      isym = 18     inv.  60 deg rotation - cryst. axis [0,0,-1] 
+
+ cryst.   s(18) = (     0          1          0      )
+                  (    -1         -1          0      )
+                  (     0          0         -1      )
+
+ cart.    s(18) = ( -0.5000000 -0.8660254  0.0000000 )
+                  (  0.8660254 -0.5000000  0.0000000 )
+                  (  0.0000000  0.0000000 -1.0000000 )
+
+
+      isym = 19     inv. 120 deg rotation - cryst. axis [0,0,1]  
+
+ cryst.   s(19) = (     0         -1          0      )    f =( -0.3333333 )
+                  (     1          1          0      )       (  0.3333333 )
+                  (     0          0         -1      )       (  0.0000000 )
+
+ cart.    s(19) = (  0.5000000  0.8660254  0.0000000 )    f =( -0.5000000 )
+                  ( -0.8660254  0.5000000  0.0000000 )       (  0.2886751 )
+                  (  0.0000000  0.0000000 -1.0000000 )       (  0.0000000 )
+
+
+      isym = 20     inv. 120 deg rotation - cryst. axis [0,0,-1] 
+
+ cryst.   s(20) = (     1          1          0      )    f =( -0.3333333 )
+                  (    -1          0          0      )       (  0.3333333 )
+                  (     0          0         -1      )       (  0.0000000 )
+
+ cart.    s(20) = (  0.5000000 -0.8660254  0.0000000 )    f =( -0.5000000 )
+                  (  0.8660254  0.5000000  0.0000000 )       (  0.2886751 )
+                  (  0.0000000  0.0000000 -1.0000000 )       (  0.0000000 )
+
+
+      isym = 21     inv. 180 deg rotation - cryst. axis [1,-1,0] 
+
+ cryst.   s(21) = (     0          1          0      )    f =( -0.3333333 )
+                  (     1          0          0      )       (  0.3333333 )
+                  (     0          0          1      )       (  0.0000000 )
+
+ cart.    s(21) = ( -0.5000000  0.8660254  0.0000000 )    f =( -0.5000000 )
+                  (  0.8660254  0.5000000  0.0000000 )       (  0.2886751 )
+                  (  0.0000000  0.0000000  1.0000000 )       (  0.0000000 )
+
+
+      isym = 22     inv. 180 deg rotation - cryst. axis [2,1,0]  
+
+ cryst.   s(22) = (    -1         -1          0      )    f =( -0.3333333 )
+                  (     0          1          0      )       (  0.3333333 )
+                  (     0          0          1      )       (  0.0000000 )
+
+ cart.    s(22) = ( -0.5000000 -0.8660254  0.0000000 )    f =( -0.5000000 )
+                  ( -0.8660254  0.5000000  0.0000000 )       (  0.2886751 )
+                  (  0.0000000  0.0000000  1.0000000 )       (  0.0000000 )
+
+
+      isym = 23     inv. 180 deg rotation - cryst. axis [0,1,0]  
+
+ cryst.   s(23) = (     1          1          0      )
+                  (     0         -1          0      )
+                  (     0          0          1      )
+
+ cart.    s(23) = (  0.5000000  0.8660254  0.0000000 )
+                  (  0.8660254 -0.5000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+      isym = 24     inv. 180 deg rotation - cryst. axis [1,1,0]  
+
+ cryst.   s(24) = (     0         -1          0      )
+                  (    -1          0          0      )
+                  (     0          0          1      )
+
+ cart.    s(24) = (  0.5000000 -0.8660254  0.0000000 )
+                  ( -0.8660254 -0.5000000  0.0000000 )
+                  (  0.0000000  0.0000000  1.0000000 )
+
+
+     point group D_6h(6/mmm)
+     there are 12 classes
+     the character table:
+
+       E     2C6   2C3   C2    3C2'  3C2'' i     2S3   2S6   s_h   3s_d  3s_v 
+A_1g   1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00  1.00
+A_2g   1.00  1.00  1.00  1.00 -1.00 -1.00  1.00  1.00  1.00  1.00 -1.00 -1.00
+B_1g   1.00 -1.00  1.00 -1.00  1.00 -1.00  1.00 -1.00  1.00 -1.00  1.00 -1.00
+B_2g   1.00 -1.00  1.00 -1.00 -1.00  1.00  1.00 -1.00  1.00 -1.00 -1.00  1.00
+E_1g   2.00  1.00 -1.00 -2.00  0.00  0.00  2.00  1.00 -1.00 -2.00  0.00  0.00
+E_2g   2.00 -1.00 -1.00  2.00  0.00  0.00  2.00 -1.00 -1.00  2.00  0.00  0.00
+A_1u   1.00  1.00  1.00  1.00  1.00  1.00 -1.00 -1.00 -1.00 -1.00 -1.00 -1.00
+A_2u   1.00  1.00  1.00  1.00 -1.00 -1.00 -1.00 -1.00 -1.00 -1.00  1.00  1.00
+B_1u   1.00 -1.00  1.00 -1.00  1.00 -1.00 -1.00  1.00 -1.00  1.00 -1.00  1.00
+B_2u   1.00 -1.00  1.00 -1.00 -1.00  1.00 -1.00  1.00 -1.00  1.00  1.00 -1.00
+E_1u   2.00  1.00 -1.00 -2.00  0.00  0.00 -2.00 -1.00  1.00  2.00  0.00  0.00
+E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
+
+     the symmetry operations in each class and the name of the first element:
+
+     E        1
+          identity                                               
+     2C6      5    6
+           60 deg rotation - cryst. axis [0,0,1]                 
+     2C3      7    8
+          120 deg rotation - cryst. axis [0,0,1]                 
+     C2       2
+          180 deg rotation - cart. axis [0,0,1]                  
+     3C2'     4   12   11
+          180 deg rotation - cart. axis [1,0,0]                  
+     3C2''    3    9   10
+          180 deg rotation - cart. axis [0,1,0]                  
+     i       13
+          inversion                                              
+     2S3     17   18
+          inv.  60 deg rotation - cryst. axis [0,0,1]            
+     2S6     19   20
+          inv. 120 deg rotation - cryst. axis [0,0,1]            
+     s_h     14
+          inv. 180 deg rotation - cart. axis [0,0,1]             
+     3s_d    16   24   23
+          inv. 180 deg rotation - cart. axis [1,0,0]             
+     3s_v    15   21   22
+          inv. 180 deg rotation - cart. axis [0,1,0]             
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           C   tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           C   tau(   2) = (  -0.0000000   0.5773503   0.0000000  )
+
+   Crystallographic axes
+
+     site n.     atom                  positions (cryst. coord.)
+         1           C   tau(   1) = (  0.0000000  0.0000000  0.0000000  )
+         2           C   tau(   2) = (  0.3333333  0.6666667  0.0000000  )
+
+     number of k points=    51  Marzari-Vanderbilt smearing, width (Ry)=  0.0050
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0392157
+        k(    2) = (  -0.0158714   0.0274938   0.0000000), wk =   0.0392157
+        k(    3) = (  -0.0317429   0.0549876   0.0000000), wk =   0.0392157
+        k(    4) = (  -0.0476143   0.0824814   0.0000000), wk =   0.0392157
+        k(    5) = (  -0.0634857   0.1099752   0.0000000), wk =   0.0392157
+        k(    6) = (  -0.0793571   0.1374690   0.0000000), wk =   0.0392157
+        k(    7) = (  -0.0952286   0.1649628   0.0000000), wk =   0.0392157
+        k(    8) = (  -0.1111000   0.1924566   0.0000000), wk =   0.0392157
+        k(    9) = (  -0.1269714   0.2199504   0.0000000), wk =   0.0392157
+        k(   10) = (  -0.1428429   0.2474442   0.0000000), wk =   0.0392157
+        k(   11) = (  -0.1587143   0.2749380   0.0000000), wk =   0.0392157
+        k(   12) = (  -0.1745857   0.3024319   0.0000000), wk =   0.0392157
+        k(   13) = (  -0.1904571   0.3299257   0.0000000), wk =   0.0392157
+        k(   14) = (  -0.2063286   0.3574195   0.0000000), wk =   0.0392157
+        k(   15) = (  -0.2222000   0.3849133   0.0000000), wk =   0.0392157
+        k(   16) = (  -0.2380714   0.4124071   0.0000000), wk =   0.0392157
+        k(   17) = (  -0.2539429   0.4399009   0.0000000), wk =   0.0392157
+        k(   18) = (  -0.2698143   0.4673947   0.0000000), wk =   0.0392157
+        k(   19) = (  -0.2856857   0.4948885   0.0000000), wk =   0.0392157
+        k(   20) = (  -0.3015571   0.5223823   0.0000000), wk =   0.0392157
+        k(   21) = (  -0.3174286   0.5498761   0.0000000), wk =   0.0392157
+        k(   22) = (  -0.3333000   0.5773699   0.0000000), wk =   0.0392157
+        k(   23) = (  -0.3030000   0.5773681   0.0000000), wk =   0.0392157
+        k(   24) = (  -0.2727000   0.5773663   0.0000000), wk =   0.0392157
+        k(   25) = (  -0.2424000   0.5773645   0.0000000), wk =   0.0392157
+        k(   26) = (  -0.2121000   0.5773628   0.0000000), wk =   0.0392157
+        k(   27) = (  -0.1818000   0.5773610   0.0000000), wk =   0.0392157
+        k(   28) = (  -0.1515000   0.5773592   0.0000000), wk =   0.0392157
+        k(   29) = (  -0.1212000   0.5773574   0.0000000), wk =   0.0392157
+        k(   30) = (  -0.0909000   0.5773556   0.0000000), wk =   0.0392157
+        k(   31) = (  -0.0606000   0.5773538   0.0000000), wk =   0.0392157
+        k(   32) = (  -0.0303000   0.5773521   0.0000000), wk =   0.0392157
+        k(   33) = (   0.0000000   0.5773503   0.0000000), wk =   0.0392157
+        k(   34) = (   0.0000000   0.5452753   0.0000000), wk =   0.0392157
+        k(   35) = (   0.0000000   0.5132002   0.0000000), wk =   0.0392157
+        k(   36) = (   0.0000000   0.4811252   0.0000000), wk =   0.0392157
+        k(   37) = (   0.0000000   0.4490502   0.0000000), wk =   0.0392157
+        k(   38) = (   0.0000000   0.4169752   0.0000000), wk =   0.0392157
+        k(   39) = (   0.0000000   0.3849002   0.0000000), wk =   0.0392157
+        k(   40) = (   0.0000000   0.3528252   0.0000000), wk =   0.0392157
+        k(   41) = (   0.0000000   0.3207501   0.0000000), wk =   0.0392157
+        k(   42) = (   0.0000000   0.2886751   0.0000000), wk =   0.0392157
+        k(   43) = (   0.0000000   0.2566001   0.0000000), wk =   0.0392157
+        k(   44) = (   0.0000000   0.2245251   0.0000000), wk =   0.0392157
+        k(   45) = (   0.0000000   0.1924501   0.0000000), wk =   0.0392157
+        k(   46) = (   0.0000000   0.1603751   0.0000000), wk =   0.0392157
+        k(   47) = (   0.0000000   0.1283001   0.0000000), wk =   0.0392157
+        k(   48) = (   0.0000000   0.0962250   0.0000000), wk =   0.0392157
+        k(   49) = (   0.0000000   0.0641500   0.0000000), wk =   0.0392157
+        k(   50) = (   0.0000000   0.0320750   0.0000000), wk =   0.0392157
+        k(   51) = (   0.0000000   0.0000000   0.0000000), wk =   0.0392157
+
+                       cryst. coord.
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0392157
+        k(    2) = (  -0.0158714   0.0317460   0.0000000), wk =   0.0392157
+        k(    3) = (  -0.0317429   0.0634921   0.0000000), wk =   0.0392157
+        k(    4) = (  -0.0476143   0.0952381   0.0000000), wk =   0.0392157
+        k(    5) = (  -0.0634857   0.1269842   0.0000000), wk =   0.0392157
+        k(    6) = (  -0.0793571   0.1587302   0.0000000), wk =   0.0392157
+        k(    7) = (  -0.0952286   0.1904763   0.0000000), wk =   0.0392157
+        k(    8) = (  -0.1111000   0.2222223   0.0000000), wk =   0.0392157
+        k(    9) = (  -0.1269714   0.2539684   0.0000000), wk =   0.0392157
+        k(   10) = (  -0.1428429   0.2857144   0.0000000), wk =   0.0392157
+        k(   11) = (  -0.1587143   0.3174605   0.0000000), wk =   0.0392157
+        k(   12) = (  -0.1745857   0.3492065   0.0000000), wk =   0.0392157
+        k(   13) = (  -0.1904571   0.3809526   0.0000000), wk =   0.0392157
+        k(   14) = (  -0.2063286   0.4126986   0.0000000), wk =   0.0392157
+        k(   15) = (  -0.2222000   0.4444447   0.0000000), wk =   0.0392157
+        k(   16) = (  -0.2380714   0.4761907   0.0000000), wk =   0.0392157
+        k(   17) = (  -0.2539429   0.5079368   0.0000000), wk =   0.0392157
+        k(   18) = (  -0.2698143   0.5396828   0.0000000), wk =   0.0392157
+        k(   19) = (  -0.2856857   0.5714289   0.0000000), wk =   0.0392157
+        k(   20) = (  -0.3015571   0.6031749   0.0000000), wk =   0.0392157
+        k(   21) = (  -0.3174286   0.6349210   0.0000000), wk =   0.0392157
+        k(   22) = (  -0.3333000   0.6666670   0.0000000), wk =   0.0392157
+        k(   23) = (  -0.3030000   0.6515155   0.0000000), wk =   0.0392157
+        k(   24) = (  -0.2727000   0.6363639   0.0000000), wk =   0.0392157
+        k(   25) = (  -0.2424000   0.6212124   0.0000000), wk =   0.0392157
+        k(   26) = (  -0.2121000   0.6060608   0.0000000), wk =   0.0392157
+        k(   27) = (  -0.1818000   0.5909093   0.0000000), wk =   0.0392157
+        k(   28) = (  -0.1515000   0.5757577   0.0000000), wk =   0.0392157
+        k(   29) = (  -0.1212000   0.5606062   0.0000000), wk =   0.0392157
+        k(   30) = (  -0.0909000   0.5454546   0.0000000), wk =   0.0392157
+        k(   31) = (  -0.0606000   0.5303031   0.0000000), wk =   0.0392157
+        k(   32) = (  -0.0303000   0.5151515   0.0000000), wk =   0.0392157
+        k(   33) = (   0.0000000   0.5000000   0.0000000), wk =   0.0392157
+        k(   34) = (   0.0000000   0.4722222   0.0000000), wk =   0.0392157
+        k(   35) = (   0.0000000   0.4444444   0.0000000), wk =   0.0392157
+        k(   36) = (   0.0000000   0.4166667   0.0000000), wk =   0.0392157
+        k(   37) = (   0.0000000   0.3888889   0.0000000), wk =   0.0392157
+        k(   38) = (   0.0000000   0.3611111   0.0000000), wk =   0.0392157
+        k(   39) = (   0.0000000   0.3333333   0.0000000), wk =   0.0392157
+        k(   40) = (   0.0000000   0.3055556   0.0000000), wk =   0.0392157
+        k(   41) = (   0.0000000   0.2777778   0.0000000), wk =   0.0392157
+        k(   42) = (   0.0000000   0.2500000   0.0000000), wk =   0.0392157
+        k(   43) = (   0.0000000   0.2222222   0.0000000), wk =   0.0392157
+        k(   44) = (   0.0000000   0.1944444   0.0000000), wk =   0.0392157
+        k(   45) = (   0.0000000   0.1666667   0.0000000), wk =   0.0392157
+        k(   46) = (   0.0000000   0.1388889   0.0000000), wk =   0.0392157
+        k(   47) = (   0.0000000   0.1111111   0.0000000), wk =   0.0392157
+        k(   48) = (   0.0000000   0.0833333   0.0000000), wk =   0.0392157
+        k(   49) = (   0.0000000   0.0555556   0.0000000), wk =   0.0392157
+        k(   50) = (   0.0000000   0.0277778   0.0000000), wk =   0.0392157
+        k(   51) = (   0.0000000   0.0000000   0.0000000), wk =   0.0392157
+
+     Dense  grid:    32429 G-vectors     FFT dimensions: (  24,  24, 144)
+
+     Dynamical RAM for                 wfc:       0.49 MB
+
+     Dynamical RAM for     wfc (w. buffer):       0.49 MB
+
+     Dynamical RAM for           str. fact:       0.49 MB
+
+     Dynamical RAM for           local pot:       0.00 MB
+
+     Dynamical RAM for          nlocal pot:       0.99 MB
+
+     Dynamical RAM for                qrad:       0.36 MB
+
+     Dynamical RAM for          rho,v,vnew:       3.38 MB
+
+     Dynamical RAM for           G-vectors:       2.10 MB
+
+     Dynamical RAM for          h,s,v(r/c):       0.01 MB
+
+     Dynamical RAM for          <psi|beta>:       0.00 MB
+
+     Dynamical RAM for                 psi:       0.99 MB
+
+     Dynamical RAM for                hpsi:       0.99 MB
+
+     Dynamical RAM for      wfcinit/wfcrot:       0.99 MB
+
+     Estimated static dynamical RAM per process >      11.97 MB
+
+     Estimated max dynamical RAM per process >      13.96 MB
+
+     The potential is recalculated from file :
+     ./tmp/graphene_LDA.save/charge-density
+
+     Starting wfcs are    8 randomized atomic wfcs
+
+     Band Structure Calculation
+     Davidson diagonalization with overlap
+
+     Computing kpt #:     1  of    51
+     total cpu time spent up to now is        1.0 secs
+
+     Computing kpt #:     2  of    51
+     total cpu time spent up to now is        1.3 secs
+
+     Computing kpt #:     3  of    51
+     total cpu time spent up to now is        1.5 secs
+
+     Computing kpt #:     4  of    51
+     total cpu time spent up to now is        1.7 secs
+
+     Computing kpt #:     5  of    51
+     total cpu time spent up to now is        2.0 secs
+
+     Computing kpt #:     6  of    51
+     total cpu time spent up to now is        2.3 secs
+
+     Computing kpt #:     7  of    51
+     total cpu time spent up to now is        2.5 secs
+
+     Computing kpt #:     8  of    51
+     total cpu time spent up to now is        2.8 secs
+
+     Computing kpt #:     9  of    51
+     total cpu time spent up to now is        3.0 secs
+
+     Computing kpt #:    10  of    51
+     total cpu time spent up to now is        3.3 secs
+
+     Computing kpt #:    11  of    51
+     total cpu time spent up to now is        3.6 secs
+
+     Computing kpt #:    12  of    51
+     total cpu time spent up to now is        3.8 secs
+
+     Computing kpt #:    13  of    51
+     total cpu time spent up to now is        4.0 secs
+
+     Computing kpt #:    14  of    51
+     total cpu time spent up to now is        4.2 secs
+
+     Computing kpt #:    15  of    51
+     total cpu time spent up to now is        4.4 secs
+
+     Computing kpt #:    16  of    51
+     total cpu time spent up to now is        4.6 secs
+
+     Computing kpt #:    17  of    51
+     total cpu time spent up to now is        4.8 secs
+
+     Computing kpt #:    18  of    51
+     total cpu time spent up to now is        5.0 secs
+
+     Computing kpt #:    19  of    51
+     total cpu time spent up to now is        5.3 secs
+
+     Computing kpt #:    20  of    51
+     total cpu time spent up to now is        5.5 secs
+
+     Computing kpt #:    21  of    51
+     total cpu time spent up to now is        5.8 secs
+
+     Computing kpt #:    22  of    51
+     total cpu time spent up to now is        6.0 secs
+
+     Computing kpt #:    23  of    51
+     total cpu time spent up to now is        6.3 secs
+
+     Computing kpt #:    24  of    51
+     total cpu time spent up to now is        6.5 secs
+
+     Computing kpt #:    25  of    51
+     total cpu time spent up to now is        6.7 secs
+
+     Computing kpt #:    26  of    51
+     total cpu time spent up to now is        7.0 secs
+
+     Computing kpt #:    27  of    51
+     total cpu time spent up to now is        7.3 secs
+
+     Computing kpt #:    28  of    51
+     total cpu time spent up to now is        7.6 secs
+
+     Computing kpt #:    29  of    51
+     total cpu time spent up to now is        7.9 secs
+
+     Computing kpt #:    30  of    51
+     total cpu time spent up to now is        8.1 secs
+
+     Computing kpt #:    31  of    51
+     total cpu time spent up to now is        8.3 secs
+
+     Computing kpt #:    32  of    51
+     total cpu time spent up to now is        8.4 secs
+
+     Computing kpt #:    33  of    51
+     total cpu time spent up to now is        8.7 secs
+
+     Computing kpt #:    34  of    51
+     total cpu time spent up to now is        8.9 secs
+
+     Computing kpt #:    35  of    51
+     total cpu time spent up to now is        9.1 secs
+
+     Computing kpt #:    36  of    51
+     total cpu time spent up to now is        9.3 secs
+
+     Computing kpt #:    37  of    51
+     total cpu time spent up to now is        9.5 secs
+
+     Computing kpt #:    38  of    51
+     total cpu time spent up to now is        9.7 secs
+
+     Computing kpt #:    39  of    51
+     total cpu time spent up to now is        9.9 secs
+
+     Computing kpt #:    40  of    51
+     total cpu time spent up to now is       10.2 secs
+
+     Computing kpt #:    41  of    51
+     total cpu time spent up to now is       10.5 secs
+
+     Computing kpt #:    42  of    51
+     total cpu time spent up to now is       10.7 secs
+
+     Computing kpt #:    43  of    51
+     total cpu time spent up to now is       11.0 secs
+
+     Computing kpt #:    44  of    51
+     total cpu time spent up to now is       11.3 secs
+
+     Computing kpt #:    45  of    51
+     total cpu time spent up to now is       11.6 secs
+
+     Computing kpt #:    46  of    51
+     total cpu time spent up to now is       11.9 secs
+
+     Computing kpt #:    47  of    51
+     total cpu time spent up to now is       12.2 secs
+
+     Computing kpt #:    48  of    51
+     total cpu time spent up to now is       12.4 secs
+
+     Computing kpt #:    49  of    51
+     total cpu time spent up to now is       12.6 secs
+
+     Computing kpt #:    50  of    51
+     total cpu time spent up to now is       12.9 secs
+
+     Computing kpt #:    51  of    51
+     total cpu time spent up to now is       13.1 secs
+
+     ethr =  1.25E-08,  avg # of iterations = 37.8
+
+     total cpu time spent up to now is       13.1 secs
+
+     End of band structure calculation
+
+          k = 0.0000 0.0000 0.0000 (  4053 PWs)   bands (ev):
+
+   -21.3705  -9.6740  -4.8903  -4.8903   1.4578   2.5169   3.0128   4.9459
+
+          k =-0.0159 0.0275 0.0000 (  4047 PWs)   bands (ev):
+
+   -21.3526  -9.6521  -4.9625  -4.9300   1.4822   2.5416   3.0378   4.9704
+
+          k =-0.0317 0.0550 0.0000 (  4039 PWs)   bands (ev):
+
+   -21.2987  -9.5861  -5.1748  -5.0507   1.5554   2.6158   3.1129   5.0441
+
+          k =-0.0476 0.0825 0.0000 (  4051 PWs)   bands (ev):
+
+   -21.2090  -9.4773  -5.5074  -5.2476   1.6774   2.7393   3.2380   5.1666
+
+          k =-0.0635 0.1100 0.0000 (  4061 PWs)   bands (ev):
+
+   -21.0837  -9.3256  -5.9337  -5.5144   1.8484   2.9120   3.4132   5.3380
+
+          k =-0.0794 0.1375 0.0000 (  4061 PWs)   bands (ev):
+
+   -20.9226  -9.1307  -6.4284  -5.8437   2.0683   3.1339   3.6385   5.5580
+
+          k =-0.0952 0.1650 0.0000 (  4061 PWs)   bands (ev):
+
+   -20.7262  -8.8940  -6.9690  -6.2256   2.3370   3.4046   3.9139   5.8262
+
+          k =-0.1111 0.1925 0.0000 (  4073 PWs)   bands (ev):
+
+   -20.4948  -8.6165  -7.5377  -6.6514   2.6546   3.7238   4.2395   6.1421
+
+          k =-0.1270 0.2200 0.0000 (  4047 PWs)   bands (ev):
+
+   -20.2283  -8.2978  -8.1198  -7.1103   3.0208   4.0911   4.6152   6.3623
+
+          k =-0.1428 0.2474 0.0000 (  4035 PWs)   bands (ev):
+
+   -19.9274  -8.7059  -7.9400  -7.5943   3.4355   4.5058   5.0409   5.6656
+
+          k =-0.1587 0.2749 0.0000 (  4056 PWs)   bands (ev):
+
+   -19.5929  -9.2879  -8.0957  -7.5453   3.8984   4.9515   4.9668   5.5167
+
+          k =-0.1746 0.3024 0.0000 (  4050 PWs)   bands (ev):
+
+   -19.2249  -9.8589  -8.6047  -7.1146   4.2337   4.4090   5.4722   6.0424
+
+          k =-0.1905 0.3299 0.0000 (  4050 PWs)   bands (ev):
+
+   -18.8244 -10.4143  -9.1157  -6.6508   3.5193   4.9669   6.0193   6.6179
+
+          k =-0.2063 0.3574 0.0000 (  4034 PWs)   bands (ev):
+
+   -18.3924 -10.9511  -9.6217  -6.1567   2.8166   5.5711   6.6025   7.2430
+
+          k =-0.2222 0.3849 0.0000 (  4024 PWs)   bands (ev):
+
+   -17.9303 -11.4669 -10.1176  -5.6363   2.1299   6.2206   7.2105   7.9175
+
+          k =-0.2381 0.4124 0.0000 (  4034 PWs)   bands (ev):
+
+   -17.4403 -11.9588 -10.5987  -5.0953   1.4652   6.9131   7.8172   8.6407
+
+          k =-0.2539 0.4399 0.0000 (  4022 PWs)   bands (ev):
+
+   -16.9245 -12.4256 -11.0591  -4.5392   0.8266   7.6459   8.3586   9.4119
+
+          k =-0.2698 0.4674 0.0000 (  4028 PWs)   bands (ev):
+
+   -16.3872 -12.8665 -11.4936  -3.9767   0.2166   8.4131   8.7045  10.2285
+
+          k =-0.2857 0.4949 0.0000 (  4014 PWs)   bands (ev):
+
+   -15.8355 -13.2799 -11.8933  -3.4159  -0.3601   8.7796   9.2034  11.0754
+
+          k =-0.3016 0.5224 0.0000 (  4020 PWs)   bands (ev):
+
+   -15.2839 -13.6657 -12.2456  -2.8706  -0.9028   8.7027   9.9914  11.3535
+
+          k =-0.3174 0.5499 0.0000 (  4010 PWs)   bands (ev):
+
+   -14.7629 -14.0228 -12.5189  -2.3528  -1.4088   8.6091  10.7105  11.2942
+
+          k =-0.3333 0.5774 0.0000 (  4056 PWs)   bands (ev):
+
+   -14.3520 -14.3512 -12.6390  -1.8793  -1.8782   8.5692  11.1526  11.1530
+
+          k =-0.3030 0.5774 0.0000 (  4020 PWs)   bands (ev):
+
+   -14.6378 -14.1752 -12.4962  -2.2893  -1.4755   8.6118  10.9596  11.1015
+
+          k =-0.2727 0.5774 0.0000 (  4032 PWs)   bands (ev):
+
+   -14.8974 -14.2148 -12.1055  -2.6630  -1.1352   8.7439  10.7314  10.8333
+
+          k =-0.2424 0.5774 0.0000 (  4032 PWs)   bands (ev):
+
+   -15.1302 -14.3556 -11.5855  -2.9989  -0.8588   8.9608  10.3132  10.4911
+
+          k =-0.2121 0.5774 0.0000 (  4042 PWs)   bands (ev):
+
+   -15.3356 -14.5229 -11.0197  -3.2969  -0.6462   9.2424   9.5503  10.2564
+
+          k =-0.1818 0.5774 0.0000 (  4048 PWs)   bands (ev):
+
+   -15.5137 -14.6864 -10.4499  -3.5560  -0.4909   8.7443   9.5525  10.0391
+
+          k =-0.1515 0.5774 0.0000 (  4048 PWs)   bands (ev):
+
+   -15.6645 -14.8334  -9.9026  -3.7760  -0.3834   7.9682   9.8426   9.8471
+
+          k =-0.1212 0.5774 0.0000 (  4068 PWs)   bands (ev):
+
+   -15.7882 -14.9582  -9.4023  -3.9568  -0.3131   7.2654   9.6849   9.7911
+
+          k =-0.0909 0.5774 0.0000 (  4048 PWs)   bands (ev):
+
+   -15.8841 -15.0569  -8.9724  -4.0971  -0.2691   6.6714   9.5564   9.6526
+
+          k =-0.0606 0.5774 0.0000 (  4064 PWs)   bands (ev):
+
+   -15.9528 -15.1288  -8.6407  -4.1981  -0.2444   6.2174   9.4633   9.5527
+
+          k =-0.0303 0.5774 0.0000 (  4058 PWs)   bands (ev):
+
+   -15.9940 -15.1721  -8.4296  -4.2582  -0.2319   5.9322   9.4069   9.4924
+
+          k = 0.0000 0.5774 0.0000 (  4048 PWs)   bands (ev):
+
+   -16.0076 -15.1863  -8.3573  -4.2776  -0.2281   5.8348   9.3881   9.4724
+
+          k = 0.0000 0.5453 0.0000 (  4062 PWs)   bands (ev):
+
+   -16.3223 -14.8446  -8.3391  -4.3997  -0.0781   5.8430   8.5946   9.6710
+
+          k = 0.0000 0.5132 0.0000 (  4054 PWs)   bands (ev):
+
+   -16.8365 -14.2489  -8.2831  -4.7184   0.3274   5.8672   7.8003   8.8923
+
+          k = 0.0000 0.4811 0.0000 (  4040 PWs)   bands (ev):
+
+   -17.3569 -13.5935  -8.1907  -5.1506   0.9022   5.9045   7.0512   8.1433
+
+          k = 0.0000 0.4491 0.0000 (  4064 PWs)   bands (ev):
+
+   -17.8570 -12.9078  -8.0635  -5.6332   1.5782   5.9344   6.3686   7.4343
+
+          k = 0.0000 0.4170 0.0000 (  4058 PWs)   bands (ev):
+
+   -18.3289 -12.1996  -7.9014  -6.1266   2.3150   5.6214   6.0881   6.7698
+
+          k = 0.0000 0.3849 0.0000 (  4040 PWs)   bands (ev):
+
+   -18.7702 -11.4750  -7.7064  -6.6101   3.0850   5.0279   6.1424   6.1529
+
+          k = 0.0000 0.3528 0.0000 (  4048 PWs)   bands (ev):
+
+   -19.1795 -10.7406  -7.4816  -7.0730   3.8638   4.4639   5.5891   6.0728
+
+          k = 0.0000 0.3208 0.0000 (  4040 PWs)   bands (ev):
+
+   -19.5553 -10.0010  -7.5068  -7.2297   3.9452   4.5914   5.1257   5.5634
+
+          k = 0.0000 0.2887 0.0000 (  4058 PWs)   bands (ev):
+
+   -19.8973  -9.2645  -7.9072  -6.9554   3.4742   4.5237   5.0809   5.4901
+
+          k = 0.0000 0.2566 0.0000 (  4054 PWs)   bands (ev):
+
+   -20.2045  -8.5388  -8.2706  -6.6626   3.0518   4.1190   4.6474   6.1896
+
+          k = 0.0000 0.2245 0.0000 (  4050 PWs)   bands (ev):
+
+   -20.4764  -8.5948  -7.8348  -6.3586   2.6787   3.7476   4.2645   6.1572
+
+          k = 0.0000 0.1925 0.0000 (  4062 PWs)   bands (ev):
+
+   -20.7129  -8.8785  -7.1661  -6.0529   2.3549   3.4226   3.9325   5.8428
+
+          k = 0.0000 0.1604 0.0000 (  4062 PWs)   bands (ev):
+
+   -20.9133  -9.1198  -6.5471  -5.7550   2.0808   3.1466   3.6514   5.5703
+
+          k = 0.0000 0.1283 0.0000 (  4040 PWs)   bands (ev):
+
+   -21.0776  -9.3182  -5.9959  -5.4774   1.8565   2.9202   3.4215   5.3461
+
+          k = 0.0000 0.0962 0.0000 (  4040 PWs)   bands (ev):
+
+   -21.2057  -9.4731  -5.5350  -5.2374   1.6820   2.7440   3.2427   5.1713
+
+          k = 0.0000 0.0642 0.0000 (  4049 PWs)   bands (ev):
+
+   -21.2972  -9.5847  -5.1841  -5.0507   1.5574   2.6179   3.1149   5.0461
+
+          k = 0.0000 0.0321 0.0000 (  4055 PWs)   bands (ev):
+
+   -21.3523  -9.6519  -4.9643  -4.9310   1.4827   2.5421   3.0383   4.9709
+
+          k = 0.0000 0.0000 0.0000 (  4053 PWs)   bands (ev):
+
+   -21.3705  -9.6740  -4.8903  -4.8903   1.4578   2.5169   3.0128   4.9459
+
+     Writing all to output data dir ./tmp/graphene_LDA.save/
+
+     init_run     :      0.51s CPU      0.52s WALL (       1 calls)
+     electrons    :     14.23s CPU     12.54s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      0.00s CPU      0.00s WALL (       1 calls)
+     wfcinit:atom :      0.02s CPU      0.02s WALL (      51 calls)
+     wfcinit:wfcr :      0.79s CPU      0.76s WALL (      51 calls)
+     potinit      :      0.01s CPU      0.01s WALL (       1 calls)
+     hinit0       :      0.48s CPU      0.49s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :     14.23s CPU     12.54s WALL (       1 calls)
+     v_of_rho     :      0.00s CPU      0.00s WALL (       1 calls)
+     v_h          :      0.00s CPU      0.00s WALL (       1 calls)
+     v_xc         :      0.00s CPU      0.00s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.02s CPU      0.02s WALL (      51 calls)
+     init_us_2:cp :      0.02s CPU      0.02s WALL (      51 calls)
+     cegterg      :     13.32s CPU     11.65s WALL (     119 calls)
+
+     Called by sum_band:
+
+     Called by *egterg:
+     cdiaghg      :      0.14s CPU      0.14s WALL (    1978 calls)
+     cegterg:over :      0.66s CPU      0.66s WALL (    1927 calls)
+     cegterg:upda :      1.08s CPU      0.58s WALL (    1927 calls)
+     cegterg:last :      1.27s CPU      0.47s WALL (    1088 calls)
+     h_psi        :     10.66s CPU     10.26s WALL (    2097 calls)
+     g_psi        :      0.15s CPU      0.15s WALL (    1927 calls)
+
+     Called by h_psi:
+     h_psi:calbec :      0.38s CPU      0.38s WALL (    2097 calls)
+     vloc_psi     :      9.45s CPU      9.49s WALL (    2097 calls)
+     add_vuspsi   :      0.79s CPU      0.33s WALL (    2097 calls)
+
+     General routines
+     calbec       :      0.37s CPU      0.38s WALL (    2097 calls)
+     fft          :      0.45s CPU      0.45s WALL (       4 calls)
+     fftw         :      8.39s CPU      8.41s WALL (   18072 calls)
+     davcio       :      0.00s CPU      0.01s WALL (     102 calls)
+
+     Parallel routines
+
+     PWSCF        :     14.83s CPU     13.19s WALL
+
+
+   This run was terminated on:   6:29:56  27Mar2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
