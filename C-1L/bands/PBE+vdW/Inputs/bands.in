@@ -1,0 +1,6 @@
+&bands
+prefix = "graphene_PBE_vdW"
+outdir = "./tmp"
+filband = "Bande_graphene_PBE_vdW.dat"
+lsym=.true.
+/
