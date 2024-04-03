@@ -1,5 +1,5 @@
 
-     Program PWSCF v.7.2 starts on 26Mar2024 at 16:27:34 
+     Program PWSCF v.7.2 starts on 27Mar2024 at 10:39:56 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -407,7 +407,7 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
          1           C   tau(   1) = (  0.0000000  0.0000000  0.0000000  )
          2           C   tau(   2) = (  0.3333333  0.6666667  0.0000000  )
 
-     number of k points=    37  Marzari-Vanderbilt smearing, width (Ry)=  0.0100
+     number of k points=    37  Marzari-Vanderbilt smearing, width (Ry)=  0.0050
                        cart. coord. in units 2pi/alat
         k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0061728
         k(    2) = (   0.0000000   0.0641500   0.0000000), wk =   0.0370370
@@ -547,9 +547,9 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
 
      negative rho (up, down):  2.154E-03 0.000E+00
 
-     total cpu time spent up to now is        0.9 secs
+     total cpu time spent up to now is        0.8 secs
 
-     total energy              =     -23.41393931 Ry
+     total energy              =     -23.41391905 Ry
      estimated scf accuracy    <       0.11999188 Ry
 
      iteration #  2     ecut=    20.00 Ry     beta= 0.70
@@ -564,9 +564,9 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
 
      negative rho (up, down):  2.664E-04 0.000E+00
 
-     total cpu time spent up to now is        1.1 secs
+     total cpu time spent up to now is        1.0 secs
 
-     total energy              =     -23.42414835 Ry
+     total energy              =     -23.42412809 Ry
      estimated scf accuracy    <       0.00402880 Ry
 
      iteration #  3     ecut=    20.00 Ry     beta= 0.70
@@ -579,9 +579,9 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
 ------------------
      ethr =  5.04E-05,  avg # of iterations =  7.8
 
-     total cpu time spent up to now is        1.4 secs
+     total cpu time spent up to now is        1.3 secs
 
-     total energy              =     -23.42428239 Ry
+     total energy              =     -23.42426213 Ry
      estimated scf accuracy    <       0.00017074 Ry
 
      iteration #  4     ecut=    20.00 Ry     beta= 0.70
@@ -594,7 +594,7 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
 ------------------
      ethr =  2.13E-06,  avg # of iterations =  5.7
 
-     total cpu time spent up to now is        1.7 secs
+     total cpu time spent up to now is        1.5 secs
 
      End of self-consistent calculation
 
@@ -857,11 +857,11 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
      occupation numbers 
      1.0000   1.0000   1.0000   0.5000   0.5000   0.0000   0.0000   0.0000
 
-     the Fermi energy is    -1.2938 ev
+     the Fermi energy is    -1.3033 ev
 
-!    total energy              =     -23.42429251 Ry
+!    total energy              =     -23.42427225 Ry
      estimated scf accuracy    <       0.00000038 Ry
-     smearing contrib. (-TS)   =      -0.00004052 Ry
+     smearing contrib. (-TS)   =      -0.00002026 Ry
      internal energy E=F+TS    =     -23.42425199 Ry
 
      The total energy is F=E-TS. E is the sum of the following terms:
@@ -877,23 +877,23 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
      atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
      atom    2 type  1   force =     0.00000000    0.00000000    0.00000000
      The non-local contrib.  to forces
-     atom    1 type  1   force =     0.00000000   -0.00000000    0.00000000
-     atom    2 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom    2 type  1   force =     0.00000000   -0.00000000    0.00000000
      The ionic contribution  to forces
      atom    1 type  1   force =    -0.00000001    0.00000000   -0.00000000
      atom    2 type  1   force =     0.00000001   -0.00000000   -0.00000000
      The local contribution  to forces
-     atom    1 type  1   force =     0.00000000   -0.00000000    0.00000000
-     atom    2 type  1   force =     0.00000000   -0.00000000    0.00000000
+     atom    1 type  1   force =     0.00000000   -0.00000000   -0.00000000
+     atom    2 type  1   force =     0.00000000   -0.00000000   -0.00000000
      The core correction contribution to forces
-     atom    1 type  1   force =    -0.00000000    0.00000000   -0.00000000
-     atom    2 type  1   force =    -0.00000000    0.00000000   -0.00000000
+     atom    1 type  1   force =    -0.00000000    0.00000000    0.00000000
+     atom    2 type  1   force =    -0.00000000    0.00000000    0.00000000
      The Hubbard contrib.    to forces
      atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
      atom    2 type  1   force =     0.00000000    0.00000000    0.00000000
      The SCF correction term to forces
-     atom    1 type  1   force =     0.00000000   -0.00000000   -0.00000000
-     atom    2 type  1   force =    -0.00000000    0.00000000   -0.00000000
+     atom    1 type  1   force =     0.00000000   -0.00000000    0.00000000
+     atom    2 type  1   force =    -0.00000000    0.00000000    0.00000000
 
      Total force =     0.000000     Total SCF correction =     0.000000
 
@@ -905,25 +905,25 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
    0.00000000  -0.00091366   0.00000000            0.00     -134.40        0.00
    0.00000000   0.00000000  -0.00171364            0.00        0.00     -252.09
 
-     kinetic stress (kbar)   2772.07      0.00      0.00
-                                0.00   2772.07     -0.00
+     kinetic stress (kbar)   2772.07     -0.00      0.00
+                               -0.00   2772.07     -0.00
                                 0.00     -0.00   3047.00
 
-     local   stress (kbar) -46995.30      0.00      0.00
-                                0.00 -46995.30      0.00
-                                0.00      0.00  47810.68
+     local   stress (kbar) -46995.30      0.00     -0.00
+                                0.00 -46995.30     -0.00
+                               -0.00     -0.00  47810.68
 
      nonloc. stress (kbar)   -113.34     -0.00      0.00
-                               -0.00   -113.34     -0.00
-                                0.00     -0.00    -68.48
+                               -0.00   -113.34      0.00
+                                0.00      0.00    -68.48
 
-     hartree stress (kbar)  22058.39     -0.00     -0.00
-                               -0.00  22058.39     -0.00
-                               -0.00     -0.00 -21853.51
+     hartree stress (kbar)  22058.39      0.00      0.00
+                                0.00  22058.39      0.00
+                                0.00      0.00 -21853.51
 
-     exc-cor stress (kbar)   -249.03     -0.00     -0.00
+     exc-cor stress (kbar)   -249.03     -0.00      0.00
                                -0.00   -249.03      0.00
-                               -0.00      0.00   -276.72
+                                0.00      0.00   -276.72
 
      corecor stress (kbar)   -440.70      0.00     -0.00
                                 0.00   -440.70      0.00
@@ -964,62 +964,62 @@ E_2u   2.00 -1.00 -1.00  2.00  0.00  0.00 -2.00  1.00  1.00 -2.00  0.00  0.00
 
      Writing all to output data dir ./tmp/graphene_PBE.save/
 
-     init_run     :      0.47s CPU      0.47s WALL (       1 calls)
-     electrons    :      1.37s CPU      1.19s WALL (       1 calls)
+     init_run     :      0.43s CPU      0.43s WALL (       1 calls)
+     electrons    :      1.26s CPU      1.07s WALL (       1 calls)
      forces       :      0.03s CPU      0.03s WALL (       1 calls)
-     stress       :      0.16s CPU      0.16s WALL (       1 calls)
+     stress       :      0.15s CPU      0.15s WALL (       1 calls)
 
      Called by init_run:
-     wfcinit      :      0.21s CPU      0.21s WALL (       1 calls)
+     wfcinit      :      0.18s CPU      0.18s WALL (       1 calls)
      wfcinit:atom :      0.00s CPU      0.00s WALL (      37 calls)
-     wfcinit:wfcr :      0.19s CPU      0.19s WALL (      37 calls)
+     wfcinit:wfcr :      0.17s CPU      0.17s WALL (      37 calls)
      potinit      :      0.01s CPU      0.01s WALL (       1 calls)
-     hinit0       :      0.25s CPU      0.25s WALL (       1 calls)
+     hinit0       :      0.24s CPU      0.24s WALL (       1 calls)
 
      Called by electrons:
-     c_bands      :      1.26s CPU      1.08s WALL (       4 calls)
-     sum_band     :      0.09s CPU      0.09s WALL (       4 calls)
-     v_of_rho     :      0.03s CPU      0.03s WALL (       5 calls)
+     c_bands      :      1.16s CPU      0.97s WALL (       4 calls)
+     sum_band     :      0.08s CPU      0.08s WALL (       4 calls)
+     v_of_rho     :      0.02s CPU      0.02s WALL (       5 calls)
      v_h          :      0.00s CPU      0.00s WALL (       5 calls)
-     v_xc         :      0.03s CPU      0.04s WALL (       7 calls)
+     v_xc         :      0.03s CPU      0.03s WALL (       7 calls)
      mix_rho      :      0.00s CPU      0.00s WALL (       4 calls)
 
      Called by c_bands:
-     init_us_2    :      0.04s CPU      0.04s WALL (     407 calls)
-     init_us_2:cp :      0.04s CPU      0.04s WALL (     407 calls)
-     cegterg      :      1.22s CPU      1.03s WALL (     148 calls)
+     init_us_2    :      0.03s CPU      0.03s WALL (     407 calls)
+     init_us_2:cp :      0.03s CPU      0.03s WALL (     407 calls)
+     cegterg      :      1.13s CPU      0.93s WALL (     148 calls)
 
      Called by sum_band:
      sum_band:wei :      0.00s CPU      0.00s WALL (       4 calls)
-     sum_band:loo :      0.08s CPU      0.09s WALL (       4 calls)
+     sum_band:loo :      0.07s CPU      0.08s WALL (       4 calls)
      sum_band:buf :      0.00s CPU      0.00s WALL (     148 calls)
      sum_band:ini :      0.01s CPU      0.01s WALL (     148 calls)
 
      Called by *egterg:
-     cdiaghg      :      0.08s CPU      0.08s WALL (    1080 calls)
+     cdiaghg      :      0.07s CPU      0.07s WALL (    1080 calls)
      cegterg:over :      0.07s CPU      0.07s WALL (     932 calls)
-     cegterg:upda :      0.16s CPU      0.09s WALL (     932 calls)
-     cegterg:last :      0.11s CPU      0.05s WALL (     452 calls)
-     h_psi        :      0.93s CPU      0.88s WALL (    1117 calls)
+     cegterg:upda :      0.15s CPU      0.07s WALL (     932 calls)
+     cegterg:last :      0.10s CPU      0.04s WALL (     452 calls)
+     h_psi        :      0.86s CPU      0.79s WALL (    1117 calls)
      g_psi        :      0.01s CPU      0.01s WALL (     932 calls)
 
      Called by h_psi:
-     h_psi:calbec :      0.05s CPU      0.05s WALL (    1117 calls)
-     vloc_psi     :      0.72s CPU      0.74s WALL (    1117 calls)
-     add_vuspsi   :      0.16s CPU      0.07s WALL (    1117 calls)
+     h_psi:calbec :      0.04s CPU      0.04s WALL (    1117 calls)
+     vloc_psi     :      0.65s CPU      0.67s WALL (    1117 calls)
+     add_vuspsi   :      0.15s CPU      0.06s WALL (    1117 calls)
 
      General routines
-     calbec       :      0.06s CPU      0.06s WALL (    1302 calls)
-     fft          :      0.24s CPU      0.24s WALL (      74 calls)
+     calbec       :      0.05s CPU      0.05s WALL (    1302 calls)
+     fft          :      0.23s CPU      0.23s WALL (      74 calls)
      ffts         :      0.00s CPU      0.00s WALL (       4 calls)
-     fftw         :      0.62s CPU      0.63s WALL (   10026 calls)
+     fftw         :      0.56s CPU      0.57s WALL (   10026 calls)
 
      Parallel routines
 
-     PWSCF        :      2.08s CPU      1.93s WALL
+     PWSCF        :      1.91s CPU      1.74s WALL
 
 
-   This run was terminated on:  16:27:36  26Mar2024            
+   This run was terminated on:  10:39:57  27Mar2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

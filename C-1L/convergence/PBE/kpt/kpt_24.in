@@ -19,7 +19,7 @@
                      ecutwfc = 20 ,
                         nbnd = 8,
                  occupations = 'smearing' ,
-                     degauss = 0.01 ,
+                     degauss = 0.005 ,
                     smearing = 'm-v' ,
 /
 &ELECTRONS
