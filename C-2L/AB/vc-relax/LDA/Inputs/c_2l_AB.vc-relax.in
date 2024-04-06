@@ -1,0 +1,41 @@
+&CONTROL
+    calculation       = 'vc-relax'
+!    restart_mode      = 'restart'
+    prefix            = 'C2L_AB_LDA'
+    tstress           = .true.
+    tprnfor           = .true.
+    pseudo_dir        = '../../../../Pseudo/LDA'
+    outdir            = './tmp'
+    verbosity         = 'high'
+    disk_io = 'minimal'
+    wf_collect        = .true.
+!    nstep = 200
+/
+&SYSTEM   
+           ibrav = 4,
+           celldm(1) = 4.66447,
+           celldm(3) = 8,
+           nat = 4,
+           ntyp = 1,
+           ecutwfc = 80,
+           occupations = 'smearing' ,
+           degauss = 0.005 ,
+           smearing = 'm-v' ,
+!           input_dft = 'vdw-df2-b86r'
+/
+&ELECTRONS
+                 mixing_beta = 0.7 ,
+/
+&IONS
+/
+&CELL
+/
+ATOMIC_SPECIES
+    C   12.01100  C.upf 
+ATOMIC_POSITIONS crystal 
+C 0.000000 0.000000 0.00000  0 0 0
+C 0.000000 0.000000 0.167517 0 0 1
+C 0.666667 0.333333 0.000000 0 0 0
+C 0.333333 0.666667 0.167517 0 0 1
+K_POINTS automatic
+12 12 1	0 0 0
