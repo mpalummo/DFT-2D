@@ -1,0 +1,35 @@
+&CONTROL
+    calculation       = 'scf'
+    restart_mode      = 'from_scratch'
+    prefix            = 'hBN_PBE'
+    tstress           = .true.
+    tprnfor           = .true.
+    pseudo_dir        = '../../../../Pseudo/PBE'
+    outdir            = './tmp'
+    verbosity         = 'high'
+    disk_io = 'minimal'
+    wf_collect        = .true.
+/
+&SYSTEM
+                       ibrav = 4,
+                   celldm(1) = 4.635,
+                   celldm(3) = 6,
+                         nat = 2,
+                        ntyp = 2,
+                     ecutwfc = 50 ,
+                        nbnd = 8,
+                 !occupations = 'smearing' ,
+                     !degauss = 0.005 ,
+                    !smearing = 'm-v' ,
+/
+&ELECTRONS
+                 mixing_beta = 0.7 ,
+/
+ATOMIC_SPECIES
+    N   14.00670  N.upf
+    B   10.80100  B.upf 
+ATOMIC_POSITIONS crystal 
+    B      0.000000000    0.000000000    0.000000000    
+    N      0.333333333    0.666666667    0.000000000    
+K_POINTS automatic
+16 16 1	0 0 0

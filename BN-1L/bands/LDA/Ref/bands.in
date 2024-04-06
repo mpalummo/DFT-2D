@@ -1,0 +1,6 @@
+&bands
+prefix = "hBN_1l_LDA"
+outdir = "./tmp"
+filband = "Bande_hBN_1l_LDA.dat"
+lsym=.true.
+/

@@ -1,0 +1,44 @@
+&CONTROL
+    calculation       = 'bands'
+    restart_mode      = 'from_scratch'
+    prefix            = 'hBN_1L_LDA'
+    tstress           = .true.
+    tprnfor           = .true.
+    pseudo_dir        = '../../../Pseudo/LDA'
+    outdir            = './tmp'
+    verbosity         = 'high'
+    disk_io = 'minimal'
+    wf_collect        = .true.
+/
+&SYSTEM
+                       ibrav = 4,
+                   celldm(1) = 4.716,
+                   celldm(3) = 8,
+                         nat = 2,
+                        ntyp = 2,
+                     ecutwfc = 60 ,
+                        nbnd = 16,
+                    occupations = 'smearing' ,
+                    degauss = 0.005 ,
+                    smearing = 'm-v' ,
+                    input_dft = 'vdw-df2-b86r'
+/
+&ELECTRONS
+                 mixing_beta = 0.7 ,
+/
+$IONS
+/
+$CELL
+/
+ATOMIC_SPECIES
+    N   14.00670  N.upf
+    B   10.80100  B.upf 
+ATOMIC_POSITIONS crystal 
+    B      0.000000000    0.000000000    0.000000000    
+    N      0.333333333    0.666666667    0.000000000    
+K_POINTS {crystal_b}
+4
+0.00000 0.000000 0.00000 21 !Gamma
+-0.3333 0.666667 0.00000 11 !K
+0.00000 0.500000 0.00000 18  !M
+0.00000 0.000000 0.00000 1 !Gamma
