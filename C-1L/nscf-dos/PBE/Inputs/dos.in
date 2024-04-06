@@ -1,0 +1,7 @@
+&dos
+    outdir='./tmp'
+    prefix='graphene_PBE'
+    fildos='graphene_PBE_DOS.dat',
+    degauss=0.01
+    Emin=-10.0, Emax=10.0, DeltaE=0.01
+/
