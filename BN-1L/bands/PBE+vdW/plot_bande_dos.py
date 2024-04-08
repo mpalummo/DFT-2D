@@ -4,7 +4,7 @@ import numpy as np
 
 
 
-with open('Bande_graphene_PBE_vdW.dat.gnu', 'r') as file:
+with open('Bande_hBN_1L_PBE_vdW.dat.gnu', 'r') as file:
     lines = file.readlines()
 
 colonna1_bs = []

@@ -1,16 +1,16 @@
 #!/bin/zsh
 
-for kpt in  40 50 60 
+for kpt in  30 40 50 60 
 do
 
 echo "starting nscf calculation for kpt = $kpt"
 
 cp -r tmp tmp$kpt
-sed "s/12 12/$kpt $kpt/" c_1l.nscf.in > kpttmp_$kpt.in
+sed "s/16 16/$kpt $kpt/" bn_1l.nscf.in > kpttmp_$kpt.in
 sed "s/tmp/tmp$kpt/"  kpttmp_$kpt.in > kpt_$kpt.in
 sed "s/tmp/tmp$kpt/"  dos.in > dostmp_$kpt.in
-sed "s/graphene_PBE_vdW_DOS/graphene_PBE_vdW_DOS$kpt/"  dostmp_$kpt.in > dos_$kpt.in
-mpirun pw.x < kpt_$kpt.in > kpt_$kpt.out
+sed "s/hBN_1l_PBE_vdW_DOS/hBN_1l_PBE_vdW_DOS$kpt/"  dostmp_$kpt.in > dos_$kpt.in
+#mpirun pw.x < kpt_$kpt.in > kpt_$kpt.out
 mpirun dos.x < dos_$kpt.in > dos_$kpt.out
 
 echo "calculation for kpt = $kpt completed"
