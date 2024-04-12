@@ -20,15 +20,15 @@
     edir = 3
     eamp = 0.007
     emaxpos = 0.45
-    eopreg = 0.1
+    eopreg = 0.01
     nat = 4,
     ntyp = 1,
     ecutwfc = 60,
     nbnd = 16
-!    occupations = 'smearing' ,
-!    degauss = 0.005 ,
-!    smearing = 'm-v' ,
-!    input_dft = 'vdw-df2-b86r'
+    occupations = 'smearing' ,
+    degauss = 0.005 ,
+    smearing = 'm-v' ,
+    input_dft = 'vdw-df2-b86r'
 /
 &ELECTRONS
                  mixing_beta = 0.7 ,
