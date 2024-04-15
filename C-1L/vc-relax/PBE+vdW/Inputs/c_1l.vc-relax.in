@@ -23,7 +23,7 @@
                     smearing = 'm-v' ,
                     input_dft='vdw-df2-b86r',
 /
-&ELECTRONS
+ input_dft='vdw-df2-b86r',&ELECTRONS
                  mixing_beta = 0.7 ,
 /
 &IONS

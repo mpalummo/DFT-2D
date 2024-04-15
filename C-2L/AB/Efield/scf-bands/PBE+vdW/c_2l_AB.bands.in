@@ -25,13 +25,13 @@
     ntyp = 1,
     ecutwfc = 60,
     nbnd = 16
-    occupations = 'smearing' ,
+    occupations = 'smearing',
     degauss = 0.005 ,
     smearing = 'm-v' ,
     input_dft = 'vdw-df2-b86r'
 /
 &ELECTRONS
-                 mixing_beta = 0.7 ,
+       mixing_beta = 0.7 ,
 /
 &IONS
 /

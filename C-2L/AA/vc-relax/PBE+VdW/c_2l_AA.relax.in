@@ -1,5 +1,5 @@
 &CONTROL
-    calculation       = 'vc-relax'
+    calculation       = 'relax'
 !    restart_mode      = 'restart'
     prefix            = 'C2L_AA_PBE_vdW'
     tstress           = .true.
@@ -13,8 +13,8 @@
 /
 &SYSTEM   
            ibrav = 4,
-           celldm(1) = 4.66514,
-           celldm(3) = 6,
+           celldm(1) = 4.66495,
+           celldm(3) = 8,
            nat = 4,
            ntyp = 1,
            ecutwfc = 120,
@@ -36,7 +36,7 @@ ATOMIC_SPECIES
 ATOMIC_POSITIONS crystal 
 C 0.000000 0.000000 0.00000 0 0 0 
 C 0.666667 0.333333 0.00000 0 0 0
-C 0.000000 0.000000 .2348418119
-C 0.666667 0.333333 .2348418119
+C 0.000000 0.000000  .176564
+C 0.666667 0.333333  .176564
 K_POINTS automatic
 12 12 1	0 0 0

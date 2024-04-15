@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 plt.figure(figsize=(10, 8))
 
-with open('Bande_C2L_AB_PBE_vdW.dat.gnu', 'r') as file:
+with open('Bande-9-0-C2L_AB_Efield_PBE_vdW.dat.gnu', 'r') as file:
     lines = file.readlines()
 
 colonna1 = []
@@ -14,7 +14,7 @@ for line in lines:
     if line.strip(): 
         values = line.split()
         colonna1.append(float(values[0]))
-        colonna2.append(float(values[1]) +  0.5710 ) 
+        colonna2.append(float(values[1]) - 0.3326 ) 
     else:
         sublists.append((colonna1, colonna2))
         colonna1= []
@@ -45,9 +45,9 @@ yFermi=[0,0]
 plt.plot(xFermi,yFermi,"--", color="black", label="$E_{F}$", lw=2)
 
 plt.xlim(0,1.57)
-plt.ylim(-10,10)
+plt.ylim(-5,5)
 
-plt.title("$AB / bilayer of graphene / PBE+vdW $")
+plt.title("$AB \ BG \  with \ electric \ field \ PBE+vdW $")
 
 plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
 plt.show()
