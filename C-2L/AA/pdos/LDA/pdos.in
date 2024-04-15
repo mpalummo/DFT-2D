@@ -1,5 +1,0 @@
-&PROJWFC
-prefix="graphene",
-outdir="./tmp/",
-filpdos= 'graphene_pdos.dat'
-/

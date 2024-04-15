@@ -1,6 +1,0 @@
-&inputpp
-prefix  = 'graphene'
-outdir = './tmp'
-filplot = 'vacuum.pot'
-plot_num= 11
-/
