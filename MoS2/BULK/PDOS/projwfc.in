@@ -1,0 +1,5 @@
+&projwfc
+ prefix = "BULK-MoS2",
+ outdir = "./tmp/",
+ filpdos = "BULK-MoS2-DOS.dat"
+/
