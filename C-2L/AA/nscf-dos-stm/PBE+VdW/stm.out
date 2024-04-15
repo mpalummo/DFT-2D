@@ -1,5 +1,5 @@
 
-     Program POST-PROC v.7.2 starts on 14Apr2024 at 16:18:17 
+     Program POST-PROC v.7.2 starts on 15Apr2024 at 12:53:36 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -78,18 +78,18 @@
 
      Calling punch_plot, plot_num =   5
      Use the true wfcs
-     Sample bias          = -0.5442 eV
-     STM          :      0.38s CPU      0.46s WALL (       1 calls)
+     Sample bias          = -0.5143 eV
+     STM          :      0.44s CPU      0.53s WALL (       1 calls)
      Writing data to file  tmp.pp
      Reading data from file  tmp.pp
 
      Writing data to be plotted to file C2L_AA_PBE_vdW_stm.xsf
      Plot Type: 3D                     Output format: XCrySDen     
 
-     POST-PROC    :     10.23s CPU     10.39s WALL
+     POST-PROC    :     11.01s CPU     11.22s WALL
 
 
-   This run was terminated on:  16:18:28  14Apr2024            
+   This run was terminated on:  12:53:47  15Apr2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

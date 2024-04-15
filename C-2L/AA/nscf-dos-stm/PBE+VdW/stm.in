@@ -2,7 +2,7 @@
  outdir='./tmp'
  prefix='C2L_AA_PBE_vdW'
  plot_num=5
- sample_bias= -0.04
+ sample_bias= -.0378
 /
 &PLOT
  nfile=1
