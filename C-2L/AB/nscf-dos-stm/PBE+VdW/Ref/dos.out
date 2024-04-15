@@ -1,5 +1,5 @@
 
-     Program DOS v.7.2 starts on 13Apr2024 at 14:27:34 
+     Program DOS v.7.2 starts on 15Apr2024 at 21:28:53 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -33,9 +33,9 @@
      Parallelization info
      --------------------
      sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
-     Min          45      45     13                 5519     5519     935
-     Max          46      46     14                 5546     5546     964
-     Sum         361     361    109                44285    44285    7615
+     Min          45      45     13                 5519     5519     941
+     Max          46      46     14                 5546     5546     968
+     Sum         361     361    109                44285    44285    7663
 
      Using Slab Decomposition
 
@@ -79,10 +79,10 @@
      Gaussian broadening (read from input): ngauss,degauss=   0    0.010000
 
 
-     DOS          :      8.45s CPU      8.49s WALL
+     DOS          :     10.37s CPU     10.46s WALL
 
 
-   This run was terminated on:  14:27:42  13Apr2024            
+   This run was terminated on:  21:29: 3  15Apr2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.
