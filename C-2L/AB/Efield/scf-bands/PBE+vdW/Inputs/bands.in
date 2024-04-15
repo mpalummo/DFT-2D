@@ -1,6 +1,0 @@
-&bands
-prefix = "C2L_AB_Efield_PBE_vdW"
-outdir = "./tmp"
-filband = "Bande_C2L_AB_Efield_PBE_vdW.dat"
-lsym=.true.
-/
