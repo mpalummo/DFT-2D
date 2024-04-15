@@ -6,7 +6,7 @@
 /
 &PLOT
  nfile=1
- filepp(1)='AlAs-1.0'
+ filepp(1)='C2L_AB_PBE_vdW'
  weight(1)=1.0
  iflag=3
  output_format=5

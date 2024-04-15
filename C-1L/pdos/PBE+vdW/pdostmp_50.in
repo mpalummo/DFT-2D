@@ -1,0 +1,5 @@
+&PROJWFC
+prefix="graphene_PBE_vdW",
+outdir="./tmp50/",
+filpdos= 'graphene_PBE_vdW_DOS.dat'
+/
