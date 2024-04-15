@@ -1,9 +1,11 @@
-# cd AB/bands/PBE+vdW
+cd AB/bands/PBE+vdW
 
 Copy the input files and script to run and plot  from the two directories
 cp ./Inputs/*in .
 cp ./Scripts/* . 
-# if your shell is not zsh substitute zsh with bash at the beginning of the script file
+
+if your shell is not zsh substitute zsh with bash at the beginning of the script file
+
 run_bands.sh  close and run
 
 ./run_bands.sh
