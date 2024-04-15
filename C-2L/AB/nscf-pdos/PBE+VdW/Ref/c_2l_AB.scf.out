@@ -1,5 +1,5 @@
 
-     Program PWSCF v.7.2 starts on 14Apr2024 at  7:27:33 
+     Program PWSCF v.7.2 starts on 15Apr2024 at 17:32:25 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -333,7 +333,7 @@ E      2.00 -1.00  0.00
 
      Starting wfcs are   16 randomized atomic wfcs
 
-     total cpu time spent up to now is        8.7 secs
+     total cpu time spent up to now is        8.8 secs
 
      Self-consistent Calculation
 
@@ -353,7 +353,7 @@ E      2.00 -1.00  0.00
      -----------------------------------------------
 
 
-     total cpu time spent up to now is        9.1 secs
+     total cpu time spent up to now is        9.2 secs
 
      total energy              =     -48.19949405 Ry
      estimated scf accuracy    <       0.34347097 Ry
@@ -374,7 +374,7 @@ E      2.00 -1.00  0.00
      -----------------------------------------------
 
 
-     total cpu time spent up to now is        9.6 secs
+     total cpu time spent up to now is        9.7 secs
 
      total energy              =     -48.24123493 Ry
      estimated scf accuracy    <       0.00540662 Ry
@@ -396,7 +396,7 @@ E      2.00 -1.00  0.00
      -----------------------------------------------
 
 
-     total cpu time spent up to now is       10.3 secs
+     total cpu time spent up to now is       10.4 secs
 
      total energy              =     -48.24259655 Ry
      estimated scf accuracy    <       0.00133095 Ry
@@ -438,7 +438,7 @@ E      2.00 -1.00  0.00
      -----------------------------------------------
 
 
-     total cpu time spent up to now is       11.3 secs
+     total cpu time spent up to now is       11.4 secs
 
      WARNING: integrated charge=    16.00001102, expected=    16.00000000
 
@@ -461,7 +461,7 @@ E      2.00 -1.00  0.00
      -----------------------------------------------
 
 
-     total cpu time spent up to now is       11.7 secs
+     total cpu time spent up to now is       11.8 secs
 
      WARNING: integrated charge=    16.00000324, expected=    16.00000000
 
@@ -484,7 +484,7 @@ E      2.00 -1.00  0.00
      -----------------------------------------------
 
 
-     total cpu time spent up to now is       12.1 secs
+     total cpu time spent up to now is       12.2 secs
 
      total energy              =     -48.24308226 Ry
      estimated scf accuracy    <       0.00000187 Ry
@@ -752,8 +752,8 @@ E      2.00 -1.00  0.00
      The non-local contrib.  to forces
      atom    1 type  1   force =     0.00000000    0.00000000    0.00055984
      atom    2 type  1   force =     0.00000000   -0.00000000   -0.00054496
-     atom    3 type  1   force =     0.00000000   -0.00000000   -0.00114784
-     atom    4 type  1   force =    -0.00000000    0.00000000    0.00118107
+     atom    3 type  1   force =    -0.00000000    0.00000000   -0.00114784
+     atom    4 type  1   force =     0.00000000    0.00000000    0.00118107
      The ionic contribution  to forces
      atom    1 type  1   force =     0.00000851   -0.00000491  -14.19328446
      atom    2 type  1   force =    -0.00000851    0.00000491   14.19328446
@@ -794,20 +794,20 @@ E      2.00 -1.00  0.00
 
           total   stress  (Ry/bohr**3)                   (kbar)     P=      -15.00
   -0.00009987   0.00000000   0.00000000          -14.69        0.00        0.00
-   0.00000000  -0.00009987   0.00000000            0.00      -14.69        0.00
-   0.00000000   0.00000000  -0.00010609            0.00        0.00      -15.61
+   0.00000000  -0.00009987  -0.00000000            0.00      -14.69       -0.00
+   0.00000000  -0.00000000  -0.00010609            0.00       -0.00      -15.61
 
      kinetic stress (kbar)   4517.23      0.00      0.00
-                                0.00   4517.23      0.00
-                                0.00      0.00   4973.02
+                                0.00   4517.23     -0.00
+                                0.00     -0.00   4973.02
 
      local   stress (kbar)-115136.20      0.00     -0.00
                                 0.00-115136.20      0.00
                                -0.00      0.00 116483.24
 
-     nonloc. stress (kbar)   -463.55      0.00      0.00
-                                0.00   -463.55      0.00
-                                0.00      0.00   -387.57
+     nonloc. stress (kbar)   -463.55     -0.00      0.00
+                               -0.00   -463.55     -0.00
+                                0.00     -0.00   -387.57
 
      hartree stress (kbar)  55765.70      0.00      0.00
                                 0.00  55765.70     -0.00
@@ -856,63 +856,63 @@ E      2.00 -1.00  0.00
 
      Writing all to output data dir ./tmp/C2L_AB_PBE_vdW.save/
 
-     init_run     :      8.50s CPU      8.58s WALL (       1 calls)
-     electrons    :      4.44s CPU      4.65s WALL (       1 calls)
-     forces       :      0.11s CPU      0.11s WALL (       1 calls)
-     stress       :      0.43s CPU      0.45s WALL (       1 calls)
+     init_run     :      8.60s CPU      8.68s WALL (       1 calls)
+     electrons    :      4.37s CPU      4.58s WALL (       1 calls)
+     forces       :      0.11s CPU      0.12s WALL (       1 calls)
+     stress       :      0.43s CPU      0.46s WALL (       1 calls)
 
      Called by init_run:
-     wfcinit      :      0.14s CPU      0.16s WALL (       1 calls)
+     wfcinit      :      0.14s CPU      0.14s WALL (       1 calls)
      wfcinit:atom :      0.00s CPU      0.00s WALL (      19 calls)
-     wfcinit:wfcr :      0.12s CPU      0.14s WALL (      19 calls)
-     potinit      :      8.04s CPU      8.07s WALL (       1 calls)
-     hinit0       :      0.30s CPU      0.32s WALL (       1 calls)
+     wfcinit:wfcr :      0.13s CPU      0.13s WALL (      19 calls)
+     potinit      :      8.13s CPU      8.17s WALL (       1 calls)
+     hinit0       :      0.31s CPU      0.33s WALL (       1 calls)
 
      Called by electrons:
-     c_bands      :      3.60s CPU      3.72s WALL (      10 calls)
-     sum_band     :      0.40s CPU      0.41s WALL (      10 calls)
-     v_of_rho     :      8.44s CPU      8.50s WALL (      11 calls)
-     v_h          :      0.00s CPU      0.00s WALL (      11 calls)
-     v_xc         :      8.52s CPU      8.59s WALL (      13 calls)
+     c_bands      :      3.55s CPU      3.66s WALL (      10 calls)
+     sum_band     :      0.38s CPU      0.40s WALL (      10 calls)
+     v_of_rho     :      8.53s CPU      8.60s WALL (      11 calls)
+     v_h          :      0.00s CPU      0.01s WALL (      11 calls)
+     v_xc         :      8.61s CPU      8.69s WALL (      13 calls)
      mix_rho      :      0.02s CPU      0.05s WALL (      10 calls)
-     vdW_kernel   :      7.99s CPU      8.00s WALL (       1 calls)
+     vdW_kernel   :      8.07s CPU      8.10s WALL (       1 calls)
 
      Called by c_bands:
      init_us_2    :      0.06s CPU      0.06s WALL (     437 calls)
      init_us_2:cp :      0.06s CPU      0.06s WALL (     437 calls)
-     cegterg      :      3.49s CPU      3.59s WALL (     190 calls)
+     cegterg      :      3.43s CPU      3.53s WALL (     190 calls)
 
      Called by sum_band:
      sum_band:wei :      0.00s CPU      0.00s WALL (      10 calls)
-     sum_band:loo :      0.39s CPU      0.40s WALL (      10 calls)
-     sum_band:buf :      0.00s CPU      0.00s WALL (     190 calls)
+     sum_band:loo :      0.37s CPU      0.39s WALL (      10 calls)
+     sum_band:buf :      0.01s CPU      0.01s WALL (     190 calls)
      sum_band:ini :      0.02s CPU      0.02s WALL (     190 calls)
 
      Called by *egterg:
-     cdiaghg      :      0.17s CPU      0.19s WALL (     998 calls)
+     cdiaghg      :      0.17s CPU      0.18s WALL (     998 calls)
      cegterg:over :      0.21s CPU      0.22s WALL (     808 calls)
-     cegterg:upda :      0.19s CPU      0.22s WALL (     808 calls)
+     cegterg:upda :      0.18s CPU      0.22s WALL (     808 calls)
      cegterg:last :      0.22s CPU      0.19s WALL (     448 calls)
-     h_psi        :      2.64s CPU      2.70s WALL (    1017 calls)
+     h_psi        :      2.58s CPU      2.65s WALL (    1017 calls)
      g_psi        :      0.02s CPU      0.03s WALL (     808 calls)
 
      Called by h_psi:
-     h_psi:calbec :      0.19s CPU      0.21s WALL (    1017 calls)
-     vloc_psi     :      2.18s CPU      2.25s WALL (    1017 calls)
+     h_psi:calbec :      0.20s CPU      0.20s WALL (    1017 calls)
+     vloc_psi     :      2.12s CPU      2.19s WALL (    1017 calls)
      add_vuspsi   :      0.24s CPU      0.22s WALL (    1017 calls)
 
      General routines
      calbec       :      0.23s CPU      0.24s WALL (    1112 calls)
      fft          :      0.46s CPU      0.49s WALL (     828 calls)
      ffts         :      0.00s CPU      0.00s WALL (      10 calls)
-     fftw         :      2.28s CPU      2.34s WALL (   15558 calls)
+     fftw         :      2.18s CPU      2.25s WALL (   15558 calls)
 
      Parallel routines
 
-     PWSCF        :     13.56s CPU     13.94s WALL
+     PWSCF        :     13.57s CPU     13.96s WALL
 
 
-   This run was terminated on:   7:27:47  14Apr2024            
+   This run was terminated on:  17:32:39  15Apr2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

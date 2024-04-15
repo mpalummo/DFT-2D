@@ -1,5 +1,5 @@
 
-     Program PROJWFC v.7.2 starts on 14Apr2024 at  8: 5: 9 
+     Program PROJWFC v.7.2 starts on 15Apr2024 at 17:33:41 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -23420,10 +23420,10 @@ Lowdin Charges:
      Atom #   4: total charge =   3.9640, p =  3.0762, pz=  0.9938, px=  1.0412, py=  1.0412, 
      Spilling Parameter:   0.0095
 
-     PROJWFC      :     10.97s CPU     11.30s WALL
+     PROJWFC      :     12.19s CPU     13.25s WALL
 
 
-   This run was terminated on:   8: 5:21  14Apr2024            
+   This run was terminated on:  17:33:54  15Apr2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.
