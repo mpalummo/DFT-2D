@@ -1,0 +1,34 @@
+&control
+    calculation  = 'nscf',
+    prefix       = '1L-MoS2',
+    pseudo_dir   = '/exports/commonscratch/sgrillo/MAURIZIA/MoS2/pseudos',
+    outdir       = './tmp',
+    verbosity    = 'high',
+    disk_io      = 'minimal',
+    wf_collect   = .true.
+/
+&system
+    ibrav       = 4,
+    ecutwfc     = 70,
+    celldm(1)   = 5.952637220,
+    celldm(3)   = 5.777778614,
+    nat         = 3,
+    ntyp        = 2,
+    lspinorb    = .true.,
+    noncolin    = .true.,
+    starting_magnetization  = 0.0,
+    nbnd        = 32, 
+!    input_dft = 'vdw-df2-b86r'
+/
+&electrons
+    mixing_beta = 0.7
+/
+ATOMIC_SPECIES
+S  32.065  S_FR.upf 
+Mo 95.94   Mo_FR.upf 
+ATOMIC_POSITIONS {angstrom}
+ Mo        1.5827568869        0.9138051143        1.5748378074
+ S         0.0000000000        1.8276102286        0.0028275528
+ S         0.0000000000        1.8276102286        3.1468095418
+K_POINTS {automatic}
+ 9 9 1   0 0 0

@@ -1,0 +1,5 @@
+&projwfc
+ prefix = "1L-MoS2",
+ outdir = "./tmp/",
+ filpdos = "1L-MoS2-SOC-DOS.dat"
+/

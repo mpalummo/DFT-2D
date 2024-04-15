@@ -1,0 +1,1601 @@
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+
+     Program BANDS v.6.8 starts on 15Apr2024 at 13:20:34 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    32 processors
+
+     MPI processes distributed on     1 nodes
+     K-points division:     npool     =       4
+     R & G space division:  proc/nbgrp/npool/nimage =       8
+     175901 MiB available memory on the printing compute node when the environment starts
+ 
+
+     Reading xml data from directory:
+
+     ./tmp/1L-MoS2.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= VDW-DF2-B86R
+                           (   1   4  26   0   2   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          84      84     24                10406    10406    1648
+     Max          85      85     25                10437    10437    1673
+     Sum         673     673    199                83307    83307   13341
+ 
+     Using Slab Decomposition
+ 
+
+
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     %                                                                      %
+     % You are using vdW-DF, which was implemented by the Thonhauser group. %
+     % Please cite the following two papers that made this development      %
+     % possible and the two reviews that describe the various versions:     %
+     %                                                                      %
+     %   T. Thonhauser et al., PRL 115, 136402 (2015).                      %
+     %   T. Thonhauser et al., PRB 76, 125112 (2007).                       %
+     %   K. Berland et al., Rep. Prog. Phys. 78, 066501 (2015).             %
+     %   D.C. Langreth et al., J. Phys.: Condens. Matter 21, 084203 (2009). %
+     %                                                                      %
+     %                                                                      %
+     % If you are calculating the stress with vdW-DF, please also cite:     %
+     %                                                                      %
+     %   R. Sabatini et al., J. Phys.: Condens. Matter 24, 424209 (2012).   %
+     %                                                                      %
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+     Reading collected, re-writing distributed wavefunctions
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   0.0000
+     high-symmetry point: -0.3333 0.5774 0.0000   x coordinate   0.6667
+     high-symmetry point:  0.0000 0.5774 0.0000   x coordinate   1.0000
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   1.5773
+
+     Plottable bands (eV) written to file Bande_1L-MoS2.dat.gnu
+     Bands written to file Bande_1L-MoS2.dat
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.00000,   0.00000  )
+
+     point group C_1 (1)    
+     there are  1 classes
+     the character table:
+
+       E    
+A      1.00
+
+     the symmetry operations in each class and the name of the first element:
+
+     E        1
+                                                                 
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.31195  eV     1   --> A              
+     e(  2 -  2) =    -35.48889  eV     1   --> A              
+     e(  3 -  3) =    -35.23939  eV     1   --> A              
+     e(  4 -  4) =    -35.23689  eV     1   --> A              
+     e(  5 -  5) =    -14.65416  eV     1   --> A              
+     e(  6 -  6) =    -13.36096  eV     1   --> A              
+     e(  7 -  7) =     -6.17356  eV     1   --> A              
+     e(  8 -  8) =     -3.07452  eV     1   --> A              
+     e(  9 -  9) =     -3.05610  eV     1   --> A              
+     e( 10 - 10) =     -2.39490  eV     1   --> A              
+     e( 11 - 11) =     -1.97486  eV     1   --> A              
+     e( 12 - 12) =     -1.89468  eV     1   --> A              
+     e( 13 - 13) =     -0.64545  eV     1   --> A              
+     e( 14 - 14) =      2.30245  eV     1   --> A              
+     e( 15 - 15) =      2.39457  eV     1   --> A              
+     e( 16 - 16) =      2.54786  eV     1   --> A              
+     e( 17 - 17) =      2.58509  eV     1   --> A              
+     e( 18 - 18) =      4.70216  eV     1   --> A              
+     e( 19 - 19) =      4.91430  eV     1   --> A              
+     e( 20 - 20) =      5.88661  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.01587,   0.02749,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.31163  eV     1   --> A              
+     e(  2 -  2) =    -35.48828  eV     1   --> A              
+     e(  3 -  3) =    -35.24130  eV     1   --> A              
+     e(  4 -  4) =    -35.23882  eV     1   --> A              
+     e(  5 -  5) =    -14.64244  eV     1   --> A              
+     e(  6 -  6) =    -13.35602  eV     1   --> A              
+     e(  7 -  7) =     -6.15980  eV     1   --> A              
+     e(  8 -  8) =     -3.09828  eV     1   --> A              
+     e(  9 -  9) =     -3.04703  eV     1   --> A              
+     e( 10 - 10) =     -2.46552  eV     1   --> A              
+     e( 11 - 11) =     -1.98254  eV     1   --> A              
+     e( 12 - 12) =     -1.85252  eV     1   --> A              
+     e( 13 - 13) =     -0.64846  eV     1   --> A              
+     e( 14 - 14) =      2.29037  eV     1   --> A              
+     e( 15 - 15) =      2.40772  eV     1   --> A              
+     e( 16 - 16) =      2.52319  eV     1   --> A              
+     e( 17 - 17) =      2.55600  eV     1   --> A              
+     e( 18 - 18) =      4.72497  eV     1   --> A              
+     e( 19 - 19) =      4.92959  eV     1   --> A              
+     e( 20 - 20) =      5.93025  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.03175,   0.05499,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.31068  eV     1   --> A              
+     e(  2 -  2) =    -35.48644  eV     1   --> A              
+     e(  3 -  3) =    -35.25011  eV     1   --> A              
+     e(  4 -  4) =    -35.24147  eV     1   --> A              
+     e(  5 -  5) =    -14.60747  eV     1   --> A              
+     e(  6 -  6) =    -13.34129  eV     1   --> A              
+     e(  7 -  7) =     -6.11909  eV     1   --> A              
+     e(  8 -  8) =     -3.17618  eV     1   --> A              
+     e(  9 -  9) =     -3.01105  eV     1   --> A              
+     e( 10 - 10) =     -2.62183  eV     1   --> A              
+     e( 11 - 11) =     -2.03612  eV     1   --> A              
+     e( 12 - 12) =     -1.75082  eV     1   --> A              
+     e( 13 - 13) =     -0.65869  eV     1   --> A              
+     e( 14 - 14) =      2.24480  eV     1   --> A              
+     e( 15 - 15) =      2.42266  eV     1   --> A              
+     e( 16 - 16) =      2.46111  eV     1   --> A              
+     e( 17 - 17) =      2.50594  eV     1   --> A              
+     e( 18 - 18) =      4.78852  eV     1   --> A              
+     e( 19 - 19) =      4.97521  eV     1   --> A              
+     e( 20 - 20) =      6.04688  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.04762,   0.08248,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.30914  eV     1   --> A              
+     e(  2 -  2) =    -35.48341  eV     1   --> A              
+     e(  3 -  3) =    -35.26520  eV     1   --> A              
+     e(  4 -  4) =    -35.24515  eV     1   --> A              
+     e(  5 -  5) =    -14.54984  eV     1   --> A              
+     e(  6 -  6) =    -13.31700  eV     1   --> A              
+     e(  7 -  7) =     -6.05317  eV     1   --> A              
+     e(  8 -  8) =     -3.29933  eV     1   --> A              
+     e(  9 -  9) =     -2.95107  eV     1   --> A              
+     e( 10 - 10) =     -2.80812  eV     1   --> A              
+     e( 11 - 11) =     -2.13542  eV     1   --> A              
+     e( 12 - 12) =     -1.64443  eV     1   --> A              
+     e( 13 - 13) =     -0.67968  eV     1   --> A              
+     e( 14 - 14) =      2.17532  eV     1   --> A              
+     e( 15 - 15) =      2.26797  eV     1   --> A              
+     e( 16 - 16) =      2.43913  eV     1   --> A              
+     e( 17 - 17) =      2.55653  eV     1   --> A              
+     e( 18 - 18) =      4.88344  eV     1   --> A              
+     e( 19 - 19) =      5.05052  eV     1   --> A              
+     e( 20 - 20) =      6.19556  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.06349,   0.10997,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.30704  eV     1   --> A              
+     e(  2 -  2) =    -35.47931  eV     1   --> A              
+     e(  3 -  3) =    -35.28553  eV     1   --> A              
+     e(  4 -  4) =    -35.25022  eV     1   --> A              
+     e(  5 -  5) =    -14.47048  eV     1   --> A              
+     e(  6 -  6) =    -13.28357  eV     1   --> A              
+     e(  7 -  7) =     -5.96511  eV     1   --> A              
+     e(  8 -  8) =     -3.45677  eV     1   --> A              
+     e(  9 -  9) =     -3.00266  eV     1   --> A              
+     e( 10 - 10) =     -2.86982  eV     1   --> A              
+     e( 11 - 11) =     -2.27815  eV     1   --> A              
+     e( 12 - 12) =     -1.55447  eV     1   --> A              
+     e( 13 - 13) =     -0.71677  eV     1   --> A              
+     e( 14 - 14) =      2.09230  eV     1   --> A              
+     e( 15 - 15) =      2.10282  eV     1   --> A              
+     e( 16 - 16) =      2.35307  eV     1   --> A              
+     e( 17 - 17) =      2.68549  eV     1   --> A              
+     e( 18 - 18) =      5.00298  eV     1   --> A              
+     e( 19 - 19) =      5.15468  eV     1   --> A              
+     e( 20 - 20) =      6.34461  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.07936,   0.13746,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.30444  eV     1   --> A              
+     e(  2 -  2) =    -35.47427  eV     1   --> A              
+     e(  3 -  3) =    -35.31027  eV     1   --> A              
+     e(  4 -  4) =    -35.25676  eV     1   --> A              
+     e(  5 -  5) =    -14.37073  eV     1   --> A              
+     e(  6 -  6) =    -13.24156  eV     1   --> A              
+     e(  7 -  7) =     -5.85957  eV     1   --> A              
+     e(  8 -  8) =     -3.63594  eV     1   --> A              
+     e(  9 -  9) =     -3.19525  eV     1   --> A              
+     e( 10 - 10) =     -2.77103  eV     1   --> A              
+     e( 11 - 11) =     -2.46236  eV     1   --> A              
+     e( 12 - 12) =     -1.48724  eV     1   --> A              
+     e( 13 - 13) =     -0.77583  eV     1   --> A              
+     e( 14 - 14) =      1.91883  eV     1   --> A              
+     e( 15 - 15) =      2.04437  eV     1   --> A              
+     e( 16 - 16) =      2.25410  eV     1   --> A              
+     e( 17 - 17) =      2.83933  eV     1   --> A              
+     e( 18 - 18) =      5.14433  eV     1   --> A              
+     e( 19 - 19) =      5.28674  eV     1   --> A              
+     e( 20 - 20) =      6.49939  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.09524,   0.16496,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.30143  eV     1   --> A              
+     e(  2 -  2) =    -35.46844  eV     1   --> A              
+     e(  3 -  3) =    -35.33858  eV     1   --> A              
+     e(  4 -  4) =    -35.26480  eV     1   --> A              
+     e(  5 -  5) =    -14.25230  eV     1   --> A              
+     e(  6 -  6) =    -13.19169  eV     1   --> A              
+     e(  7 -  7) =     -5.74344  eV     1   --> A              
+     e(  8 -  8) =     -3.82301  eV     1   --> A              
+     e(  9 -  9) =     -3.38012  eV     1   --> A              
+     e( 10 - 10) =     -2.68309  eV     1   --> A              
+     e( 11 - 11) =     -2.66063  eV     1   --> A              
+     e( 12 - 12) =     -1.44440  eV     1   --> A              
+     e( 13 - 13) =     -0.86078  eV     1   --> A              
+     e( 14 - 14) =      1.76280  eV     1   --> A              
+     e( 15 - 15) =      2.01091  eV     1   --> A              
+     e( 16 - 16) =      2.15305  eV     1   --> A              
+     e( 17 - 17) =      3.00894  eV     1   --> A              
+     e( 18 - 18) =      5.30672  eV     1   --> A              
+     e( 19 - 19) =      5.44554  eV     1   --> A              
+     e( 20 - 20) =      6.67109  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.11111,   0.19245,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.29808  eV     1   --> A              
+     e(  2 -  2) =    -35.46191  eV     1   --> A              
+     e(  3 -  3) =    -35.36917  eV     1   --> A              
+     e(  4 -  4) =    -35.27426  eV     1   --> A              
+     e(  5 -  5) =    -14.11723  eV     1   --> A              
+     e(  6 -  6) =    -13.13483  eV     1   --> A              
+     e(  7 -  7) =     -5.62683  eV     1   --> A              
+     e(  8 -  8) =     -4.00247  eV     1   --> A              
+     e(  9 -  9) =     -3.55468  eV     1   --> A              
+     e( 10 - 10) =     -2.93112  eV     1   --> A              
+     e( 11 - 11) =     -2.54814  eV     1   --> A              
+     e( 12 - 12) =     -1.42603  eV     1   --> A              
+     e( 13 - 13) =     -0.96993  eV     1   --> A              
+     e( 14 - 14) =      1.63049  eV     1   --> A              
+     e( 15 - 15) =      2.00733  eV     1   --> A              
+     e( 16 - 16) =      2.06480  eV     1   --> A              
+     e( 17 - 17) =      3.18490  eV     1   --> A              
+     e( 18 - 18) =      5.48994  eV     1   --> A              
+     e( 19 - 19) =      5.62957  eV     1   --> A              
+     e( 20 - 20) =      6.86498  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.12698,   0.21994,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.29449  eV     1   --> A              
+     e(  2 -  2) =    -35.45495  eV     1   --> A              
+     e(  3 -  3) =    -35.40098  eV     1   --> A              
+     e(  4 -  4) =    -35.28518  eV     1   --> A              
+     e(  5 -  5) =    -13.96800  eV     1   --> A              
+     e(  6 -  6) =    -13.07203  eV     1   --> A              
+     e(  7 -  7) =     -5.52454  eV     1   --> A              
+     e(  8 -  8) =     -4.15605  eV     1   --> A              
+     e(  9 -  9) =     -3.72100  eV     1   --> A              
+     e( 10 - 10) =     -3.19183  eV     1   --> A              
+     e( 11 - 11) =     -2.44878  eV     1   --> A              
+     e( 12 - 12) =     -1.43173  eV     1   --> A              
+     e( 13 - 13) =     -1.09258  eV     1   --> A              
+     e( 14 - 14) =      1.52151  eV     1   --> A              
+     e( 15 - 15) =      2.00501  eV     1   --> A              
+     e( 16 - 16) =      2.03367  eV     1   --> A              
+     e( 17 - 17) =      3.35789  eV     1   --> A              
+     e( 18 - 18) =      5.69352  eV     1   --> A              
+     e( 19 - 19) =      5.83691  eV     1   --> A              
+     e( 20 - 20) =      7.08311  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.14286,   0.24744,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.29076  eV     1   --> A              
+     e(  2 -  2) =    -35.44766  eV     1   --> A              
+     e(  3 -  3) =    -35.43286  eV     1   --> A              
+     e(  4 -  4) =    -35.29756  eV     1   --> A              
+     e(  5 -  5) =    -13.80746  eV     1   --> A              
+     e(  6 -  6) =    -13.00447  eV     1   --> A              
+     e(  7 -  7) =     -5.45611  eV     1   --> A              
+     e(  8 -  8) =     -4.26266  eV     1   --> A              
+     e(  9 -  9) =     -3.89056  eV     1   --> A              
+     e( 10 - 10) =     -3.44132  eV     1   --> A              
+     e( 11 - 11) =     -2.38563  eV     1   --> A              
+     e( 12 - 12) =     -1.46093  eV     1   --> A              
+     e( 13 - 13) =     -1.20734  eV     1   --> A              
+     e( 14 - 14) =      1.43643  eV     1   --> A              
+     e( 15 - 15) =      1.98306  eV     1   --> A              
+     e( 16 - 16) =      2.08672  eV     1   --> A              
+     e( 17 - 17) =      3.51939  eV     1   --> A              
+     e( 18 - 18) =      5.91638  eV     1   --> A              
+     e( 19 - 19) =      6.06531  eV     1   --> A              
+     e( 20 - 20) =      7.32612  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.15873,   0.27493,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.28699  eV     1   --> A              
+     e(  2 -  2) =    -35.46363  eV     1   --> A              
+     e(  3 -  3) =    -35.44033  eV     1   --> A              
+     e(  4 -  4) =    -35.31134  eV     1   --> A              
+     e(  5 -  5) =    -13.63888  eV     1   --> A              
+     e(  6 -  6) =    -12.93349  eV     1   --> A              
+     e(  7 -  7) =     -5.43844  eV     1   --> A              
+     e(  8 -  8) =     -4.30558  eV     1   --> A              
+     e(  9 -  9) =     -4.08787  eV     1   --> A              
+     e( 10 - 10) =     -3.64363  eV     1   --> A              
+     e( 11 - 11) =     -2.38643  eV     1   --> A              
+     e( 12 - 12) =     -1.51293  eV     1   --> A              
+     e( 13 - 13) =     -1.28680  eV     1   --> A              
+     e( 14 - 14) =      1.38290  eV     1   --> A              
+     e( 15 - 15) =      1.99714  eV     1   --> A              
+     e( 16 - 16) =      2.16115  eV     1   --> A              
+     e( 17 - 17) =      3.66241  eV     1   --> A              
+     e( 18 - 18) =      6.15651  eV     1   --> A              
+     e( 19 - 19) =      6.31226  eV     1   --> A              
+     e( 20 - 20) =      7.59378  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.17460,   0.30242,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.28327  eV     1   --> A              
+     e(  2 -  2) =    -35.49219  eV     1   --> A              
+     e(  3 -  3) =    -35.43311  eV     1   --> A              
+     e(  4 -  4) =    -35.32646  eV     1   --> A              
+     e(  5 -  5) =    -13.46600  eV     1   --> A              
+     e(  6 -  6) =    -12.86058  eV     1   --> A              
+     e(  7 -  7) =     -5.47045  eV     1   --> A              
+     e(  8 -  8) =     -4.32688  eV     1   --> A              
+     e(  9 -  9) =     -4.28753  eV     1   --> A              
+     e( 10 - 10) =     -3.77486  eV     1   --> A              
+     e( 11 - 11) =     -2.46651  eV     1   --> A              
+     e( 12 - 12) =     -1.58661  eV     1   --> A              
+     e( 13 - 13) =     -1.31482  eV     1   --> A              
+     e( 14 - 14) =      1.37266  eV     1   --> A              
+     e( 15 - 15) =      2.03702  eV     1   --> A              
+     e( 16 - 16) =      2.25003  eV     1   --> A              
+     e( 17 - 17) =      3.78257  eV     1   --> A              
+     e( 18 - 18) =      6.41013  eV     1   --> A              
+     e( 19 - 19) =      6.57514  eV     1   --> A              
+     e( 20 - 20) =      7.88477  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.19047,   0.32992,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.27970  eV     1   --> A              
+     e(  2 -  2) =    -35.51765  eV     1   --> A              
+     e(  3 -  3) =    -35.42616  eV     1   --> A              
+     e(  4 -  4) =    -35.34283  eV     1   --> A              
+     e(  5 -  5) =    -13.29296  eV     1   --> A              
+     e(  6 -  6) =    -12.78735  eV     1   --> A              
+     e(  7 -  7) =     -5.53104  eV     1   --> A              
+     e(  8 -  8) =     -4.58908  eV     1   --> A              
+     e(  9 -  9) =     -4.23218  eV     1   --> A              
+     e( 10 - 10) =     -3.84533  eV     1   --> A              
+     e( 11 - 11) =     -2.61430  eV     1   --> A              
+     e( 12 - 12) =     -1.68033  eV     1   --> A              
+     e( 13 - 13) =     -1.29918  eV     1   --> A              
+     e( 14 - 14) =      1.41301  eV     1   --> A              
+     e( 15 - 15) =      2.09016  eV     1   --> A              
+     e( 16 - 16) =      2.34501  eV     1   --> A              
+     e( 17 - 17) =      3.87936  eV     1   --> A              
+     e( 18 - 18) =      6.66943  eV     1   --> A              
+     e( 19 - 19) =      6.85124  eV     1   --> A              
+     e( 20 - 20) =      8.10150  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.20635,   0.35741,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.27637  eV     1   --> A              
+     e(  2 -  2) =    -35.53915  eV     1   --> A              
+     e(  3 -  3) =    -35.41967  eV     1   --> A              
+     e(  4 -  4) =    -35.36035  eV     1   --> A              
+     e(  5 -  5) =    -13.12429  eV     1   --> A              
+     e(  6 -  6) =    -12.71554  eV     1   --> A              
+     e(  7 -  7) =     -5.59511  eV     1   --> A              
+     e(  8 -  8) =     -4.85151  eV     1   --> A              
+     e(  9 -  9) =     -4.16716  eV     1   --> A              
+     e( 10 - 10) =     -3.87151  eV     1   --> A              
+     e( 11 - 11) =     -2.80554  eV     1   --> A              
+     e( 12 - 12) =     -1.79171  eV     1   --> A              
+     e( 13 - 13) =     -1.25541  eV     1   --> A              
+     e( 14 - 14) =      1.49853  eV     1   --> A              
+     e( 15 - 15) =      2.14760  eV     1   --> A              
+     e( 16 - 16) =      2.43630  eV     1   --> A              
+     e( 17 - 17) =      3.95708  eV     1   --> A              
+     e( 18 - 18) =      6.91443  eV     1   --> A              
+     e( 19 - 19) =      7.13754  eV     1   --> A              
+     e( 20 - 20) =      7.87767  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.22222,   0.38490,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.27334  eV     1   --> A              
+     e(  2 -  2) =    -35.55606  eV     1   --> A              
+     e(  3 -  3) =    -35.41377  eV     1   --> A              
+     e(  4 -  4) =    -35.37886  eV     1   --> A              
+     e(  5 -  5) =    -12.96476  eV     1   --> A              
+     e(  6 -  6) =    -12.64700  eV     1   --> A              
+     e(  7 -  7) =     -5.64362  eV     1   --> A              
+     e(  8 -  8) =     -5.09998  eV     1   --> A              
+     e(  9 -  9) =     -4.11272  eV     1   --> A              
+     e( 10 - 10) =     -3.86285  eV     1   --> A              
+     e( 11 - 11) =     -3.02076  eV     1   --> A              
+     e( 12 - 12) =     -1.91765  eV     1   --> A              
+     e( 13 - 13) =     -1.19021  eV     1   --> A              
+     e( 14 - 14) =      1.60406  eV     1   --> A              
+     e( 15 - 15) =      2.21192  eV     1   --> A              
+     e( 16 - 16) =      2.51327  eV     1   --> A              
+     e( 17 - 17) =      4.02435  eV     1   --> A              
+     e( 18 - 18) =      7.08236  eV     1   --> A              
+     e( 19 - 19) =      7.43035  eV     1   --> A              
+     e( 20 - 20) =      7.72784  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.23809,   0.41239,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.27067  eV     1   --> A              
+     e(  2 -  2) =    -35.56791  eV     1   --> A              
+     e(  3 -  3) =    -35.40854  eV     1   --> A              
+     e(  4 -  4) =    -35.39824  eV     1   --> A              
+     e(  5 -  5) =    -12.81912  eV     1   --> A              
+     e(  6 -  6) =    -12.58359  eV     1   --> A              
+     e(  7 -  7) =     -5.66392  eV     1   --> A              
+     e(  8 -  8) =     -5.32578  eV     1   --> A              
+     e(  9 -  9) =     -4.08053  eV     1   --> A              
+     e( 10 - 10) =     -3.82506  eV     1   --> A              
+     e( 11 - 11) =     -3.24738  eV     1   --> A              
+     e( 12 - 12) =     -2.05427  eV     1   --> A              
+     e( 13 - 13) =     -1.10336  eV     1   --> A              
+     e( 14 - 14) =      1.68150  eV     1   --> A              
+     e( 15 - 15) =      2.30545  eV     1   --> A              
+     e( 16 - 16) =      2.56642  eV     1   --> A              
+     e( 17 - 17) =      4.09152  eV     1   --> A              
+     e( 18 - 18) =      7.06499  eV     1   --> A              
+     e( 19 - 19) =      7.72479  eV     1   --> A              
+     e( 20 - 20) =      7.74205  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.25397,   0.43989,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26841  eV     1   --> A              
+     e(  2 -  2) =    -35.57443  eV     1   --> A              
+     e(  3 -  3) =    -35.41820  eV     1   --> A              
+     e(  4 -  4) =    -35.40412  eV     1   --> A              
+     e(  5 -  5) =    -12.69176  eV     1   --> A              
+     e(  6 -  6) =    -12.52717  eV     1   --> A              
+     e(  7 -  7) =     -5.64792  eV     1   --> A              
+     e(  8 -  8) =     -5.52296  eV     1   --> A              
+     e(  9 -  9) =     -4.07660  eV     1   --> A              
+     e( 10 - 10) =     -3.76315  eV     1   --> A              
+     e( 11 - 11) =     -3.47506  eV     1   --> A              
+     e( 12 - 12) =     -2.19693  eV     1   --> A              
+     e( 13 - 13) =     -0.99528  eV     1   --> A              
+     e( 14 - 14) =      1.68566  eV     1   --> A              
+     e( 15 - 15) =      2.45081  eV     1   --> A              
+     e( 16 - 16) =      2.59043  eV     1   --> A              
+     e( 17 - 17) =      4.16623  eV     1   --> A              
+     e( 18 - 18) =      6.92710  eV     1   --> A              
+     e( 19 - 19) =      7.78375  eV     1   --> A              
+     e( 20 - 20) =      8.01446  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.26984,   0.46738,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26659  eV     1   --> A              
+     e(  2 -  2) =    -35.57557  eV     1   --> A              
+     e(  3 -  3) =    -35.43850  eV     1   --> A              
+     e(  4 -  4) =    -35.40055  eV     1   --> A              
+     e(  5 -  5) =    -12.58623  eV     1   --> A              
+     e(  6 -  6) =    -12.47940  eV     1   --> A              
+     e(  7 -  7) =     -5.68721  eV     1   --> A              
+     e(  8 -  8) =     -5.59117  eV     1   --> A              
+     e(  9 -  9) =     -4.10818  eV     1   --> A              
+     e( 10 - 10) =     -3.68841  eV     1   --> A              
+     e( 11 - 11) =     -3.68293  eV     1   --> A              
+     e( 12 - 12) =     -2.33991  eV     1   --> A              
+     e( 13 - 13) =     -0.87173  eV     1   --> A              
+     e( 14 - 14) =      1.61713  eV     1   --> A              
+     e( 15 - 15) =      2.58674  eV     1   --> A              
+     e( 16 - 16) =      2.63245  eV     1   --> A              
+     e( 17 - 17) =      4.24952  eV     1   --> A              
+     e( 18 - 18) =      6.78478  eV     1   --> A              
+     e( 19 - 19) =      7.69076  eV     1   --> A              
+     e( 20 - 20) =      8.29071  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.28571,   0.49487,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26520  eV     1   --> A              
+     e(  2 -  2) =    -35.57169  eV     1   --> A              
+     e(  3 -  3) =    -35.45872  eV     1   --> A              
+     e(  4 -  4) =    -35.39785  eV     1   --> A              
+     e(  5 -  5) =    -12.50488  eV     1   --> A              
+     e(  6 -  6) =    -12.44169  eV     1   --> A              
+     e(  7 -  7) =     -5.81553  eV     1   --> A              
+     e(  8 -  8) =     -5.49335  eV     1   --> A              
+     e(  9 -  9) =     -4.19506  eV     1   --> A              
+     e( 10 - 10) =     -3.85629  eV     1   --> A              
+     e( 11 - 11) =     -3.59243  eV     1   --> A              
+     e( 12 - 12) =     -2.47581  eV     1   --> A              
+     e( 13 - 13) =     -0.74490  eV     1   --> A              
+     e( 14 - 14) =      1.50701  eV     1   --> A              
+     e( 15 - 15) =      2.56319  eV     1   --> A              
+     e( 16 - 16) =      2.81351  eV     1   --> A              
+     e( 17 - 17) =      4.33517  eV     1   --> A              
+     e( 18 - 18) =      6.68525  eV     1   --> A              
+     e( 19 - 19) =      7.51130  eV     1   --> A              
+     e( 20 - 20) =      8.54100  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.30158,   0.52237,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26424  eV     1   --> A              
+     e(  2 -  2) =    -35.56360  eV     1   --> A              
+     e(  3 -  3) =    -35.47816  eV     1   --> A              
+     e(  4 -  4) =    -35.39599  eV     1   --> A              
+     e(  5 -  5) =    -12.44849  eV     1   --> A              
+     e(  6 -  6) =    -12.41497  eV     1   --> A              
+     e(  7 -  7) =     -5.90623  eV     1   --> A              
+     e(  8 -  8) =     -5.36084  eV     1   --> A              
+     e(  9 -  9) =     -4.34725  eV     1   --> A              
+     e( 10 - 10) =     -3.95321  eV     1   --> A              
+     e( 11 - 11) =     -3.50370  eV     1   --> A              
+     e( 12 - 12) =     -2.59390  eV     1   --> A              
+     e( 13 - 13) =     -0.63254  eV     1   --> A              
+     e( 14 - 14) =      1.39122  eV     1   --> A              
+     e( 15 - 15) =      2.53132  eV     1   --> A              
+     e( 16 - 16) =      2.96173  eV     1   --> A              
+     e( 17 - 17) =      4.41218  eV     1   --> A              
+     e( 18 - 18) =      6.65302  eV     1   --> A              
+     e( 19 - 19) =      7.31158  eV     1   --> A              
+     e( 20 - 20) =      8.74583  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.31746,   0.54986,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26370  eV     1   --> A              
+     e(  2 -  2) =    -35.55335  eV     1   --> A              
+     e(  3 -  3) =    -35.49490  eV     1   --> A              
+     e(  4 -  4) =    -35.39493  eV     1   --> A              
+     e(  5 -  5) =    -12.41625  eV     1   --> A              
+     e(  6 -  6) =    -12.39958  eV     1   --> A              
+     e(  7 -  7) =     -5.95902  eV     1   --> A              
+     e(  8 -  8) =     -5.21739  eV     1   --> A              
+     e(  9 -  9) =     -4.51319  eV     1   --> A              
+     e( 10 - 10) =     -4.00149  eV     1   --> A              
+     e( 11 - 11) =     -3.43516  eV     1   --> A              
+     e( 12 - 12) =     -2.67803  eV     1   --> A              
+     e( 13 - 13) =     -0.55513  eV     1   --> A              
+     e( 14 - 14) =      1.30413  eV     1   --> A              
+     e( 15 - 15) =      2.50354  eV     1   --> A              
+     e( 16 - 16) =      3.05520  eV     1   --> A              
+     e( 17 - 17) =      4.46796  eV     1   --> A              
+     e( 18 - 18) =      6.69879  eV     1   --> A              
+     e( 19 - 19) =      7.12011  eV     1   --> A              
+     e( 20 - 20) =      8.87946  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.33333,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26353  eV     1   --> A              
+     e(  2 -  2) =    -35.54776  eV     1   --> A              
+     e(  3 -  3) =    -35.50257  eV     1   --> A              
+     e(  4 -  4) =    -35.39460  eV     1   --> A              
+     e(  5 -  5) =    -12.40588  eV     1   --> A              
+     e(  6 -  6) =    -12.39517  eV     1   --> A              
+     e(  7 -  7) =     -5.97513  eV     1   --> A              
+     e(  8 -  8) =     -5.14061  eV     1   --> A              
+     e(  9 -  9) =     -4.59658  eV     1   --> A              
+     e( 10 - 10) =     -4.01803  eV     1   --> A              
+     e( 11 - 11) =     -3.40852  eV     1   --> A              
+     e( 12 - 12) =     -2.70961  eV     1   --> A              
+     e( 13 - 13) =     -0.52816  eV     1   --> A              
+     e( 14 - 14) =      1.27164  eV     1   --> A              
+     e( 15 - 15) =      2.49143  eV     1   --> A              
+     e( 16 - 16) =      3.08507  eV     1   --> A              
+     e( 17 - 17) =      4.49102  eV     1   --> A              
+     e( 18 - 18) =      6.77093  eV     1   --> A              
+     e( 19 - 19) =      7.00062  eV     1   --> A              
+     e( 20 - 20) =      8.92421  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.30303,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26366  eV     1   --> A              
+     e(  2 -  2) =    -35.55490  eV     1   --> A              
+     e(  3 -  3) =    -35.49380  eV     1   --> A              
+     e(  4 -  4) =    -35.39482  eV     1   --> A              
+     e(  5 -  5) =    -12.41332  eV     1   --> A              
+     e(  6 -  6) =    -12.40029  eV     1   --> A              
+     e(  7 -  7) =     -5.95888  eV     1   --> A              
+     e(  8 -  8) =     -5.21521  eV     1   --> A              
+     e(  9 -  9) =     -4.53056  eV     1   --> A              
+     e( 10 - 10) =     -3.98830  eV     1   --> A              
+     e( 11 - 11) =     -3.42892  eV     1   --> A              
+     e( 12 - 12) =     -2.68734  eV     1   --> A              
+     e( 13 - 13) =     -0.54968  eV     1   --> A              
+     e( 14 - 14) =      1.29822  eV     1   --> A              
+     e( 15 - 15) =      2.50374  eV     1   --> A              
+     e( 16 - 16) =      3.05830  eV     1   --> A              
+     e( 17 - 17) =      4.47484  eV     1   --> A              
+     e( 18 - 18) =      6.67363  eV     1   --> A              
+     e( 19 - 19) =      7.14084  eV     1   --> A              
+     e( 20 - 20) =      8.89320  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.27272,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26404  eV     1   --> A              
+     e(  2 -  2) =    -35.56870  eV     1   --> A              
+     e(  3 -  3) =    -35.47543  eV     1   --> A              
+     e(  4 -  4) =    -35.39553  eV     1   --> A              
+     e(  5 -  5) =    -12.43417  eV     1   --> A              
+     e(  6 -  6) =    -12.41312  eV     1   --> A              
+     e(  7 -  7) =     -5.91569  eV     1   --> A              
+     e(  8 -  8) =     -5.37101  eV     1   --> A              
+     e(  9 -  9) =     -4.43569  eV     1   --> A              
+     e( 10 - 10) =     -3.86694  eV     1   --> A              
+     e( 11 - 11) =     -3.47906  eV     1   --> A              
+     e( 12 - 12) =     -2.63221  eV     1   --> A              
+     e( 13 - 13) =     -0.60312  eV     1   --> A              
+     e( 14 - 14) =      1.36967  eV     1   --> A              
+     e( 15 - 15) =      2.54644  eV     1   --> A              
+     e( 16 - 16) =      2.98912  eV     1   --> A              
+     e( 17 - 17) =      4.41826  eV     1   --> A              
+     e( 18 - 18) =      6.51509  eV     1   --> A              
+     e( 19 - 19) =      7.41658  eV     1   --> A              
+     e( 20 - 20) =      8.81791  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.24242,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26460  eV     1   --> A              
+     e(  2 -  2) =    -35.58373  eV     1   --> A              
+     e(  3 -  3) =    -35.45360  eV     1   --> A              
+     e(  4 -  4) =    -35.39659  eV     1   --> A              
+     e(  5 -  5) =    -12.46472  eV     1   --> A              
+     e(  6 -  6) =    -12.43186  eV     1   --> A              
+     e(  7 -  7) =     -5.85078  eV     1   --> A              
+     e(  8 -  8) =     -5.54396  eV     1   --> A              
+     e(  9 -  9) =     -4.40031  eV     1   --> A              
+     e( 10 - 10) =     -3.63370  eV     1   --> A              
+     e( 11 - 11) =     -3.53895  eV     1   --> A              
+     e( 12 - 12) =     -2.56700  eV     1   --> A              
+     e( 13 - 13) =     -0.66975  eV     1   --> A              
+     e( 14 - 14) =      1.46684  eV     1   --> A              
+     e( 15 - 15) =      2.62433  eV     1   --> A              
+     e( 16 - 16) =      2.89135  eV     1   --> A              
+     e( 17 - 17) =      4.32318  eV     1   --> A              
+     e( 18 - 18) =      6.35741  eV     1   --> A              
+     e( 19 - 19) =      7.75090  eV     1   --> A              
+     e( 20 - 20) =      8.72455  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.21212,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26528  eV     1   --> A              
+     e(  2 -  2) =    -35.59818  eV     1   --> A              
+     e(  3 -  3) =    -35.43077  eV     1   --> A              
+     e(  4 -  4) =    -35.39788  eV     1   --> A              
+     e(  5 -  5) =    -12.50132  eV     1   --> A              
+     e(  6 -  6) =    -12.45455  eV     1   --> A              
+     e(  7 -  7) =     -5.77058  eV     1   --> A              
+     e(  8 -  8) =     -5.71246  eV     1   --> A              
+     e(  9 -  9) =     -4.40877  eV     1   --> A              
+     e( 10 - 10) =     -3.59460  eV     1   --> A              
+     e( 11 - 11) =     -3.33039  eV     1   --> A              
+     e( 12 - 12) =     -2.50744  eV     1   --> A              
+     e( 13 - 13) =     -0.73509  eV     1   --> A              
+     e( 14 - 14) =      1.57140  eV     1   --> A              
+     e( 15 - 15) =      2.73944  eV     1   --> A              
+     e( 16 - 16) =      2.77808  eV     1   --> A              
+     e( 17 - 17) =      4.19636  eV     1   --> A              
+     e( 18 - 18) =      6.20949  eV     1   --> A              
+     e( 19 - 19) =      8.11735  eV     1   --> A              
+     e( 20 - 20) =      8.62978  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.18182,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26603  eV     1   --> A              
+     e(  2 -  2) =    -35.61144  eV     1   --> A              
+     e(  3 -  3) =    -35.40839  eV     1   --> A              
+     e(  4 -  4) =    -35.39930  eV     1   --> A              
+     e(  5 -  5) =    -12.54051  eV     1   --> A              
+     e(  6 -  6) =    -12.47914  eV     1   --> A              
+     e(  7 -  7) =     -5.86793  eV     1   --> A              
+     e(  8 -  8) =     -5.68250  eV     1   --> A              
+     e(  9 -  9) =     -4.43637  eV     1   --> A              
+     e( 10 - 10) =     -3.63787  eV     1   --> A              
+     e( 11 - 11) =     -2.99533  eV     1   --> A              
+     e( 12 - 12) =     -2.46208  eV     1   --> A              
+     e( 13 - 13) =     -0.79193  eV     1   --> A              
+     e( 14 - 14) =      1.66903  eV     1   --> A              
+     e( 15 - 15) =      2.66095  eV     1   --> A              
+     e( 16 - 16) =      2.89030  eV     1   --> A              
+     e( 17 - 17) =      4.04850  eV     1   --> A              
+     e( 18 - 18) =      6.07434  eV     1   --> A              
+     e( 19 - 19) =      8.47538  eV     1   --> A              
+     e( 20 - 20) =      8.54202  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.15151,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26678  eV     1   --> A              
+     e(  2 -  2) =    -35.62310  eV     1   --> A              
+     e(  3 -  3) =    -35.40074  eV     1   --> A              
+     e(  4 -  4) =    -35.38745  eV     1   --> A              
+     e(  5 -  5) =    -12.57917  eV     1   --> A              
+     e(  6 -  6) =    -12.50366  eV     1   --> A              
+     e(  7 -  7) =     -6.00562  eV     1   --> A              
+     e(  8 -  8) =     -5.59436  eV     1   --> A              
+     e(  9 -  9) =     -4.47101  eV     1   --> A              
+     e( 10 - 10) =     -3.66459  eV     1   --> A              
+     e( 11 - 11) =     -2.65096  eV     1   --> A              
+     e( 12 - 12) =     -2.43432  eV     1   --> A              
+     e( 13 - 13) =     -0.83991  eV     1   --> A              
+     e( 14 - 14) =      1.74915  eV     1   --> A              
+     e( 15 - 15) =      2.55060  eV     1   --> A              
+     e( 16 - 16) =      3.07105  eV     1   --> A              
+     e( 17 - 17) =      3.89284  eV     1   --> A              
+     e( 18 - 18) =      5.95362  eV     1   --> A              
+     e( 19 - 19) =      8.46434  eV     1   --> A              
+     e( 20 - 20) =      8.52678  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.12121,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26747  eV     1   --> A              
+     e(  2 -  2) =    -35.63296  eV     1   --> A              
+     e(  3 -  3) =    -35.40209  eV     1   --> A              
+     e(  4 -  4) =    -35.36894  eV     1   --> A              
+     e(  5 -  5) =    -12.61460  eV     1   --> A              
+     e(  6 -  6) =    -12.52631  eV     1   --> A              
+     e(  7 -  7) =     -6.12230  eV     1   --> A              
+     e(  8 -  8) =     -5.51360  eV     1   --> A              
+     e(  9 -  9) =     -4.50625  eV     1   --> A              
+     e( 10 - 10) =     -3.67392  eV     1   --> A              
+     e( 11 - 11) =     -2.42362  eV     1   --> A              
+     e( 12 - 12) =     -2.31360  eV     1   --> A              
+     e( 13 - 13) =     -0.88410  eV     1   --> A              
+     e( 14 - 14) =      1.80450  eV     1   --> A              
+     e( 15 - 15) =      2.45698  eV     1   --> A              
+     e( 16 - 16) =      3.26969  eV     1   --> A              
+     e( 17 - 17) =      3.74453  eV     1   --> A              
+     e( 18 - 18) =      5.84854  eV     1   --> A              
+     e( 19 - 19) =      8.28378  eV     1   --> A              
+     e( 20 - 20) =      8.34117  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.09091,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26806  eV     1   --> A              
+     e(  2 -  2) =    -35.64081  eV     1   --> A              
+     e(  3 -  3) =    -35.40327  eV     1   --> A              
+     e(  4 -  4) =    -35.35368  eV     1   --> A              
+     e(  5 -  5) =    -12.64454  eV     1   --> A              
+     e(  6 -  6) =    -12.54556  eV     1   --> A              
+     e(  7 -  7) =     -6.21551  eV     1   --> A              
+     e(  8 -  8) =     -5.44632  eV     1   --> A              
+     e(  9 -  9) =     -4.53779  eV     1   --> A              
+     e( 10 - 10) =     -3.66863  eV     1   --> A              
+     e( 11 - 11) =     -2.42635  eV     1   --> A              
+     e( 12 - 12) =     -1.99782  eV     1   --> A              
+     e( 13 - 13) =     -0.93337  eV     1   --> A              
+     e( 14 - 14) =      1.83236  eV     1   --> A              
+     e( 15 - 15) =      2.38784  eV     1   --> A              
+     e( 16 - 16) =      3.45637  eV     1   --> A              
+     e( 17 - 17) =      3.62965  eV     1   --> A              
+     e( 18 - 18) =      5.76074  eV     1   --> A              
+     e( 19 - 19) =      7.96242  eV     1   --> A              
+     e( 20 - 20) =      8.04022  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.06061,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26852  eV     1   --> A              
+     e(  2 -  2) =    -35.64652  eV     1   --> A              
+     e(  3 -  3) =    -35.40415  eV     1   --> A              
+     e(  4 -  4) =    -35.34231  eV     1   --> A              
+     e(  5 -  5) =    -12.66721  eV     1   --> A              
+     e(  6 -  6) =    -12.56021  eV     1   --> A              
+     e(  7 -  7) =     -6.28341  eV     1   --> A              
+     e(  8 -  8) =     -5.39657  eV     1   --> A              
+     e(  9 -  9) =     -4.56252  eV     1   --> A              
+     e( 10 - 10) =     -3.65504  eV     1   --> A              
+     e( 11 - 11) =     -2.43643  eV     1   --> A              
+     e( 12 - 12) =     -1.71798  eV     1   --> A              
+     e( 13 - 13) =     -0.99820  eV     1   --> A              
+     e( 14 - 14) =      1.83754  eV     1   --> A              
+     e( 15 - 15) =      2.34517  eV     1   --> A              
+     e( 16 - 16) =      3.47642  eV     1   --> A              
+     e( 17 - 17) =      3.68975  eV     1   --> A              
+     e( 18 - 18) =      5.69307  eV     1   --> A              
+     e( 19 - 19) =      7.64671  eV     1   --> A              
+     e( 20 - 20) =      7.84187  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(  -0.03030,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26880  eV     1   --> A              
+     e(  2 -  2) =    -35.64994  eV     1   --> A              
+     e(  3 -  3) =    -35.40467  eV     1   --> A              
+     e(  4 -  4) =    -35.33526  eV     1   --> A              
+     e(  5 -  5) =    -12.68133  eV     1   --> A              
+     e(  6 -  6) =    -12.56935  eV     1   --> A              
+     e(  7 -  7) =     -6.32467  eV     1   --> A              
+     e(  8 -  8) =     -5.36633  eV     1   --> A              
+     e(  9 -  9) =     -4.57824  eV     1   --> A              
+     e( 10 - 10) =     -3.64166  eV     1   --> A              
+     e( 11 - 11) =     -2.44666  eV     1   --> A              
+     e( 12 - 12) =     -1.49138  eV     1   --> A              
+     e( 13 - 13) =     -1.08441  eV     1   --> A              
+     e( 14 - 14) =      1.83225  eV     1   --> A              
+     e( 15 - 15) =      2.32408  eV     1   --> A              
+     e( 16 - 16) =      3.42036  eV     1   --> A              
+     e( 17 - 17) =      3.81148  eV     1   --> A              
+     e( 18 - 18) =      5.64966  eV     1   --> A              
+     e( 19 - 19) =      7.43591  eV     1   --> A              
+     e( 20 - 20) =      7.71348  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.57735,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26890  eV     1   --> A              
+     e(  2 -  2) =    -35.65108  eV     1   --> A              
+     e(  3 -  3) =    -35.40482  eV     1   --> A              
+     e(  4 -  4) =    -35.33283  eV     1   --> A              
+     e(  5 -  5) =    -12.68612  eV     1   --> A              
+     e(  6 -  6) =    -12.57246  eV     1   --> A              
+     e(  7 -  7) =     -6.33851  eV     1   --> A              
+     e(  8 -  8) =     -5.35622  eV     1   --> A              
+     e(  9 -  9) =     -4.58362  eV     1   --> A              
+     e( 10 - 10) =     -3.63617  eV     1   --> A              
+     e( 11 - 11) =     -2.45089  eV     1   --> A              
+     e( 12 - 12) =     -1.37653  eV     1   --> A              
+     e( 13 - 13) =     -1.15037  eV     1   --> A              
+     e( 14 - 14) =      1.82884  eV     1   --> A              
+     e( 15 - 15) =      2.31797  eV     1   --> A              
+     e( 16 - 16) =      3.39923  eV     1   --> A              
+     e( 17 - 17) =      3.85844  eV     1   --> A              
+     e( 18 - 18) =      5.63461  eV     1   --> A              
+     e( 19 - 19) =      7.36111  eV     1   --> A              
+     e( 20 - 20) =      7.66917  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.54528,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.26923  eV     1   --> A              
+     e(  2 -  2) =    -35.64808  eV     1   --> A              
+     e(  3 -  3) =    -35.40548  eV     1   --> A              
+     e(  4 -  4) =    -35.33215  eV     1   --> A              
+     e(  5 -  5) =    -12.70613  eV     1   --> A              
+     e(  6 -  6) =    -12.57983  eV     1   --> A              
+     e(  7 -  7) =     -6.31858  eV     1   --> A              
+     e(  8 -  8) =     -5.33730  eV     1   --> A              
+     e(  9 -  9) =     -4.57281  eV     1   --> A              
+     e( 10 - 10) =     -3.62680  eV     1   --> A              
+     e( 11 - 11) =     -2.44363  eV     1   --> A              
+     e( 12 - 12) =     -1.38769  eV     1   --> A              
+     e( 13 - 13) =     -1.17367  eV     1   --> A              
+     e( 14 - 14) =      1.82305  eV     1   --> A              
+     e( 15 - 15) =      2.29367  eV     1   --> A              
+     e( 16 - 16) =      3.38735  eV     1   --> A              
+     e( 17 - 17) =      3.85314  eV     1   --> A              
+     e( 18 - 18) =      5.69913  eV     1   --> A              
+     e( 19 - 19) =      7.33648  eV     1   --> A              
+     e( 20 - 20) =      7.61927  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.51320,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.27020  eV     1   --> A              
+     e(  2 -  2) =    -35.63906  eV     1   --> A              
+     e(  3 -  3) =    -35.40742  eV     1   --> A              
+     e(  4 -  4) =    -35.33007  eV     1   --> A              
+     e(  5 -  5) =    -12.76475  eV     1   --> A              
+     e(  6 -  6) =    -12.60154  eV     1   --> A              
+     e(  7 -  7) =     -6.26040  eV     1   --> A              
+     e(  8 -  8) =     -5.28122  eV     1   --> A              
+     e(  9 -  9) =     -4.54233  eV     1   --> A              
+     e( 10 - 10) =     -3.59878  eV     1   --> A              
+     e( 11 - 11) =     -2.42167  eV     1   --> A              
+     e( 12 - 12) =     -1.42136  eV     1   --> A              
+     e( 13 - 13) =     -1.23811  eV     1   --> A              
+     e( 14 - 14) =      1.80758  eV     1   --> A              
+     e( 15 - 15) =      2.22693  eV     1   --> A              
+     e( 16 - 16) =      3.35076  eV     1   --> A              
+     e( 17 - 17) =      3.83705  eV     1   --> A              
+     e( 18 - 18) =      5.88163  eV     1   --> A              
+     e( 19 - 19) =      7.27256  eV     1   --> A              
+     e( 20 - 20) =      7.48949  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.48113,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.27180  eV     1   --> A              
+     e(  2 -  2) =    -35.62432  eV     1   --> A              
+     e(  3 -  3) =    -35.41059  eV     1   --> A              
+     e(  4 -  4) =    -35.32661  eV     1   --> A              
+     e(  5 -  5) =    -12.85802  eV     1   --> A              
+     e(  6 -  6) =    -12.63646  eV     1   --> A              
+     e(  7 -  7) =     -6.16859  eV     1   --> A              
+     e(  8 -  8) =     -5.19004  eV     1   --> A              
+     e(  9 -  9) =     -4.49813  eV     1   --> A              
+     e( 10 - 10) =     -3.55239  eV     1   --> A              
+     e( 11 - 11) =     -2.38462  eV     1   --> A              
+     e( 12 - 12) =     -1.47782  eV     1   --> A              
+     e( 13 - 13) =     -1.32850  eV     1   --> A              
+     e( 14 - 14) =      1.78751  eV     1   --> A              
+     e( 15 - 15) =      2.13184  eV     1   --> A              
+     e( 16 - 16) =      3.28729  eV     1   --> A              
+     e( 17 - 17) =      3.80958  eV     1   --> A              
+     e( 18 - 18) =      6.15253  eV     1   --> A              
+     e( 19 - 19) =      7.18591  eV     1   --> A              
+     e( 20 - 20) =      7.31786  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.44905,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.27396  eV     1   --> A              
+     e(  2 -  2) =    -35.60419  eV     1   --> A              
+     e(  3 -  3) =    -35.41476  eV     1   --> A              
+     e(  4 -  4) =    -35.32185  eV     1   --> A              
+     e(  5 -  5) =    -12.98016  eV     1   --> A              
+     e(  6 -  6) =    -12.68281  eV     1   --> A              
+     e(  7 -  7) =     -6.05027  eV     1   --> A              
+     e(  8 -  8) =     -5.06698  eV     1   --> A              
+     e(  9 -  9) =     -4.44971  eV     1   --> A              
+     e( 10 - 10) =     -3.48811  eV     1   --> A              
+     e( 11 - 11) =     -2.33193  eV     1   --> A              
+     e( 12 - 12) =     -1.55629  eV     1   --> A              
+     e( 13 - 13) =     -1.42327  eV     1   --> A              
+     e( 14 - 14) =      1.76976  eV     1   --> A              
+     e( 15 - 15) =      2.02297  eV     1   --> A              
+     e( 16 - 16) =      3.19525  eV     1   --> A              
+     e( 17 - 17) =      3.76983  eV     1   --> A              
+     e( 18 - 18) =      6.46096  eV     1   --> A              
+     e( 19 - 19) =      7.07926  eV     1   --> A              
+     e( 20 - 20) =      7.14716  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.41698,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.27662  eV     1   --> A              
+     e(  2 -  2) =    -35.57929  eV     1   --> A              
+     e(  3 -  3) =    -35.41995  eV     1   --> A              
+     e(  4 -  4) =    -35.31600  eV     1   --> A              
+     e(  5 -  5) =    -13.12447  eV     1   --> A              
+     e(  6 -  6) =    -12.73842  eV     1   --> A              
+     e(  7 -  7) =     -5.91478  eV     1   --> A              
+     e(  8 -  8) =     -4.91622  eV     1   --> A              
+     e(  9 -  9) =     -4.40823  eV     1   --> A              
+     e( 10 - 10) =     -3.40666  eV     1   --> A              
+     e( 11 - 11) =     -2.26331  eV     1   --> A              
+     e( 12 - 12) =     -1.65467  eV     1   --> A              
+     e( 13 - 13) =     -1.49834  eV     1   --> A              
+     e( 14 - 14) =      1.76128  eV     1   --> A              
+     e( 15 - 15) =      1.91191  eV     1   --> A              
+     e( 16 - 16) =      3.07530  eV     1   --> A              
+     e( 17 - 17) =      3.71660  eV     1   --> A              
+     e( 18 - 18) =      6.64759  eV     1   --> A              
+     e( 19 - 19) =      6.93847  eV     1   --> A              
+     e( 20 - 20) =      7.11540  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.38490,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.27970  eV     1   --> A              
+     e(  2 -  2) =    -35.55037  eV     1   --> A              
+     e(  3 -  3) =    -35.42599  eV     1   --> A              
+     e(  4 -  4) =    -35.30923  eV     1   --> A              
+     e(  5 -  5) =    -13.28407  eV     1   --> A              
+     e(  6 -  6) =    -12.80087  eV     1   --> A              
+     e(  7 -  7) =     -5.77436  eV     1   --> A              
+     e(  8 -  8) =     -4.74255  eV     1   --> A              
+     e(  9 -  9) =     -4.38166  eV     1   --> A              
+     e( 10 - 10) =     -3.30901  eV     1   --> A              
+     e( 11 - 11) =     -2.17905  eV     1   --> A              
+     e( 12 - 12) =     -1.77206  eV     1   --> A              
+     e( 13 - 13) =     -1.52988  eV     1   --> A              
+     e( 14 - 14) =      1.76645  eV     1   --> A              
+     e( 15 - 15) =      1.80882  eV     1   --> A              
+     e( 16 - 16) =      2.93165  eV     1   --> A              
+     e( 17 - 17) =      3.64863  eV     1   --> A              
+     e( 18 - 18) =      6.53330  eV     1   --> A              
+     e( 19 - 19) =      6.75367  eV     1   --> A              
+     e( 20 - 20) =      7.36968  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.35283,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.28311  eV     1   --> A              
+     e(  2 -  2) =    -35.51823  eV     1   --> A              
+     e(  3 -  3) =    -35.43263  eV     1   --> A              
+     e(  4 -  4) =    -35.30169  eV     1   --> A              
+     e(  5 -  5) =    -13.45243  eV     1   --> A              
+     e(  6 -  6) =    -12.86768  eV     1   --> A              
+     e(  7 -  7) =     -5.64596  eV     1   --> A              
+     e(  8 -  8) =     -4.55103  eV     1   --> A              
+     e(  9 -  9) =     -4.36700  eV     1   --> A              
+     e( 10 - 10) =     -3.19644  eV     1   --> A              
+     e( 11 - 11) =     -2.08064  eV     1   --> A              
+     e( 12 - 12) =     -1.90640  eV     1   --> A              
+     e( 13 - 13) =     -1.50343  eV     1   --> A              
+     e( 14 - 14) =      1.71428  eV     1   --> A              
+     e( 15 - 15) =      1.79595  eV     1   --> A              
+     e( 16 - 16) =      2.77201  eV     1   --> A              
+     e( 17 - 17) =      3.56486  eV     1   --> A              
+     e( 18 - 18) =      6.32681  eV     1   --> A              
+     e( 19 - 19) =      6.53517  eV     1   --> A              
+     e( 20 - 20) =      7.62094  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.32075,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.28674  eV     1   --> A              
+     e(  2 -  2) =    -35.48387  eV     1   --> A              
+     e(  3 -  3) =    -35.43972  eV     1   --> A              
+     e(  4 -  4) =    -35.29366  eV     1   --> A              
+     e(  5 -  5) =    -13.62366  eV     1   --> A              
+     e(  6 -  6) =    -12.93647  eV     1   --> A              
+     e(  7 -  7) =     -5.55275  eV     1   --> A              
+     e(  8 -  8) =     -4.34663  eV     1   --> A              
+     e(  9 -  9) =     -4.34477  eV     1   --> A              
+     e( 10 - 10) =     -3.07060  eV     1   --> A              
+     e( 11 - 11) =     -2.05282  eV     1   --> A              
+     e( 12 - 12) =     -1.97153  eV     1   --> A              
+     e( 13 - 13) =     -1.42035  eV     1   --> A              
+     e( 14 - 14) =      1.64621  eV     1   --> A              
+     e( 15 - 15) =      1.84088  eV     1   --> A              
+     e( 16 - 16) =      2.60678  eV     1   --> A              
+     e( 17 - 17) =      3.46469  eV     1   --> A              
+     e( 18 - 18) =      6.10639  eV     1   --> A              
+     e( 19 - 19) =      6.30172  eV     1   --> A              
+     e( 20 - 20) =      7.51832  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.28868,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.29047  eV     1   --> A              
+     e(  2 -  2) =    -35.44823  eV     1   --> A              
+     e(  3 -  3) =    -35.44702  eV     1   --> A              
+     e(  4 -  4) =    -35.28542  eV     1   --> A              
+     e(  5 -  5) =    -13.79255  eV     1   --> A              
+     e(  6 -  6) =    -13.00502  eV     1   --> A              
+     e(  7 -  7) =     -5.51839  eV     1   --> A              
+     e(  8 -  8) =     -4.28598  eV     1   --> A              
+     e(  9 -  9) =     -4.13377  eV     1   --> A              
+     e( 10 - 10) =     -2.93362  eV     1   --> A              
+     e( 11 - 11) =     -2.20547  eV     1   --> A              
+     e( 12 - 12) =     -1.85783  eV     1   --> A              
+     e( 13 - 13) =     -1.29524  eV     1   --> A              
+     e( 14 - 14) =      1.60823  eV     1   --> A              
+     e( 15 - 15) =      1.90517  eV     1   --> A              
+     e( 16 - 16) =      2.44813  eV     1   --> A              
+     e( 17 - 17) =      3.34846  eV     1   --> A              
+     e( 18 - 18) =      5.88857  eV     1   --> A              
+     e( 19 - 19) =      6.06854  eV     1   --> A              
+     e( 20 - 20) =      7.29028  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.25660,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.29421  eV     1   --> A              
+     e(  2 -  2) =    -35.45431  eV     1   --> A              
+     e(  3 -  3) =    -35.41232  eV     1   --> A              
+     e(  4 -  4) =    -35.27712  eV     1   --> A              
+     e(  5 -  5) =    -13.95462  eV     1   --> A              
+     e(  6 -  6) =    -13.07132  eV     1   --> A              
+     e(  7 -  7) =     -5.55019  eV     1   --> A              
+     e(  8 -  8) =     -4.17402  eV     1   --> A              
+     e(  9 -  9) =     -3.91615  eV     1   --> A              
+     e( 10 - 10) =     -2.78819  eV     1   --> A              
+     e( 11 - 11) =     -2.35844  eV     1   --> A              
+     e( 12 - 12) =     -1.74882  eV     1   --> A              
+     e( 13 - 13) =     -1.14985  eV     1   --> A              
+     e( 14 - 14) =      1.60970  eV     1   --> A              
+     e( 15 - 15) =      1.98563  eV     1   --> A              
+     e( 16 - 16) =      2.30921  eV     1   --> A              
+     e( 17 - 17) =      3.21773  eV     1   --> A              
+     e( 18 - 18) =      5.68041  eV     1   --> A              
+     e( 19 - 19) =      5.84567  eV     1   --> A              
+     e( 20 - 20) =      7.06644  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.22453,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.29783  eV     1   --> A              
+     e(  2 -  2) =    -35.46136  eV     1   --> A              
+     e(  3 -  3) =    -35.37733  eV     1   --> A              
+     e(  4 -  4) =    -35.26906  eV     1   --> A              
+     e(  5 -  5) =    -14.10603  eV     1   --> A              
+     e(  6 -  6) =    -13.13364  eV     1   --> A              
+     e(  7 -  7) =     -5.63231  eV     1   --> A              
+     e(  8 -  8) =     -4.01631  eV     1   --> A              
+     e(  9 -  9) =     -3.69654  eV     1   --> A              
+     e( 10 - 10) =     -2.63771  eV     1   --> A              
+     e( 11 - 11) =     -2.50622  eV     1   --> A              
+     e( 12 - 12) =     -1.65668  eV     1   --> A              
+     e( 13 - 13) =     -1.00658  eV     1   --> A              
+     e( 14 - 14) =      1.65803  eV     1   --> A              
+     e( 15 - 15) =      2.07809  eV     1   --> A              
+     e( 16 - 16) =      2.20306  eV     1   --> A              
+     e( 17 - 17) =      3.07558  eV     1   --> A              
+     e( 18 - 18) =      5.48605  eV     1   --> A              
+     e( 19 - 19) =      5.63964  eV     1   --> A              
+     e( 20 - 20) =      6.85894  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.19245,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.30122  eV     1   --> A              
+     e(  2 -  2) =    -35.46799  eV     1   --> A              
+     e(  3 -  3) =    -35.34434  eV     1   --> A              
+     e(  4 -  4) =    -35.26149  eV     1   --> A              
+     e(  5 -  5) =    -14.24352  eV     1   --> A              
+     e(  6 -  6) =    -13.19046  eV     1   --> A              
+     e(  7 -  7) =     -5.74042  eV     1   --> A              
+     e(  8 -  8) =     -3.83202  eV     1   --> A              
+     e(  9 -  9) =     -3.47695  eV     1   --> A              
+     e( 10 - 10) =     -2.64386  eV     1   --> A              
+     e( 11 - 11) =     -2.48647  eV     1   --> A              
+     e( 12 - 12) =     -1.59483  eV     1   --> A              
+     e( 13 - 13) =     -0.88302  eV     1   --> A              
+     e( 14 - 14) =      1.75575  eV     1   --> A              
+     e( 15 - 15) =      2.14050  eV     1   --> A              
+     e( 16 - 16) =      2.17744  eV     1   --> A              
+     e( 17 - 17) =      2.92676  eV     1   --> A              
+     e( 18 - 18) =      5.30805  eV     1   --> A              
+     e( 19 - 19) =      5.45479  eV     1   --> A              
+     e( 20 - 20) =      6.67075  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.16038,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.30429  eV     1   --> A              
+     e(  2 -  2) =    -35.47392  eV     1   --> A              
+     e(  3 -  3) =    -35.31430  eV     1   --> A              
+     e(  4 -  4) =    -35.25462  eV     1   --> A              
+     e(  5 -  5) =    -14.36436  eV     1   --> A              
+     e(  6 -  6) =    -13.24054  eV     1   --> A              
+     e(  7 -  7) =     -5.85443  eV     1   --> A              
+     e(  8 -  8) =     -3.64002  eV     1   --> A              
+     e(  9 -  9) =     -3.25889  eV     1   --> A              
+     e( 10 - 10) =     -2.76713  eV     1   --> A              
+     e( 11 - 11) =     -2.33976  eV     1   --> A              
+     e( 12 - 12) =     -1.57455  eV     1   --> A              
+     e( 13 - 13) =     -0.78841  eV     1   --> A              
+     e( 14 - 14) =      1.89723  eV     1   --> A              
+     e( 15 - 15) =      2.12675  eV     1   --> A              
+     e( 16 - 16) =      2.27787  eV     1   --> A              
+     e( 17 - 17) =      2.77783  eV     1   --> A              
+     e( 18 - 18) =      5.14799  eV     1   --> A              
+     e( 19 - 19) =      5.29415  eV     1   --> A              
+     e( 20 - 20) =      6.50173  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.12830,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.30693  eV     1   --> A              
+     e(  2 -  2) =    -35.47909  eV     1   --> A              
+     e(  3 -  3) =    -35.28833  eV     1   --> A              
+     e(  4 -  4) =    -35.24869  eV     1   --> A              
+     e(  5 -  5) =    -14.46626  eV     1   --> A              
+     e(  6 -  6) =    -13.28285  eV     1   --> A              
+     e(  7 -  7) =     -5.96069  eV     1   --> A              
+     e(  8 -  8) =     -3.45638  eV     1   --> A              
+     e(  9 -  9) =     -3.04409  eV     1   --> A              
+     e( 10 - 10) =     -2.87252  eV     1   --> A              
+     e( 11 - 11) =     -2.20402  eV     1   --> A              
+     e( 12 - 12) =     -1.60126  eV     1   --> A              
+     e( 13 - 13) =     -0.72335  eV     1   --> A              
+     e( 14 - 14) =      2.06775  eV     1   --> A              
+     e( 15 - 15) =      2.15769  eV     1   --> A              
+     e( 16 - 16) =      2.37303  eV     1   --> A              
+     e( 17 - 17) =      2.63703  eV     1   --> A              
+     e( 18 - 18) =      5.00698  eV     1   --> A              
+     e( 19 - 19) =      5.15989  eV     1   --> A              
+     e( 20 - 20) =      6.34793  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.09623,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.30908  eV     1   --> A              
+     e(  2 -  2) =    -35.48330  eV     1   --> A              
+     e(  3 -  3) =    -35.26724  eV     1   --> A              
+     e(  4 -  4) =    -35.24389  eV     1   --> A              
+     e(  5 -  5) =    -14.54741  eV     1   --> A              
+     e(  6 -  6) =    -13.31657  eV     1   --> A              
+     e(  7 -  7) =     -6.05034  eV     1   --> A              
+     e(  8 -  8) =     -3.29525  eV     1   --> A              
+     e(  9 -  9) =     -2.95722  eV     1   --> A              
+     e( 10 - 10) =     -2.83537  eV     1   --> A              
+     e( 11 - 11) =     -2.08683  eV     1   --> A              
+     e( 12 - 12) =     -1.67218  eV     1   --> A              
+     e( 13 - 13) =     -0.68281  eV     1   --> A              
+     e( 14 - 14) =      2.21824  eV     1   --> A              
+     e( 15 - 15) =      2.24529  eV     1   --> A              
+     e( 16 - 16) =      2.45646  eV     1   --> A              
+     e( 17 - 17) =      2.51431  eV     1   --> A              
+     e( 18 - 18) =      4.88652  eV     1   --> A              
+     e( 19 - 19) =      5.05363  eV     1   --> A              
+     e( 20 - 20) =      6.19898  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.06415,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.31066  eV     1   --> A              
+     e(  2 -  2) =    -35.48637  eV     1   --> A              
+     e(  3 -  3) =    -35.25164  eV     1   --> A              
+     e(  4 -  4) =    -35.24027  eV     1   --> A              
+     e(  5 -  5) =    -14.60638  eV     1   --> A              
+     e(  6 -  6) =    -13.34109  eV     1   --> A              
+     e(  7 -  7) =     -6.11775  eV     1   --> A              
+     e(  8 -  8) =     -3.16935  eV     1   --> A              
+     e(  9 -  9) =     -3.01899  eV     1   --> A              
+     e( 10 - 10) =     -2.63900  eV     1   --> A              
+     e( 11 - 11) =     -1.99707  eV     1   --> A              
+     e( 12 - 12) =     -1.77525  eV     1   --> A              
+     e( 13 - 13) =     -0.65992  eV     1   --> A              
+     e( 14 - 14) =      2.28263  eV     1   --> A              
+     e( 15 - 15) =      2.40308  eV     1   --> A              
+     e( 16 - 16) =      2.42284  eV     1   --> A              
+     e( 17 - 17) =      2.52230  eV     1   --> A              
+     e( 18 - 18) =      4.79019  eV     1   --> A              
+     e( 19 - 19) =      4.97665  eV     1   --> A              
+     e( 20 - 20) =      6.04933  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.03208,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.31162  eV     1   --> A              
+     e(  2 -  2) =    -35.48827  eV     1   --> A              
+     e(  3 -  3) =    -35.24226  eV     1   --> A              
+     e(  4 -  4) =    -35.23793  eV     1   --> A              
+     e(  5 -  5) =    -14.64216  eV     1   --> A              
+     e(  6 -  6) =    -13.35597  eV     1   --> A              
+     e(  7 -  7) =     -6.15946  eV     1   --> A              
+     e(  8 -  8) =     -3.09034  eV     1   --> A              
+     e(  9 -  9) =     -3.05528  eV     1   --> A              
+     e( 10 - 10) =     -2.47274  eV     1   --> A              
+     e( 11 - 11) =     -1.95238  eV     1   --> A              
+     e( 12 - 12) =     -1.87609  eV     1   --> A              
+     e( 13 - 13) =     -0.64874  eV     1   --> A              
+     e( 14 - 14) =      2.30910  eV     1   --> A              
+     e( 15 - 15) =      2.38879  eV     1   --> A              
+     e( 16 - 16) =      2.51161  eV     1   --> A              
+     e( 17 - 17) =      2.56666  eV     1   --> A              
+     e( 18 - 18) =      4.72544  eV     1   --> A              
+     e( 19 - 19) =      4.92996  eV     1   --> A              
+     e( 20 - 20) =      5.93102  eV     1   --> A              
+
+ **************************************************************************
+
+ **************************************************************************
+
+                    xk=(   0.00000,   0.00000,   0.00000  )
+
+     Band symmetry, C_1 (1)     point group:
+
+     e(  1 -  1) =    -61.31195  eV     1   --> A              
+     e(  2 -  2) =    -35.48889  eV     1   --> A              
+     e(  3 -  3) =    -35.23939  eV     1   --> A              
+     e(  4 -  4) =    -35.23689  eV     1   --> A              
+     e(  5 -  5) =    -14.65416  eV     1   --> A              
+     e(  6 -  6) =    -13.36096  eV     1   --> A              
+     e(  7 -  7) =     -6.17356  eV     1   --> A              
+     e(  8 -  8) =     -3.07452  eV     1   --> A              
+     e(  9 -  9) =     -3.05610  eV     1   --> A              
+     e( 10 - 10) =     -2.39490  eV     1   --> A              
+     e( 11 - 11) =     -1.97486  eV     1   --> A              
+     e( 12 - 12) =     -1.89468  eV     1   --> A              
+     e( 13 - 13) =     -0.64545  eV     1   --> A              
+     e( 14 - 14) =      2.30245  eV     1   --> A              
+     e( 15 - 15) =      2.39457  eV     1   --> A              
+     e( 16 - 16) =      2.54786  eV     1   --> A              
+     e( 17 - 17) =      2.58509  eV     1   --> A              
+     e( 18 - 18) =      4.70216  eV     1   --> A              
+     e( 19 - 19) =      4.91430  eV     1   --> A              
+     e( 20 - 20) =      5.88661  eV     1   --> A              
+
+ **************************************************************************
+ 
+     BANDS        :      3.53s CPU      5.41s WALL
+
+ 
+   This run was terminated on:  13:20:39  15Apr2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

@@ -1,0 +1,37 @@
+&control
+    calculation  = 'vc-relax',
+    prefix       = '1L-MoS2',
+    pseudo_dir   = '/exports/commonscratch/sgrillo/MAURIZIA/MoS2/pseudos',
+    outdir       = './tmp',
+    verbosity    = 'high',
+    disk_io      = 'minimal',
+    wf_collect   = .true.
+/
+&system
+    ibrav       = 4,
+    ecutwfc     = 70,
+    celldm(1)   = 5.952637215,
+    celldm(3)   = 5.777778614,
+    nat         = 3,
+    ntyp        = 2,
+    input_dft = 'vdw-df2-b86r'
+/
+&electrons
+    mixing_beta = 0.7
+/
+&ions
+    ion_dynamics = 'bfgs'
+/
+&cell
+    cell_dynamics = 'bfgs',
+    cell_dofree   = 'ibrav+2Dxy'
+/
+ATOMIC_SPECIES
+S  32.065  S.upf 
+Mo 95.94   Mo.upf 
+ATOMIC_POSITIONS {angstrom}
+ Mo   1.574999973   0.909326658   1.574794582
+ S    0.000000000   1.818653316   0.000000000
+ S    0.000000000   1.818653316   3.149680320
+K_POINTS {automatic}
+ 9 9 1   0 0 0
