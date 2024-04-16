@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
-plt.figure(figsize=(10, 8))
+plt.figure(figsize=(8, 6))
 
-with open('Bande_BN2L_AB1_PBE_vdW.dat.gnu', 'r') as file:
+with open('Bande_BN2L_AB_PBE_vdW.dat.gnu', 'r') as file:
     lines = file.readlines()
 
 colonna1 = []
@@ -10,11 +10,13 @@ colonna2 = []
 
 sublists = []
 
+efermi = -0.9811
+
 for line in lines:
     if line.strip(): 
         values = line.split()
         colonna1.append(float(values[0]))
-        colonna2.append(float(values[1]) + 1.3107) 
+        colonna2.append(float(values[1]) -efermi  ) 
     else:
         sublists.append((colonna1, colonna2))
         colonna1= []
@@ -47,8 +49,9 @@ plt.plot(xFermi,yFermi,"--", color="black", label="$E_{F}$", lw=2)
 plt.xlim(0,1.57)
 plt.ylim(-10,10)
 
-plt.title("$AB1  \ bilayer\ of\ graphene\ PBE+vdW $")
+plt.title("$PBE+vdW-Bands-of-2L-BN-AB$")
 
+plt.savefig('Bands_BN_2L_AB_PBE-vdW.png', format='png')
 plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
 plt.show()
 
