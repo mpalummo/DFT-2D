@@ -1,5 +1,5 @@
 
-     Program PWSCF v.7.2 starts on 15Apr2024 at 21:27:53 
+     Program PWSCF v.7.2 starts on 16Apr2024 at  9: 3:10 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -959,1001 +959,1001 @@ E      2.00 -1.00  0.00
      Davidson diagonalization with overlap
 
      Computing kpt #:     1  of   331
-     total cpu time spent up to now is        9.6 secs
-
-     Computing kpt #:     2  of   331
      total cpu time spent up to now is        9.8 secs
 
-     Computing kpt #:     3  of   331
-     total cpu time spent up to now is        9.9 secs
+     Computing kpt #:     2  of   331
+     total cpu time spent up to now is       10.0 secs
 
-     Computing kpt #:     4  of   331
+     Computing kpt #:     3  of   331
      total cpu time spent up to now is       10.1 secs
 
-     Computing kpt #:     5  of   331
+     Computing kpt #:     4  of   331
      total cpu time spent up to now is       10.3 secs
 
-     Computing kpt #:     6  of   331
-     total cpu time spent up to now is       10.4 secs
+     Computing kpt #:     5  of   331
+     total cpu time spent up to now is       10.5 secs
 
-     Computing kpt #:     7  of   331
+     Computing kpt #:     6  of   331
      total cpu time spent up to now is       10.6 secs
 
-     Computing kpt #:     8  of   331
-     total cpu time spent up to now is       10.7 secs
+     Computing kpt #:     7  of   331
+     total cpu time spent up to now is       10.8 secs
 
-     Computing kpt #:     9  of   331
+     Computing kpt #:     8  of   331
      total cpu time spent up to now is       10.9 secs
 
-     Computing kpt #:    10  of   331
-     total cpu time spent up to now is       11.0 secs
+     Computing kpt #:     9  of   331
+     total cpu time spent up to now is       11.1 secs
 
-     Computing kpt #:    11  of   331
+     Computing kpt #:    10  of   331
      total cpu time spent up to now is       11.2 secs
 
-     Computing kpt #:    12  of   331
-     total cpu time spent up to now is       11.3 secs
+     Computing kpt #:    11  of   331
+     total cpu time spent up to now is       11.4 secs
 
-     Computing kpt #:    13  of   331
+     Computing kpt #:    12  of   331
      total cpu time spent up to now is       11.5 secs
 
-     Computing kpt #:    14  of   331
-     total cpu time spent up to now is       11.6 secs
+     Computing kpt #:    13  of   331
+     total cpu time spent up to now is       11.7 secs
 
-     Computing kpt #:    15  of   331
+     Computing kpt #:    14  of   331
      total cpu time spent up to now is       11.8 secs
 
-     Computing kpt #:    16  of   331
+     Computing kpt #:    15  of   331
      total cpu time spent up to now is       12.0 secs
 
-     Computing kpt #:    17  of   331
-     total cpu time spent up to now is       12.1 secs
+     Computing kpt #:    16  of   331
+     total cpu time spent up to now is       12.2 secs
 
-     Computing kpt #:    18  of   331
+     Computing kpt #:    17  of   331
      total cpu time spent up to now is       12.3 secs
 
-     Computing kpt #:    19  of   331
+     Computing kpt #:    18  of   331
      total cpu time spent up to now is       12.5 secs
 
-     Computing kpt #:    20  of   331
+     Computing kpt #:    19  of   331
      total cpu time spent up to now is       12.6 secs
 
+     Computing kpt #:    20  of   331
+     total cpu time spent up to now is       12.7 secs
+
      Computing kpt #:    21  of   331
-     total cpu time spent up to now is       12.8 secs
+     total cpu time spent up to now is       12.9 secs
 
      Computing kpt #:    22  of   331
-     total cpu time spent up to now is       12.9 secs
+     total cpu time spent up to now is       13.0 secs
 
      Computing kpt #:    23  of   331
      total cpu time spent up to now is       13.1 secs
 
      Computing kpt #:    24  of   331
-     total cpu time spent up to now is       13.2 secs
+     total cpu time spent up to now is       13.3 secs
 
      Computing kpt #:    25  of   331
-     total cpu time spent up to now is       13.4 secs
-
-     Computing kpt #:    26  of   331
      total cpu time spent up to now is       13.5 secs
 
-     Computing kpt #:    27  of   331
+     Computing kpt #:    26  of   331
      total cpu time spent up to now is       13.6 secs
 
-     Computing kpt #:    28  of   331
+     Computing kpt #:    27  of   331
      total cpu time spent up to now is       13.8 secs
 
-     Computing kpt #:    29  of   331
+     Computing kpt #:    28  of   331
      total cpu time spent up to now is       13.9 secs
 
-     Computing kpt #:    30  of   331
+     Computing kpt #:    29  of   331
      total cpu time spent up to now is       14.0 secs
 
-     Computing kpt #:    31  of   331
-     total cpu time spent up to now is       14.1 secs
+     Computing kpt #:    30  of   331
+     total cpu time spent up to now is       14.2 secs
 
-     Computing kpt #:    32  of   331
+     Computing kpt #:    31  of   331
      total cpu time spent up to now is       14.3 secs
 
-     Computing kpt #:    33  of   331
+     Computing kpt #:    32  of   331
      total cpu time spent up to now is       14.5 secs
 
-     Computing kpt #:    34  of   331
+     Computing kpt #:    33  of   331
      total cpu time spent up to now is       14.6 secs
 
-     Computing kpt #:    35  of   331
-     total cpu time spent up to now is       14.7 secs
+     Computing kpt #:    34  of   331
+     total cpu time spent up to now is       14.8 secs
 
-     Computing kpt #:    36  of   331
+     Computing kpt #:    35  of   331
      total cpu time spent up to now is       14.9 secs
 
-     Computing kpt #:    37  of   331
-     total cpu time spent up to now is       15.0 secs
-
-     Computing kpt #:    38  of   331
+     Computing kpt #:    36  of   331
      total cpu time spent up to now is       15.1 secs
 
-     Computing kpt #:    39  of   331
+     Computing kpt #:    37  of   331
+     total cpu time spent up to now is       15.2 secs
+
+     Computing kpt #:    38  of   331
      total cpu time spent up to now is       15.3 secs
 
+     Computing kpt #:    39  of   331
+     total cpu time spent up to now is       15.5 secs
+
      Computing kpt #:    40  of   331
-     total cpu time spent up to now is       15.4 secs
-
-     Computing kpt #:    41  of   331
-     total cpu time spent up to now is       15.6 secs
-
-     Computing kpt #:    42  of   331
      total cpu time spent up to now is       15.7 secs
 
-     Computing kpt #:    43  of   331
+     Computing kpt #:    41  of   331
      total cpu time spent up to now is       15.8 secs
 
-     Computing kpt #:    44  of   331
-     total cpu time spent up to now is       16.0 secs
+     Computing kpt #:    42  of   331
+     total cpu time spent up to now is       15.9 secs
 
-     Computing kpt #:    45  of   331
+     Computing kpt #:    43  of   331
      total cpu time spent up to now is       16.1 secs
 
-     Computing kpt #:    46  of   331
-     total cpu time spent up to now is       16.3 secs
+     Computing kpt #:    44  of   331
+     total cpu time spent up to now is       16.2 secs
 
-     Computing kpt #:    47  of   331
+     Computing kpt #:    45  of   331
+     total cpu time spent up to now is       16.4 secs
+
+     Computing kpt #:    46  of   331
      total cpu time spent up to now is       16.5 secs
 
-     Computing kpt #:    48  of   331
-     total cpu time spent up to now is       16.6 secs
+     Computing kpt #:    47  of   331
+     total cpu time spent up to now is       16.7 secs
 
-     Computing kpt #:    49  of   331
+     Computing kpt #:    48  of   331
      total cpu time spent up to now is       16.8 secs
 
-     Computing kpt #:    50  of   331
-     total cpu time spent up to now is       16.9 secs
-
-     Computing kpt #:    51  of   331
+     Computing kpt #:    49  of   331
      total cpu time spent up to now is       17.0 secs
 
-     Computing kpt #:    52  of   331
+     Computing kpt #:    50  of   331
+     total cpu time spent up to now is       17.1 secs
+
+     Computing kpt #:    51  of   331
      total cpu time spent up to now is       17.2 secs
 
-     Computing kpt #:    53  of   331
-     total cpu time spent up to now is       17.3 secs
-
-     Computing kpt #:    54  of   331
+     Computing kpt #:    52  of   331
      total cpu time spent up to now is       17.4 secs
 
-     Computing kpt #:    55  of   331
+     Computing kpt #:    53  of   331
+     total cpu time spent up to now is       17.5 secs
+
+     Computing kpt #:    54  of   331
      total cpu time spent up to now is       17.6 secs
 
-     Computing kpt #:    56  of   331
-     total cpu time spent up to now is       17.7 secs
+     Computing kpt #:    55  of   331
+     total cpu time spent up to now is       17.8 secs
 
-     Computing kpt #:    57  of   331
+     Computing kpt #:    56  of   331
      total cpu time spent up to now is       17.9 secs
 
-     Computing kpt #:    58  of   331
-     total cpu time spent up to now is       18.0 secs
-
-     Computing kpt #:    59  of   331
+     Computing kpt #:    57  of   331
      total cpu time spent up to now is       18.1 secs
 
-     Computing kpt #:    60  of   331
+     Computing kpt #:    58  of   331
      total cpu time spent up to now is       18.2 secs
 
-     Computing kpt #:    61  of   331
+     Computing kpt #:    59  of   331
+     total cpu time spent up to now is       18.3 secs
+
+     Computing kpt #:    60  of   331
      total cpu time spent up to now is       18.4 secs
 
-     Computing kpt #:    62  of   331
+     Computing kpt #:    61  of   331
      total cpu time spent up to now is       18.6 secs
 
+     Computing kpt #:    62  of   331
+     total cpu time spent up to now is       18.8 secs
+
      Computing kpt #:    63  of   331
-     total cpu time spent up to now is       18.7 secs
-
-     Computing kpt #:    64  of   331
-     total cpu time spent up to now is       18.9 secs
-
-     Computing kpt #:    65  of   331
      total cpu time spent up to now is       19.0 secs
 
-     Computing kpt #:    66  of   331
+     Computing kpt #:    64  of   331
      total cpu time spent up to now is       19.1 secs
 
-     Computing kpt #:    67  of   331
+     Computing kpt #:    65  of   331
      total cpu time spent up to now is       19.3 secs
 
-     Computing kpt #:    68  of   331
+     Computing kpt #:    66  of   331
      total cpu time spent up to now is       19.4 secs
 
-     Computing kpt #:    69  of   331
-     total cpu time spent up to now is       19.6 secs
+     Computing kpt #:    67  of   331
+     total cpu time spent up to now is       19.5 secs
 
-     Computing kpt #:    70  of   331
+     Computing kpt #:    68  of   331
      total cpu time spent up to now is       19.7 secs
 
-     Computing kpt #:    71  of   331
+     Computing kpt #:    69  of   331
      total cpu time spent up to now is       19.8 secs
 
-     Computing kpt #:    72  of   331
+     Computing kpt #:    70  of   331
      total cpu time spent up to now is       20.0 secs
 
-     Computing kpt #:    73  of   331
+     Computing kpt #:    71  of   331
      total cpu time spent up to now is       20.1 secs
 
-     Computing kpt #:    74  of   331
+     Computing kpt #:    72  of   331
      total cpu time spent up to now is       20.2 secs
 
-     Computing kpt #:    75  of   331
+     Computing kpt #:    73  of   331
      total cpu time spent up to now is       20.4 secs
 
-     Computing kpt #:    76  of   331
+     Computing kpt #:    74  of   331
      total cpu time spent up to now is       20.5 secs
 
-     Computing kpt #:    77  of   331
-     total cpu time spent up to now is       20.6 secs
+     Computing kpt #:    75  of   331
+     total cpu time spent up to now is       20.7 secs
 
-     Computing kpt #:    78  of   331
+     Computing kpt #:    76  of   331
      total cpu time spent up to now is       20.8 secs
 
-     Computing kpt #:    79  of   331
-     total cpu time spent up to now is       20.9 secs
+     Computing kpt #:    77  of   331
+     total cpu time spent up to now is       21.0 secs
 
-     Computing kpt #:    80  of   331
+     Computing kpt #:    78  of   331
      total cpu time spent up to now is       21.1 secs
 
-     Computing kpt #:    81  of   331
+     Computing kpt #:    79  of   331
      total cpu time spent up to now is       21.2 secs
 
-     Computing kpt #:    82  of   331
-     total cpu time spent up to now is       21.3 secs
+     Computing kpt #:    80  of   331
+     total cpu time spent up to now is       21.4 secs
 
-     Computing kpt #:    83  of   331
+     Computing kpt #:    81  of   331
      total cpu time spent up to now is       21.5 secs
 
-     Computing kpt #:    84  of   331
-     total cpu time spent up to now is       21.6 secs
+     Computing kpt #:    82  of   331
+     total cpu time spent up to now is       21.7 secs
 
-     Computing kpt #:    85  of   331
+     Computing kpt #:    83  of   331
      total cpu time spent up to now is       21.8 secs
 
-     Computing kpt #:    86  of   331
-     total cpu time spent up to now is       21.9 secs
-
-     Computing kpt #:    87  of   331
+     Computing kpt #:    84  of   331
      total cpu time spent up to now is       22.0 secs
 
-     Computing kpt #:    88  of   331
+     Computing kpt #:    85  of   331
      total cpu time spent up to now is       22.1 secs
 
-     Computing kpt #:    89  of   331
+     Computing kpt #:    86  of   331
      total cpu time spent up to now is       22.3 secs
 
-     Computing kpt #:    90  of   331
+     Computing kpt #:    87  of   331
+     total cpu time spent up to now is       22.4 secs
+
+     Computing kpt #:    88  of   331
      total cpu time spent up to now is       22.5 secs
 
-     Computing kpt #:    91  of   331
-     total cpu time spent up to now is       22.6 secs
+     Computing kpt #:    89  of   331
+     total cpu time spent up to now is       22.7 secs
 
-     Computing kpt #:    92  of   331
+     Computing kpt #:    90  of   331
      total cpu time spent up to now is       22.8 secs
 
-     Computing kpt #:    93  of   331
-     total cpu time spent up to now is       22.9 secs
+     Computing kpt #:    91  of   331
+     total cpu time spent up to now is       23.0 secs
 
-     Computing kpt #:    94  of   331
-     total cpu time spent up to now is       23.1 secs
-
-     Computing kpt #:    95  of   331
+     Computing kpt #:    92  of   331
      total cpu time spent up to now is       23.2 secs
 
-     Computing kpt #:    96  of   331
-     total cpu time spent up to now is       23.4 secs
+     Computing kpt #:    93  of   331
+     total cpu time spent up to now is       23.3 secs
 
-     Computing kpt #:    97  of   331
+     Computing kpt #:    94  of   331
      total cpu time spent up to now is       23.5 secs
 
-     Computing kpt #:    98  of   331
+     Computing kpt #:    95  of   331
      total cpu time spent up to now is       23.7 secs
 
-     Computing kpt #:    99  of   331
+     Computing kpt #:    96  of   331
      total cpu time spent up to now is       23.8 secs
 
-     Computing kpt #:   100  of   331
+     Computing kpt #:    97  of   331
      total cpu time spent up to now is       24.0 secs
 
-     Computing kpt #:   101  of   331
+     Computing kpt #:    98  of   331
+     total cpu time spent up to now is       24.1 secs
+
+     Computing kpt #:    99  of   331
      total cpu time spent up to now is       24.2 secs
 
-     Computing kpt #:   102  of   331
-     total cpu time spent up to now is       24.3 secs
-
-     Computing kpt #:   103  of   331
+     Computing kpt #:   100  of   331
      total cpu time spent up to now is       24.4 secs
 
-     Computing kpt #:   104  of   331
-     total cpu time spent up to now is       24.6 secs
+     Computing kpt #:   101  of   331
+     total cpu time spent up to now is       24.5 secs
 
-     Computing kpt #:   105  of   331
+     Computing kpt #:   102  of   331
      total cpu time spent up to now is       24.7 secs
 
-     Computing kpt #:   106  of   331
-     total cpu time spent up to now is       24.9 secs
+     Computing kpt #:   103  of   331
+     total cpu time spent up to now is       24.8 secs
 
-     Computing kpt #:   107  of   331
+     Computing kpt #:   104  of   331
      total cpu time spent up to now is       25.0 secs
 
-     Computing kpt #:   108  of   331
+     Computing kpt #:   105  of   331
+     total cpu time spent up to now is       25.1 secs
+
+     Computing kpt #:   106  of   331
      total cpu time spent up to now is       25.2 secs
 
-     Computing kpt #:   109  of   331
-     total cpu time spent up to now is       25.3 secs
-
-     Computing kpt #:   110  of   331
+     Computing kpt #:   107  of   331
      total cpu time spent up to now is       25.4 secs
 
-     Computing kpt #:   111  of   331
+     Computing kpt #:   108  of   331
+     total cpu time spent up to now is       25.5 secs
+
+     Computing kpt #:   109  of   331
      total cpu time spent up to now is       25.6 secs
 
-     Computing kpt #:   112  of   331
-     total cpu time spent up to now is       25.7 secs
+     Computing kpt #:   110  of   331
+     total cpu time spent up to now is       25.8 secs
 
-     Computing kpt #:   113  of   331
+     Computing kpt #:   111  of   331
      total cpu time spent up to now is       25.9 secs
 
-     Computing kpt #:   114  of   331
-     total cpu time spent up to now is       26.0 secs
+     Computing kpt #:   112  of   331
+     total cpu time spent up to now is       26.1 secs
 
-     Computing kpt #:   115  of   331
+     Computing kpt #:   113  of   331
      total cpu time spent up to now is       26.2 secs
 
-     Computing kpt #:   116  of   331
-     total cpu time spent up to now is       26.3 secs
+     Computing kpt #:   114  of   331
+     total cpu time spent up to now is       26.4 secs
 
-     Computing kpt #:   117  of   331
+     Computing kpt #:   115  of   331
      total cpu time spent up to now is       26.5 secs
 
-     Computing kpt #:   118  of   331
+     Computing kpt #:   116  of   331
      total cpu time spent up to now is       26.6 secs
 
-     Computing kpt #:   119  of   331
+     Computing kpt #:   117  of   331
      total cpu time spent up to now is       26.8 secs
 
+     Computing kpt #:   118  of   331
+     total cpu time spent up to now is       26.9 secs
+
+     Computing kpt #:   119  of   331
+     total cpu time spent up to now is       27.1 secs
+
      Computing kpt #:   120  of   331
-     total cpu time spent up to now is       27.0 secs
-
-     Computing kpt #:   121  of   331
-     total cpu time spent up to now is       27.2 secs
-
-     Computing kpt #:   122  of   331
      total cpu time spent up to now is       27.3 secs
 
-     Computing kpt #:   123  of   331
+     Computing kpt #:   121  of   331
      total cpu time spent up to now is       27.5 secs
 
-     Computing kpt #:   124  of   331
+     Computing kpt #:   122  of   331
      total cpu time spent up to now is       27.6 secs
 
-     Computing kpt #:   125  of   331
+     Computing kpt #:   123  of   331
      total cpu time spent up to now is       27.8 secs
 
-     Computing kpt #:   126  of   331
+     Computing kpt #:   124  of   331
      total cpu time spent up to now is       27.9 secs
 
-     Computing kpt #:   127  of   331
+     Computing kpt #:   125  of   331
      total cpu time spent up to now is       28.1 secs
 
-     Computing kpt #:   128  of   331
+     Computing kpt #:   126  of   331
      total cpu time spent up to now is       28.2 secs
 
-     Computing kpt #:   129  of   331
-     total cpu time spent up to now is       28.3 secs
+     Computing kpt #:   127  of   331
+     total cpu time spent up to now is       28.4 secs
 
-     Computing kpt #:   130  of   331
+     Computing kpt #:   128  of   331
      total cpu time spent up to now is       28.5 secs
 
-     Computing kpt #:   131  of   331
-     total cpu time spent up to now is       28.6 secs
-
-     Computing kpt #:   132  of   331
+     Computing kpt #:   129  of   331
      total cpu time spent up to now is       28.7 secs
 
-     Computing kpt #:   133  of   331
-     total cpu time spent up to now is       28.9 secs
+     Computing kpt #:   130  of   331
+     total cpu time spent up to now is       28.8 secs
 
-     Computing kpt #:   134  of   331
+     Computing kpt #:   131  of   331
      total cpu time spent up to now is       29.0 secs
 
-     Computing kpt #:   135  of   331
+     Computing kpt #:   132  of   331
      total cpu time spent up to now is       29.1 secs
 
-     Computing kpt #:   136  of   331
+     Computing kpt #:   133  of   331
      total cpu time spent up to now is       29.3 secs
 
-     Computing kpt #:   137  of   331
+     Computing kpt #:   134  of   331
      total cpu time spent up to now is       29.4 secs
 
-     Computing kpt #:   138  of   331
+     Computing kpt #:   135  of   331
      total cpu time spent up to now is       29.5 secs
 
-     Computing kpt #:   139  of   331
-     total cpu time spent up to now is       29.6 secs
+     Computing kpt #:   136  of   331
+     total cpu time spent up to now is       29.7 secs
 
-     Computing kpt #:   140  of   331
+     Computing kpt #:   137  of   331
      total cpu time spent up to now is       29.8 secs
 
-     Computing kpt #:   141  of   331
+     Computing kpt #:   138  of   331
      total cpu time spent up to now is       29.9 secs
 
-     Computing kpt #:   142  of   331
-     total cpu time spent up to now is       30.1 secs
+     Computing kpt #:   139  of   331
+     total cpu time spent up to now is       30.0 secs
 
-     Computing kpt #:   143  of   331
-     total cpu time spent up to now is       30.3 secs
+     Computing kpt #:   140  of   331
+     total cpu time spent up to now is       30.2 secs
 
-     Computing kpt #:   144  of   331
+     Computing kpt #:   141  of   331
      total cpu time spent up to now is       30.4 secs
 
-     Computing kpt #:   145  of   331
+     Computing kpt #:   142  of   331
      total cpu time spent up to now is       30.5 secs
 
-     Computing kpt #:   146  of   331
+     Computing kpt #:   143  of   331
+     total cpu time spent up to now is       30.7 secs
+
+     Computing kpt #:   144  of   331
      total cpu time spent up to now is       30.8 secs
 
-     Computing kpt #:   147  of   331
-     total cpu time spent up to now is       30.9 secs
-
-     Computing kpt #:   148  of   331
+     Computing kpt #:   145  of   331
      total cpu time spent up to now is       31.0 secs
 
-     Computing kpt #:   149  of   331
-     total cpu time spent up to now is       31.2 secs
+     Computing kpt #:   146  of   331
+     total cpu time spent up to now is       31.1 secs
 
-     Computing kpt #:   150  of   331
+     Computing kpt #:   147  of   331
+     total cpu time spent up to now is       31.3 secs
+
+     Computing kpt #:   148  of   331
      total cpu time spent up to now is       31.4 secs
 
-     Computing kpt #:   151  of   331
-     total cpu time spent up to now is       31.5 secs
+     Computing kpt #:   149  of   331
+     total cpu time spent up to now is       31.6 secs
 
-     Computing kpt #:   152  of   331
+     Computing kpt #:   150  of   331
      total cpu time spent up to now is       31.7 secs
 
-     Computing kpt #:   153  of   331
-     total cpu time spent up to now is       31.8 secs
+     Computing kpt #:   151  of   331
+     total cpu time spent up to now is       31.9 secs
 
-     Computing kpt #:   154  of   331
+     Computing kpt #:   152  of   331
      total cpu time spent up to now is       32.0 secs
 
-     Computing kpt #:   155  of   331
-     total cpu time spent up to now is       32.1 secs
+     Computing kpt #:   153  of   331
+     total cpu time spent up to now is       32.2 secs
 
-     Computing kpt #:   156  of   331
+     Computing kpt #:   154  of   331
      total cpu time spent up to now is       32.3 secs
 
-     Computing kpt #:   157  of   331
-     total cpu time spent up to now is       32.4 secs
-
-     Computing kpt #:   158  of   331
+     Computing kpt #:   155  of   331
      total cpu time spent up to now is       32.5 secs
 
-     Computing kpt #:   159  of   331
+     Computing kpt #:   156  of   331
+     total cpu time spent up to now is       32.6 secs
+
+     Computing kpt #:   157  of   331
      total cpu time spent up to now is       32.7 secs
 
-     Computing kpt #:   160  of   331
-     total cpu time spent up to now is       32.8 secs
+     Computing kpt #:   158  of   331
+     total cpu time spent up to now is       32.9 secs
 
-     Computing kpt #:   161  of   331
+     Computing kpt #:   159  of   331
      total cpu time spent up to now is       33.0 secs
 
-     Computing kpt #:   162  of   331
-     total cpu time spent up to now is       33.1 secs
+     Computing kpt #:   160  of   331
+     total cpu time spent up to now is       33.2 secs
 
-     Computing kpt #:   163  of   331
+     Computing kpt #:   161  of   331
      total cpu time spent up to now is       33.3 secs
 
-     Computing kpt #:   164  of   331
+     Computing kpt #:   162  of   331
      total cpu time spent up to now is       33.4 secs
 
-     Computing kpt #:   165  of   331
+     Computing kpt #:   163  of   331
      total cpu time spent up to now is       33.6 secs
 
-     Computing kpt #:   166  of   331
-     total cpu time spent up to now is       33.7 secs
+     Computing kpt #:   164  of   331
+     total cpu time spent up to now is       33.8 secs
 
-     Computing kpt #:   167  of   331
+     Computing kpt #:   165  of   331
      total cpu time spent up to now is       33.9 secs
 
-     Computing kpt #:   168  of   331
-     total cpu time spent up to now is       34.0 secs
+     Computing kpt #:   166  of   331
+     total cpu time spent up to now is       34.1 secs
 
-     Computing kpt #:   169  of   331
+     Computing kpt #:   167  of   331
      total cpu time spent up to now is       34.2 secs
 
-     Computing kpt #:   170  of   331
-     total cpu time spent up to now is       34.3 secs
+     Computing kpt #:   168  of   331
+     total cpu time spent up to now is       34.4 secs
 
-     Computing kpt #:   171  of   331
-     total cpu time spent up to now is       34.5 secs
-
-     Computing kpt #:   172  of   331
+     Computing kpt #:   169  of   331
      total cpu time spent up to now is       34.6 secs
 
-     Computing kpt #:   173  of   331
-     total cpu time spent up to now is       34.8 secs
+     Computing kpt #:   170  of   331
+     total cpu time spent up to now is       34.7 secs
 
-     Computing kpt #:   174  of   331
+     Computing kpt #:   171  of   331
      total cpu time spent up to now is       34.9 secs
 
-     Computing kpt #:   175  of   331
-     total cpu time spent up to now is       35.1 secs
+     Computing kpt #:   172  of   331
+     total cpu time spent up to now is       35.0 secs
 
-     Computing kpt #:   176  of   331
+     Computing kpt #:   173  of   331
+     total cpu time spent up to now is       35.2 secs
+
+     Computing kpt #:   174  of   331
      total cpu time spent up to now is       35.3 secs
 
-     Computing kpt #:   177  of   331
-     total cpu time spent up to now is       35.4 secs
-
-     Computing kpt #:   178  of   331
+     Computing kpt #:   175  of   331
      total cpu time spent up to now is       35.5 secs
 
-     Computing kpt #:   179  of   331
+     Computing kpt #:   176  of   331
      total cpu time spent up to now is       35.7 secs
 
-     Computing kpt #:   180  of   331
+     Computing kpt #:   177  of   331
      total cpu time spent up to now is       35.8 secs
 
-     Computing kpt #:   181  of   331
+     Computing kpt #:   178  of   331
      total cpu time spent up to now is       35.9 secs
 
-     Computing kpt #:   182  of   331
-     total cpu time spent up to now is       36.1 secs
+     Computing kpt #:   179  of   331
+     total cpu time spent up to now is       36.0 secs
 
-     Computing kpt #:   183  of   331
+     Computing kpt #:   180  of   331
      total cpu time spent up to now is       36.2 secs
 
-     Computing kpt #:   184  of   331
+     Computing kpt #:   181  of   331
      total cpu time spent up to now is       36.3 secs
 
-     Computing kpt #:   185  of   331
-     total cpu time spent up to now is       36.4 secs
+     Computing kpt #:   182  of   331
+     total cpu time spent up to now is       36.5 secs
 
-     Computing kpt #:   186  of   331
+     Computing kpt #:   183  of   331
      total cpu time spent up to now is       36.6 secs
 
-     Computing kpt #:   187  of   331
+     Computing kpt #:   184  of   331
      total cpu time spent up to now is       36.7 secs
 
-     Computing kpt #:   188  of   331
+     Computing kpt #:   185  of   331
      total cpu time spent up to now is       36.9 secs
 
-     Computing kpt #:   189  of   331
+     Computing kpt #:   186  of   331
      total cpu time spent up to now is       37.0 secs
 
-     Computing kpt #:   190  of   331
+     Computing kpt #:   187  of   331
      total cpu time spent up to now is       37.2 secs
 
-     Computing kpt #:   191  of   331
+     Computing kpt #:   188  of   331
      total cpu time spent up to now is       37.3 secs
 
-     Computing kpt #:   192  of   331
+     Computing kpt #:   189  of   331
      total cpu time spent up to now is       37.5 secs
 
-     Computing kpt #:   193  of   331
-     total cpu time spent up to now is       37.7 secs
+     Computing kpt #:   190  of   331
+     total cpu time spent up to now is       37.6 secs
 
-     Computing kpt #:   194  of   331
+     Computing kpt #:   191  of   331
      total cpu time spent up to now is       37.8 secs
 
-     Computing kpt #:   195  of   331
-     total cpu time spent up to now is       38.0 secs
+     Computing kpt #:   192  of   331
+     total cpu time spent up to now is       37.9 secs
 
-     Computing kpt #:   196  of   331
+     Computing kpt #:   193  of   331
      total cpu time spent up to now is       38.1 secs
 
-     Computing kpt #:   197  of   331
-     total cpu time spent up to now is       38.3 secs
+     Computing kpt #:   194  of   331
+     total cpu time spent up to now is       38.2 secs
 
-     Computing kpt #:   198  of   331
+     Computing kpt #:   195  of   331
      total cpu time spent up to now is       38.4 secs
 
-     Computing kpt #:   199  of   331
-     total cpu time spent up to now is       38.6 secs
+     Computing kpt #:   196  of   331
+     total cpu time spent up to now is       38.5 secs
 
-     Computing kpt #:   200  of   331
+     Computing kpt #:   197  of   331
      total cpu time spent up to now is       38.7 secs
 
-     Computing kpt #:   201  of   331
-     total cpu time spent up to now is       38.9 secs
+     Computing kpt #:   198  of   331
+     total cpu time spent up to now is       38.8 secs
 
-     Computing kpt #:   202  of   331
+     Computing kpt #:   199  of   331
      total cpu time spent up to now is       39.0 secs
 
-     Computing kpt #:   203  of   331
+     Computing kpt #:   200  of   331
      total cpu time spent up to now is       39.1 secs
 
-     Computing kpt #:   204  of   331
-     total cpu time spent up to now is       39.2 secs
+     Computing kpt #:   201  of   331
+     total cpu time spent up to now is       39.3 secs
 
-     Computing kpt #:   205  of   331
+     Computing kpt #:   202  of   331
      total cpu time spent up to now is       39.4 secs
 
-     Computing kpt #:   206  of   331
+     Computing kpt #:   203  of   331
+     total cpu time spent up to now is       39.5 secs
+
+     Computing kpt #:   204  of   331
      total cpu time spent up to now is       39.6 secs
 
-     Computing kpt #:   207  of   331
-     total cpu time spent up to now is       39.7 secs
+     Computing kpt #:   205  of   331
+     total cpu time spent up to now is       39.8 secs
 
-     Computing kpt #:   208  of   331
-     total cpu time spent up to now is       39.9 secs
-
-     Computing kpt #:   209  of   331
+     Computing kpt #:   206  of   331
      total cpu time spent up to now is       40.0 secs
 
-     Computing kpt #:   210  of   331
-     total cpu time spent up to now is       40.2 secs
+     Computing kpt #:   207  of   331
+     total cpu time spent up to now is       40.1 secs
 
-     Computing kpt #:   211  of   331
+     Computing kpt #:   208  of   331
      total cpu time spent up to now is       40.3 secs
 
-     Computing kpt #:   212  of   331
-     total cpu time spent up to now is       40.5 secs
+     Computing kpt #:   209  of   331
+     total cpu time spent up to now is       40.4 secs
 
-     Computing kpt #:   213  of   331
+     Computing kpt #:   210  of   331
      total cpu time spent up to now is       40.6 secs
 
-     Computing kpt #:   214  of   331
-     total cpu time spent up to now is       40.8 secs
+     Computing kpt #:   211  of   331
+     total cpu time spent up to now is       40.7 secs
 
-     Computing kpt #:   215  of   331
+     Computing kpt #:   212  of   331
      total cpu time spent up to now is       40.9 secs
 
-     Computing kpt #:   216  of   331
+     Computing kpt #:   213  of   331
      total cpu time spent up to now is       41.1 secs
 
-     Computing kpt #:   217  of   331
+     Computing kpt #:   214  of   331
      total cpu time spent up to now is       41.2 secs
 
-     Computing kpt #:   218  of   331
+     Computing kpt #:   215  of   331
      total cpu time spent up to now is       41.4 secs
 
-     Computing kpt #:   219  of   331
-     total cpu time spent up to now is       41.5 secs
+     Computing kpt #:   216  of   331
+     total cpu time spent up to now is       41.6 secs
 
-     Computing kpt #:   220  of   331
+     Computing kpt #:   217  of   331
      total cpu time spent up to now is       41.7 secs
 
-     Computing kpt #:   221  of   331
-     total cpu time spent up to now is       41.8 secs
-
-     Computing kpt #:   222  of   331
+     Computing kpt #:   218  of   331
      total cpu time spent up to now is       41.9 secs
 
-     Computing kpt #:   223  of   331
+     Computing kpt #:   219  of   331
      total cpu time spent up to now is       42.0 secs
 
-     Computing kpt #:   224  of   331
+     Computing kpt #:   220  of   331
      total cpu time spent up to now is       42.2 secs
 
-     Computing kpt #:   225  of   331
-     total cpu time spent up to now is       42.4 secs
+     Computing kpt #:   221  of   331
+     total cpu time spent up to now is       42.3 secs
 
-     Computing kpt #:   226  of   331
+     Computing kpt #:   222  of   331
+     total cpu time spent up to now is       42.5 secs
+
+     Computing kpt #:   223  of   331
      total cpu time spent up to now is       42.6 secs
 
-     Computing kpt #:   227  of   331
-     total cpu time spent up to now is       42.7 secs
+     Computing kpt #:   224  of   331
+     total cpu time spent up to now is       42.8 secs
 
-     Computing kpt #:   228  of   331
-     total cpu time spent up to now is       42.9 secs
-
-     Computing kpt #:   229  of   331
+     Computing kpt #:   225  of   331
      total cpu time spent up to now is       43.0 secs
 
-     Computing kpt #:   230  of   331
+     Computing kpt #:   226  of   331
      total cpu time spent up to now is       43.2 secs
 
-     Computing kpt #:   231  of   331
+     Computing kpt #:   227  of   331
      total cpu time spent up to now is       43.3 secs
 
-     Computing kpt #:   232  of   331
+     Computing kpt #:   228  of   331
      total cpu time spent up to now is       43.5 secs
 
-     Computing kpt #:   233  of   331
+     Computing kpt #:   229  of   331
      total cpu time spent up to now is       43.6 secs
 
-     Computing kpt #:   234  of   331
+     Computing kpt #:   230  of   331
      total cpu time spent up to now is       43.8 secs
 
-     Computing kpt #:   235  of   331
+     Computing kpt #:   231  of   331
      total cpu time spent up to now is       43.9 secs
 
-     Computing kpt #:   236  of   331
+     Computing kpt #:   232  of   331
      total cpu time spent up to now is       44.1 secs
 
-     Computing kpt #:   237  of   331
-     total cpu time spent up to now is       44.2 secs
+     Computing kpt #:   233  of   331
+     total cpu time spent up to now is       44.3 secs
 
-     Computing kpt #:   238  of   331
+     Computing kpt #:   234  of   331
      total cpu time spent up to now is       44.4 secs
 
-     Computing kpt #:   239  of   331
-     total cpu time spent up to now is       44.5 secs
-
-     Computing kpt #:   240  of   331
+     Computing kpt #:   235  of   331
      total cpu time spent up to now is       44.6 secs
 
-     Computing kpt #:   241  of   331
-     total cpu time spent up to now is       44.8 secs
+     Computing kpt #:   236  of   331
+     total cpu time spent up to now is       44.7 secs
 
-     Computing kpt #:   242  of   331
+     Computing kpt #:   237  of   331
      total cpu time spent up to now is       44.9 secs
 
-     Computing kpt #:   243  of   331
+     Computing kpt #:   238  of   331
+     total cpu time spent up to now is       45.0 secs
+
+     Computing kpt #:   239  of   331
      total cpu time spent up to now is       45.1 secs
 
-     Computing kpt #:   244  of   331
+     Computing kpt #:   240  of   331
      total cpu time spent up to now is       45.2 secs
 
-     Computing kpt #:   245  of   331
+     Computing kpt #:   241  of   331
      total cpu time spent up to now is       45.4 secs
 
-     Computing kpt #:   246  of   331
+     Computing kpt #:   242  of   331
      total cpu time spent up to now is       45.5 secs
 
-     Computing kpt #:   247  of   331
+     Computing kpt #:   243  of   331
      total cpu time spent up to now is       45.7 secs
 
-     Computing kpt #:   248  of   331
-     total cpu time spent up to now is       45.9 secs
+     Computing kpt #:   244  of   331
+     total cpu time spent up to now is       45.8 secs
 
-     Computing kpt #:   249  of   331
+     Computing kpt #:   245  of   331
+     total cpu time spent up to now is       46.0 secs
+
+     Computing kpt #:   246  of   331
      total cpu time spent up to now is       46.1 secs
 
-     Computing kpt #:   250  of   331
-     total cpu time spent up to now is       46.2 secs
+     Computing kpt #:   247  of   331
+     total cpu time spent up to now is       46.3 secs
 
-     Computing kpt #:   251  of   331
-     total cpu time spent up to now is       46.4 secs
-
-     Computing kpt #:   252  of   331
+     Computing kpt #:   248  of   331
      total cpu time spent up to now is       46.5 secs
 
-     Computing kpt #:   253  of   331
-     total cpu time spent up to now is       46.7 secs
+     Computing kpt #:   249  of   331
+     total cpu time spent up to now is       46.6 secs
 
-     Computing kpt #:   254  of   331
+     Computing kpt #:   250  of   331
      total cpu time spent up to now is       46.8 secs
 
-     Computing kpt #:   255  of   331
+     Computing kpt #:   251  of   331
      total cpu time spent up to now is       46.9 secs
 
-     Computing kpt #:   256  of   331
-     total cpu time spent up to now is       47.0 secs
+     Computing kpt #:   252  of   331
+     total cpu time spent up to now is       47.1 secs
 
-     Computing kpt #:   257  of   331
+     Computing kpt #:   253  of   331
      total cpu time spent up to now is       47.2 secs
 
-     Computing kpt #:   258  of   331
+     Computing kpt #:   254  of   331
      total cpu time spent up to now is       47.3 secs
 
-     Computing kpt #:   259  of   331
+     Computing kpt #:   255  of   331
      total cpu time spent up to now is       47.4 secs
 
-     Computing kpt #:   260  of   331
-     total cpu time spent up to now is       47.6 secs
+     Computing kpt #:   256  of   331
+     total cpu time spent up to now is       47.5 secs
 
-     Computing kpt #:   261  of   331
+     Computing kpt #:   257  of   331
      total cpu time spent up to now is       47.7 secs
 
-     Computing kpt #:   262  of   331
-     total cpu time spent up to now is       47.9 secs
+     Computing kpt #:   258  of   331
+     total cpu time spent up to now is       47.8 secs
 
-     Computing kpt #:   263  of   331
+     Computing kpt #:   259  of   331
+     total cpu time spent up to now is       48.0 secs
+
+     Computing kpt #:   260  of   331
      total cpu time spent up to now is       48.1 secs
 
-     Computing kpt #:   264  of   331
-     total cpu time spent up to now is       48.3 secs
+     Computing kpt #:   261  of   331
+     total cpu time spent up to now is       48.2 secs
 
-     Computing kpt #:   265  of   331
+     Computing kpt #:   262  of   331
      total cpu time spent up to now is       48.4 secs
 
-     Computing kpt #:   266  of   331
-     total cpu time spent up to now is       48.5 secs
+     Computing kpt #:   263  of   331
+     total cpu time spent up to now is       48.6 secs
 
-     Computing kpt #:   267  of   331
+     Computing kpt #:   264  of   331
      total cpu time spent up to now is       48.7 secs
 
-     Computing kpt #:   268  of   331
-     total cpu time spent up to now is       48.8 secs
+     Computing kpt #:   265  of   331
+     total cpu time spent up to now is       48.9 secs
 
-     Computing kpt #:   269  of   331
+     Computing kpt #:   266  of   331
      total cpu time spent up to now is       49.0 secs
 
-     Computing kpt #:   270  of   331
-     total cpu time spent up to now is       49.1 secs
-
-     Computing kpt #:   271  of   331
+     Computing kpt #:   267  of   331
      total cpu time spent up to now is       49.2 secs
 
-     Computing kpt #:   272  of   331
-     total cpu time spent up to now is       49.4 secs
+     Computing kpt #:   268  of   331
+     total cpu time spent up to now is       49.3 secs
 
-     Computing kpt #:   273  of   331
+     Computing kpt #:   269  of   331
      total cpu time spent up to now is       49.5 secs
 
-     Computing kpt #:   274  of   331
+     Computing kpt #:   270  of   331
+     total cpu time spent up to now is       49.6 secs
+
+     Computing kpt #:   271  of   331
      total cpu time spent up to now is       49.7 secs
 
-     Computing kpt #:   275  of   331
-     total cpu time spent up to now is       49.8 secs
+     Computing kpt #:   272  of   331
+     total cpu time spent up to now is       49.9 secs
 
-     Computing kpt #:   276  of   331
+     Computing kpt #:   273  of   331
      total cpu time spent up to now is       50.0 secs
 
-     Computing kpt #:   277  of   331
+     Computing kpt #:   274  of   331
      total cpu time spent up to now is       50.2 secs
 
-     Computing kpt #:   278  of   331
+     Computing kpt #:   275  of   331
      total cpu time spent up to now is       50.3 secs
 
-     Computing kpt #:   279  of   331
+     Computing kpt #:   276  of   331
      total cpu time spent up to now is       50.5 secs
 
-     Computing kpt #:   280  of   331
-     total cpu time spent up to now is       50.6 secs
+     Computing kpt #:   277  of   331
+     total cpu time spent up to now is       50.7 secs
 
-     Computing kpt #:   281  of   331
+     Computing kpt #:   278  of   331
      total cpu time spent up to now is       50.8 secs
 
-     Computing kpt #:   282  of   331
-     total cpu time spent up to now is       50.9 secs
-
-     Computing kpt #:   283  of   331
+     Computing kpt #:   279  of   331
      total cpu time spent up to now is       51.0 secs
 
-     Computing kpt #:   284  of   331
+     Computing kpt #:   280  of   331
      total cpu time spent up to now is       51.2 secs
 
-     Computing kpt #:   285  of   331
+     Computing kpt #:   281  of   331
      total cpu time spent up to now is       51.3 secs
 
-     Computing kpt #:   286  of   331
-     total cpu time spent up to now is       51.5 secs
+     Computing kpt #:   282  of   331
+     total cpu time spent up to now is       51.4 secs
 
-     Computing kpt #:   287  of   331
+     Computing kpt #:   283  of   331
+     total cpu time spent up to now is       51.6 secs
+
+     Computing kpt #:   284  of   331
      total cpu time spent up to now is       51.7 secs
 
-     Computing kpt #:   288  of   331
+     Computing kpt #:   285  of   331
      total cpu time spent up to now is       51.9 secs
 
-     Computing kpt #:   289  of   331
-     total cpu time spent up to now is       52.0 secs
+     Computing kpt #:   286  of   331
+     total cpu time spent up to now is       52.1 secs
 
-     Computing kpt #:   290  of   331
+     Computing kpt #:   287  of   331
      total cpu time spent up to now is       52.2 secs
 
-     Computing kpt #:   291  of   331
-     total cpu time spent up to now is       52.3 secs
-
-     Computing kpt #:   292  of   331
+     Computing kpt #:   288  of   331
      total cpu time spent up to now is       52.5 secs
 
-     Computing kpt #:   293  of   331
+     Computing kpt #:   289  of   331
      total cpu time spent up to now is       52.6 secs
 
-     Computing kpt #:   294  of   331
+     Computing kpt #:   290  of   331
      total cpu time spent up to now is       52.8 secs
 
-     Computing kpt #:   295  of   331
+     Computing kpt #:   291  of   331
      total cpu time spent up to now is       52.9 secs
 
-     Computing kpt #:   296  of   331
+     Computing kpt #:   292  of   331
      total cpu time spent up to now is       53.1 secs
 
-     Computing kpt #:   297  of   331
+     Computing kpt #:   293  of   331
+     total cpu time spent up to now is       53.2 secs
+
+     Computing kpt #:   294  of   331
      total cpu time spent up to now is       53.3 secs
 
-     Computing kpt #:   298  of   331
-     total cpu time spent up to now is       53.4 secs
+     Computing kpt #:   295  of   331
+     total cpu time spent up to now is       53.5 secs
 
-     Computing kpt #:   299  of   331
-     total cpu time spent up to now is       53.6 secs
+     Computing kpt #:   296  of   331
+     total cpu time spent up to now is       53.7 secs
 
-     Computing kpt #:   300  of   331
+     Computing kpt #:   297  of   331
      total cpu time spent up to now is       53.8 secs
 
-     Computing kpt #:   301  of   331
-     total cpu time spent up to now is       53.9 secs
+     Computing kpt #:   298  of   331
+     total cpu time spent up to now is       54.0 secs
 
-     Computing kpt #:   302  of   331
-     total cpu time spent up to now is       54.1 secs
+     Computing kpt #:   299  of   331
+     total cpu time spent up to now is       54.2 secs
 
-     Computing kpt #:   303  of   331
+     Computing kpt #:   300  of   331
      total cpu time spent up to now is       54.3 secs
 
-     Computing kpt #:   304  of   331
-     total cpu time spent up to now is       54.4 secs
-
-     Computing kpt #:   305  of   331
+     Computing kpt #:   301  of   331
      total cpu time spent up to now is       54.5 secs
 
-     Computing kpt #:   306  of   331
-     total cpu time spent up to now is       54.7 secs
+     Computing kpt #:   302  of   331
+     total cpu time spent up to now is       54.6 secs
 
-     Computing kpt #:   307  of   331
+     Computing kpt #:   303  of   331
+     total cpu time spent up to now is       54.8 secs
+
+     Computing kpt #:   304  of   331
      total cpu time spent up to now is       54.9 secs
 
-     Computing kpt #:   308  of   331
+     Computing kpt #:   305  of   331
      total cpu time spent up to now is       55.1 secs
 
-     Computing kpt #:   309  of   331
-     total cpu time spent up to now is       55.3 secs
+     Computing kpt #:   306  of   331
+     total cpu time spent up to now is       55.2 secs
 
-     Computing kpt #:   310  of   331
+     Computing kpt #:   307  of   331
      total cpu time spent up to now is       55.4 secs
 
-     Computing kpt #:   311  of   331
+     Computing kpt #:   308  of   331
      total cpu time spent up to now is       55.6 secs
 
-     Computing kpt #:   312  of   331
+     Computing kpt #:   309  of   331
      total cpu time spent up to now is       55.7 secs
 
-     Computing kpt #:   313  of   331
+     Computing kpt #:   310  of   331
      total cpu time spent up to now is       55.9 secs
 
-     Computing kpt #:   314  of   331
+     Computing kpt #:   311  of   331
+     total cpu time spent up to now is       56.0 secs
+
+     Computing kpt #:   312  of   331
      total cpu time spent up to now is       56.1 secs
 
+     Computing kpt #:   313  of   331
+     total cpu time spent up to now is       56.3 secs
+
+     Computing kpt #:   314  of   331
+     total cpu time spent up to now is       56.5 secs
+
      Computing kpt #:   315  of   331
-     total cpu time spent up to now is       56.2 secs
-
-     Computing kpt #:   316  of   331
-     total cpu time spent up to now is       56.4 secs
-
-     Computing kpt #:   317  of   331
      total cpu time spent up to now is       56.6 secs
 
-     Computing kpt #:   318  of   331
+     Computing kpt #:   316  of   331
      total cpu time spent up to now is       56.8 secs
 
-     Computing kpt #:   319  of   331
-     total cpu time spent up to now is       56.9 secs
+     Computing kpt #:   317  of   331
+     total cpu time spent up to now is       57.0 secs
 
-     Computing kpt #:   320  of   331
+     Computing kpt #:   318  of   331
      total cpu time spent up to now is       57.1 secs
 
-     Computing kpt #:   321  of   331
-     total cpu time spent up to now is       57.2 secs
+     Computing kpt #:   319  of   331
+     total cpu time spent up to now is       57.3 secs
 
-     Computing kpt #:   322  of   331
+     Computing kpt #:   320  of   331
      total cpu time spent up to now is       57.4 secs
 
-     Computing kpt #:   323  of   331
-     total cpu time spent up to now is       57.5 secs
+     Computing kpt #:   321  of   331
+     total cpu time spent up to now is       57.6 secs
 
-     Computing kpt #:   324  of   331
+     Computing kpt #:   322  of   331
      total cpu time spent up to now is       57.7 secs
 
-     Computing kpt #:   325  of   331
-     total cpu time spent up to now is       57.8 secs
+     Computing kpt #:   323  of   331
+     total cpu time spent up to now is       57.9 secs
 
-     Computing kpt #:   326  of   331
+     Computing kpt #:   324  of   331
      total cpu time spent up to now is       58.0 secs
 
-     Computing kpt #:   327  of   331
-     total cpu time spent up to now is       58.1 secs
+     Computing kpt #:   325  of   331
+     total cpu time spent up to now is       58.2 secs
 
-     Computing kpt #:   328  of   331
+     Computing kpt #:   326  of   331
      total cpu time spent up to now is       58.3 secs
 
-     Computing kpt #:   329  of   331
-     total cpu time spent up to now is       58.4 secs
-
-     Computing kpt #:   330  of   331
+     Computing kpt #:   327  of   331
      total cpu time spent up to now is       58.5 secs
 
+     Computing kpt #:   328  of   331
+     total cpu time spent up to now is       58.6 secs
+
+     Computing kpt #:   329  of   331
+     total cpu time spent up to now is       58.8 secs
+
+     Computing kpt #:   330  of   331
+     total cpu time spent up to now is       58.9 secs
+
      Computing kpt #:   331  of   331
-     total cpu time spent up to now is       58.7 secs
+     total cpu time spent up to now is       59.0 secs
 
      ethr =  5.00E-06,  avg # of iterations = 28.2
 
-     total cpu time spent up to now is       58.7 secs
+     total cpu time spent up to now is       59.0 secs
 
      End of band structure calculation
 
@@ -4941,55 +4941,55 @@ E      2.00 -1.00  0.00
 
      Writing all to output data dir ./tmp/C2L_AB_PBE_vdW.save/
 
-     init_run     :      9.39s CPU      9.41s WALL (       1 calls)
-     electrons    :     49.35s CPU     49.19s WALL (       1 calls)
+     init_run     :      9.53s CPU      9.60s WALL (       1 calls)
+     electrons    :     49.39s CPU     49.39s WALL (       1 calls)
 
      Called by init_run:
      wfcinit      :      0.00s CPU      0.00s WALL (       1 calls)
      wfcinit:atom :      0.06s CPU      0.06s WALL (     331 calls)
-     wfcinit:wfcr :      2.31s CPU      2.31s WALL (     331 calls)
-     potinit      :      9.03s CPU      9.05s WALL (       1 calls)
-     hinit0       :      0.31s CPU      0.31s WALL (       1 calls)
+     wfcinit:wfcr :      2.37s CPU      2.39s WALL (     331 calls)
+     potinit      :      9.17s CPU      9.22s WALL (       1 calls)
+     hinit0       :      0.32s CPU      0.32s WALL (       1 calls)
 
      Called by electrons:
-     c_bands      :     49.34s CPU     49.17s WALL (       1 calls)
-     v_of_rho     :      9.03s CPU      9.05s WALL (       1 calls)
+     c_bands      :     49.38s CPU     49.38s WALL (       1 calls)
+     v_of_rho     :      9.16s CPU      9.22s WALL (       1 calls)
      v_h          :      0.00s CPU      0.00s WALL (       1 calls)
-     v_xc         :      9.03s CPU      9.05s WALL (       1 calls)
-     vdW_kernel   :      8.99s CPU      9.00s WALL (       1 calls)
+     v_xc         :      9.16s CPU      9.22s WALL (       1 calls)
+     vdW_kernel   :      9.11s CPU      9.17s WALL (       1 calls)
 
      Called by c_bands:
      init_us_2    :      0.05s CPU      0.05s WALL (     331 calls)
      init_us_2:cp :      0.05s CPU      0.05s WALL (     331 calls)
-     cegterg      :     46.59s CPU     46.36s WALL (     640 calls)
+     cegterg      :     46.58s CPU     46.50s WALL (     640 calls)
 
      Called by sum_band:
 
      Called by *egterg:
-     cdiaghg      :      3.39s CPU      3.43s WALL (    9678 calls)
-     cegterg:over :      3.63s CPU      3.71s WALL (    9347 calls)
-     cegterg:upda :      3.24s CPU      3.06s WALL (    9347 calls)
-     cegterg:last :      4.42s CPU      3.26s WALL (    4364 calls)
-     h_psi        :     32.17s CPU     32.80s WALL (   10318 calls)
-     g_psi        :      0.31s CPU      0.45s WALL (    9347 calls)
+     cdiaghg      :      3.28s CPU      3.34s WALL (    9678 calls)
+     cegterg:over :      3.63s CPU      3.72s WALL (    9347 calls)
+     cegterg:upda :      3.19s CPU      3.02s WALL (    9347 calls)
+     cegterg:last :      4.43s CPU      3.30s WALL (    4364 calls)
+     h_psi        :     32.45s CPU     33.21s WALL (   10318 calls)
+     g_psi        :      0.30s CPU      0.42s WALL (    9347 calls)
 
      Called by h_psi:
-     h_psi:calbec :      2.26s CPU      2.33s WALL (   10318 calls)
-     vloc_psi     :     26.75s CPU     27.67s WALL (   10318 calls)
-     add_vuspsi   :      2.91s CPU      2.49s WALL (   10318 calls)
+     h_psi:calbec :      2.41s CPU      2.48s WALL (   10318 calls)
+     vloc_psi     :     26.86s CPU     27.92s WALL (   10318 calls)
+     add_vuspsi   :      2.90s CPU      2.48s WALL (   10318 calls)
 
      General routines
-     calbec       :      2.24s CPU      2.30s WALL (   10318 calls)
-     fft          :      0.28s CPU      0.28s WALL (      61 calls)
-     fftw         :     23.99s CPU     24.70s WALL (  153658 calls)
+     calbec       :      2.40s CPU      2.45s WALL (   10318 calls)
+     fft          :      0.29s CPU      0.29s WALL (      61 calls)
+     fftw         :     24.08s CPU     24.92s WALL (  153658 calls)
      davcio       :      0.00s CPU      0.07s WALL (     662 calls)
 
      Parallel routines
 
-     PWSCF        :     59.53s CPU     59.78s WALL
+     PWSCF        :     59.74s CPU   1m 0.21s WALL
 
 
-   This run was terminated on:  21:28:53  15Apr2024            
+   This run was terminated on:   9: 4:10  16Apr2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

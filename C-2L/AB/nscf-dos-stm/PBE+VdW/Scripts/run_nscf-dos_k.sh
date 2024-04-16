@@ -10,7 +10,7 @@ cp -r tmp tmp$kpt
 sed "s/12 12/$kpt $kpt/" c_2l_AB.nscf.in > kpttmp_$kpt.in
 sed "s/tmp/tmp$kpt/"  kpttmp_$kpt.in > kpt_$kpt.in
 sed "s/tmp/tmp$kpt/"  dos.in > dostmp_$kpt.in
-sed "s/graphene_PBE_vdW_DOS/graphene_PBE_vdW_DOS$kpt/"  dostmp_$kpt.in > dos_$kpt.in
+sed "s/C2L_AB_PBE_vdW_DOS/C2L_AB_PBE_vdW_DOS$kpt/"  dostmp_$kpt.in > dos_$kpt.in
 mpirun pw.x < kpt_$kpt.in > kpt_$kpt.out
 mpirun dos.x < dos_$kpt.in > dos_$kpt.out
 
