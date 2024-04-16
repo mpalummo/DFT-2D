@@ -14,8 +14,8 @@ We will learn how relax the atomic structure and cell parameters. How to calcula
 ## Running the exercise
   1. Run the exercises in the folder [convergence].
   2. Run the exercises in the folder [vc-relax].
-  3. Run the exercised in the folder [scf]
-  4. Run the exercised in the folder [bands]
-  5. Run the exercised in the folder [nscf-dos]
-  6. Run the exercised in the folder [pdos]
+  3. Run the exercises in the folder [scf]
+  4. Run the exercises in the folder [bands]
+  5. Run the exercises in the folder [nscf-dos]
+  6. Run the exercises in the folder [pdos]
 
