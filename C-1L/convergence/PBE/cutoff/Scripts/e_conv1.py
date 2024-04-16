@@ -6,7 +6,7 @@ from matplotlib.ticker import MultipleLocator, FormatStrFormatter
 plt.rcParams['pdf.fonttype'] = 42
 plt.rcParams['ps.fonttype'] = 42
 
-etot_vs_ecut = np.genfromtxt('./Etot_vs_ecut.dat',comments="#")
+etot_vs_ecut = np.genfromtxt('./Etot_vs_ecut_PBE.dat',comments="#")
 
 fig, axs = plt.subplots(2)
 #fig.suptitle('Convergence')
@@ -28,7 +28,7 @@ axs[1].set_xlabel('$E_{cut}(Ry)$',fontsize=16)
 axs[0].set_xlim(40,100)
 axs[1].set_xlim(40,100)
 axs[0].set_ylim(-24.086,-24.)
-axs[1].set_ylim(-327.70,-327.50)
+axs[1].set_ylim(-327.27,-327.2)
 
 plt.savefig('Etot_vs_ecut.png', format='png')
 plt.show()

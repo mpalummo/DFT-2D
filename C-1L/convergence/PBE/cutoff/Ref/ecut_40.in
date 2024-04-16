@@ -19,14 +19,14 @@
                      ecutwfc = 40 ,
                         nbnd = 8,
                  occupations = 'smearing' ,
-                     degauss = 0.01 ,
+                     degauss = 0.005 ,
                     smearing = 'm-v' ,
 /
 &ELECTRONS
                  mixing_beta = 0.7 ,
 /
 ATOMIC_SPECIES
-    C   12.01100  C.UPF 
+    C   12.01100  C.upf 
 ATOMIC_POSITIONS crystal 
     C      0.000000000    0.000000000    0.000000000    
     C      0.333333333    0.666666667    0.000000000    
