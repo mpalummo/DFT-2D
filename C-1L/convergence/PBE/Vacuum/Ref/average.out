@@ -1,5 +1,5 @@
 
-     Program AVERAGE v.7.2 starts on 26Mar2024 at 16:58:36 
+     Program AVERAGE v.7.2 starts on 27Mar2024 at 10:55:40 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -21,10 +21,10 @@
      Reading data from file  graphene_PBE.pot
      Output written to file avg.dat
 
-     AVERAGE      :      0.27s CPU      0.27s WALL
+     AVERAGE      :      0.36s CPU      0.36s WALL
 
 
-   This run was terminated on:  16:58:36  26Mar2024            
+   This run was terminated on:  10:55:41  27Mar2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.
