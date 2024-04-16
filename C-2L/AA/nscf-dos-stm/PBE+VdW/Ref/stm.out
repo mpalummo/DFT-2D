@@ -1,5 +1,5 @@
 
-     Program POST-PROC v.7.2 starts on 13Apr2024 at 15: 5:22 
+     Program POST-PROC v.7.2 starts on 16Apr2024 at  9:53:51 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -21,7 +21,7 @@
 
      Reading xml data from directory:
 
-     ./tmp/C2L_AB_PBE_vdW.save/
+     ./tmp/C2L_AA_PBE_vdW.save/
 
      IMPORTANT: XC functional enforced from input :
      Exchange-correlation= VDW-DF2-B86R
@@ -33,9 +33,9 @@
      Parallelization info
      --------------------
      sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
-     Min          45      45     13                 5519     5519     935
-     Max          46      46     14                 5546     5546     964
-     Sum         361     361    109                44285    44285    7615
+     Min          45      45     13                 5519     5519     941
+     Max          46      46     14                 5546     5546     968
+     Sum         361     361    109                44285    44285    7663
 
      Using Slab Decomposition
 
@@ -78,18 +78,18 @@
 
      Calling punch_plot, plot_num =   5
      Use the true wfcs
-     Sample bias          = -0.5442 eV
-     STM          :      0.41s CPU      0.94s WALL (       1 calls)
+     Sample bias          = -0.5143 eV
+     STM          :      0.05s CPU      0.06s WALL (       1 calls)
      Writing data to file  tmp.pp
      Reading data from file  tmp.pp
 
-     Writing data to be plotted to file C2L_AB_PBE_vdW_stm.xsf
+     Writing data to be plotted to file C2L_AA_PBE_vdW_stm.xsf
      Plot Type: 3D                     Output format: XCrySDen     
 
-     POST-PROC    :      9.00s CPU      9.64s WALL
+     POST-PROC    :      9.92s CPU     10.05s WALL
 
 
-   This run was terminated on:  15: 5:32  13Apr2024            
+   This run was terminated on:   9:54: 1  16Apr2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

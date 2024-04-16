@@ -1,7 +1,0 @@
-&dos
-    outdir='./tmp'
-    prefix='C2L_AA_PBE_vdW'
-    fildos='C2L_AA_PBE_vdW_DOS.dat',
-    degauss=0.01
-    Emin=-10.0, Emax=10.0, DeltaE=0.01
-/

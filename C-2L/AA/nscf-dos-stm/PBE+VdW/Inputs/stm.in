@@ -1,16 +1,16 @@
 &INPUTPP
  outdir='./tmp'
- prefix='C2L_AB_PBE_vdW'
+ prefix='C2L_AA_PBE_vdW'
  plot_num=5
- sample_bias= -0.04
+ sample_bias= -.0378
 /
 &PLOT
  nfile=1
- filepp(1)='AlAs-1.0'
+ filepp(1)='C2L_AA_PBE_vdW'
  weight(1)=1.0
  iflag=3
  output_format=5
 ! output_format=6
-  fileout="C2L_AB_PBE_vdW_stm.xsf"
-! fileout="C2L_AB_PBE_vdW_stm.cube"
+  fileout="C2L_AA_PBE_vdW_stm.xsf"
+! fileout="C2L_AA_PBE_vdW_stm.cube"
 /

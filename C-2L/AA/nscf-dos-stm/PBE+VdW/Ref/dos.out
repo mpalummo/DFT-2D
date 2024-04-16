@@ -1,5 +1,5 @@
 
-     Program DOS v.7.2 starts on 13Apr2024 at 14:27:34 
+     Program DOS v.7.2 starts on 14Apr2024 at 16:18: 8 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -21,7 +21,7 @@
 
      Reading xml data from directory:
 
-     ./tmp/C2L_AB_PBE_vdW.save/
+     ./tmp/C2L_AA_PBE_vdW.save/
 
      IMPORTANT: XC functional enforced from input :
      Exchange-correlation= VDW-DF2-B86R
@@ -33,9 +33,9 @@
      Parallelization info
      --------------------
      sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
-     Min          45      45     13                 5519     5519     935
-     Max          46      46     14                 5546     5546     964
-     Sum         361     361    109                44285    44285    7615
+     Min          45      45     13                 5519     5519     937
+     Max          46      46     14                 5546     5546     966
+     Sum         361     361    109                44285    44285    7639
 
      Using Slab Decomposition
 
@@ -79,10 +79,10 @@
      Gaussian broadening (read from input): ngauss,degauss=   0    0.010000
 
 
-     DOS          :      8.45s CPU      8.49s WALL
+     DOS          :      9.52s CPU      9.59s WALL
 
 
-   This run was terminated on:  14:27:42  13Apr2024            
+   This run was terminated on:  16:18:17  14Apr2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.
