@@ -6,17 +6,11 @@ cp ./Inputs/*in .
 cp ./Scripts/* . 
 
 if your shell is not zsh substitute zsh with bash at the beginning of the script file
-<<<<<<< Updated upstream
-
-run_bands.sh  close and run it 
-=======
 run_bands.sh,  close it  and run doing:
->>>>>>> Stashed changes
 
 ./run_bands.sh
 
 At the end you should have c_2l_AB.scf.out, c_2l_AB.bands.out, bands.out 
-<<<<<<< Updated upstream
 Open them and check everything is ok
 
 There should be Aaso other 3 files Band* 
@@ -25,14 +19,4 @@ You can use the python script plot_bands.py to plot them.
 python plot_bands.py 
 
 At the end you should have a file Bande_AB-BG_vdW.png in a png format to plot.
-=======
-Open the three output files and check that everything is ok
-
-3 files Band* should be there. 
-You can use the the script plot_bands.py to plot them
-
-python plot_bands.py 
-
-At the end you should have a file Bande_AB-BG_vdW.png that is a png format
->>>>>>> Stashed changes
 # 
