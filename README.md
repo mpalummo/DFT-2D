@@ -41,6 +41,6 @@ The repository can be updated by running
   ```
 Alternatively, you can download a static copy by browsing to https://github.com/mpalummo/DFT-2D , click the green Code button and Download zip (unzip to extract)
 
-### [Graphene monolayer (C_1L)](C_1L)
-  1. Run calculations for graphene monolayer : fixed/not-fixed occupations
-  2. Check the supercell size for a 2D material : Compute the vacuum level and work function.
+#  Go in the different subdirectories in this order
+
+C_1L, C_2L, BN_1L, BN_2L
