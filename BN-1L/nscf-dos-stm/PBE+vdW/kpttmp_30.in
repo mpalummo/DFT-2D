@@ -1,0 +1,46 @@
+&CONTROL
+    calculation       = 'nscf'
+    restart_mode      = 'from_scratch'
+    prefix            = 'hBN_1l_PBE_vdW'
+    tstress           = .true.
+    tprnfor           = .true.
+    pseudo_dir        = '../../../Pseudo/PBE'
+    outdir            = './tmp'
+    verbosity         = 'high'
+    disk_io = 'minimal'
+    wf_collect        = .true.
+/
+&SYSTEM
+                       ibrav = 4,
+                   celldm(1) = 4.747,
+                   celldm(3) = 6,
+                         nat = 2,
+                        ntyp = 2,
+                     ecutwfc = 60 ,
+!                        nbnd = 16,
+                    occupations = 'smearing' ,
+                    degauss = 0.005 ,
+                    smearing = 'm-v' ,
+                    input_dft = 'vdw-df2-b86r'
+/
+&ELECTRONS
+    diago_thr_init=5.0e-6,
+    diago_full_acc=.true.
+    mixing_mode = 'plain'
+    conv_thr =  1.0d-7,
+    mixing_beta = 0.7
+!    diago_david_ndim = 2/
+/
+/
+$IONS
+/
+$CELL
+/
+ATOMIC_SPECIES
+    N   14.00670  N.upf
+    B   10.80100  B.upf 
+ATOMIC_POSITIONS crystal 
+    B      0.000000000    0.000000000    0.000000000    
+    N      0.333333333    0.666666667    0.000000000    
+K_POINTS automatic
+30 30 1 0 0 0

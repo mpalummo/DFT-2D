@@ -12,7 +12,7 @@
 /
 &SYSTEM
                        ibrav = 4,
-                   celldm(1) = 4.635,
+                   celldm(1) = 4.747,
                    celldm(3) = 6,
                          nat = 2,
                         ntyp = 2,
