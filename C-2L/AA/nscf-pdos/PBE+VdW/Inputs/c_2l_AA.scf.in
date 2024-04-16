@@ -1,7 +1,7 @@
 &CONTROL
-    calculation       = 'nscf'
+    calculation       = 'scf'
 !    restart_mode      = 'restart'
-    prefix            = 'C2L_AB_PBE_vdW'
+    prefix            = 'C2L_AA_PBE_vdW'
     tstress           = .true.
     tprnfor           = .true.
     pseudo_dir        = '../../../../Pseudo/PBE'
@@ -13,33 +13,30 @@
 /
 &SYSTEM   
            ibrav = 4,
-           celldm(1) = 4.66447,
+           celldm(1) = 4.66495,
            celldm(3) = 8,
            nat = 4,
            ntyp = 1,
            ecutwfc = 60,
-           nbnd = 16
            occupations = 'smearing' ,
            degauss = 0.005 ,
            smearing = 'm-v' ,
            input_dft = 'vdw-df2-b86r'
 /
 &ELECTRONS
-    diago_thr_init=5.0e-6,
-    diago_full_acc=.true.
-    mixing_mode = 'plain'
-    conv_thr =  1.0d-7,
-    mixing_beta = 0.7
-!    diago_david_ndim = 2
+                 mixing_beta = 0.7 ,
 /
 &IONS
+/
+&CELL
+cell_dofree = 'all'
 /
 ATOMIC_SPECIES
     C   12.01100  C.upf 
 ATOMIC_POSITIONS crystal 
-C 0.000000 0.000000 0.00000  0 0 0
-C 0.000000 0.000000 0.167517
-C 0.666667 0.333333 0.000000  0 0 0
-C 0.333333 0.666667 0.167517
-K_POINTS {automatic}
-60 60 1 0 0 0
+C 0.000000 0.000000 0.00000 0 0 0 
+C 0.666667 0.333333 0.00000 0 0 0
+C 0.000000 0.000000  .176564
+C 0.666667 0.333333  .176564
+K_POINTS automatic
+12 12 1	0 0 0

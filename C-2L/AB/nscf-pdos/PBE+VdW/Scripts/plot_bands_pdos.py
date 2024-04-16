@@ -13,11 +13,14 @@ colonna2_bs = []
 
 sublists_bs = []
 
+efermi1 = -0.5156 
+efermi2 = -0.5489
+
 for line in lines:
     if line.strip():  
         values = line.split()
         colonna1_bs.append(float(values[0]))
-        colonna2_bs.append(float(values[1]) +0.5713)  
+        colonna2_bs.append(float(values[1]) -efermi1)  
     else:
         sublists_bs.append((colonna1_bs, colonna2_bs))
         colonna1_bs= []
@@ -73,11 +76,12 @@ axs[1].set_xlim(0,0.5)
 axs[1].set_ylim(-4,4)
 axs[0].plot(xFermi,yFermi,"--", color="black", label="$E_F$", lw=2)
 axs[1].plot(y_Fermi,x_Fermi,"--", color="black", label="$E_F$", lw=2)
-axs[1].plot(dos_C1_p[:,1], dos_C1_p[:,0]+0.5954, color="orange", lw=2, label="$p_z 1 \ 1 layer $")
-axs[1].plot(dos_C2_p[:,1]+0.1, dos_C2_p[:,0]+0.5954, color="green", lw=2, label="$p_z 1 \ 2 layer $")
-axs[1].plot(dos_C3_p[:,1]+0.2, dos_C3_p[:,0]+0.5954, color="blue", lw=2, label="$p_z 2 \ 1 layer $")
-axs[1].plot(dos_C4_p[:,1]+0.3, dos_C4_p[:,0]+0.5954, color="magenta", lw=2, label="$p_z 2 \ 2 layer $")
+axs[1].plot(dos_C1_p[:,1], dos_C1_p[:,0]-efermi2, color="orange", lw=2, label="$p_z 1 \ 1 layer $")
+axs[1].plot(dos_C2_p[:,1]+0.1, dos_C2_p[:,0]-efermi2, color="green", lw=2, label="$p_z 1 \ 2 layer $")
+axs[1].plot(dos_C3_p[:,1]+0.2, dos_C3_p[:,0]-efermi2, color="blue", lw=2, label="$p_z 2 \ 1 layer $")
+axs[1].plot(dos_C4_p[:,1]+0.3, dos_C4_p[:,0]-efermi2, color="magenta", lw=2, label="$p_z 2 \ 2 layer $")
 axs[1].legend(loc='upper right')
 
 
+plt.savefig('pdos60kpt_AB-BG_PBE_vdW.png', format='png')
 plt.show()

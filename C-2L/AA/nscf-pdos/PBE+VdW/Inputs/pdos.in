@@ -1,5 +1,5 @@
 &PROJWFC
-prefix="C2L_AB_PBE_vdW",
+prefix="C2L_AA_PBE_vdW",
 outdir="./tmp/",
-filpdos= 'C2L_AB_PBE_vdW_DOS.dat'
+filpdos= 'C2L_AA_PBE_vdW_DOS.dat'
 /

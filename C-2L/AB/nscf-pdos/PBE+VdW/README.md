@@ -1,10 +1,9 @@
-# cd AB/bands/PBE+vdW
+# cd AB/nscf-pdos/PBE+vdW
 
 Copy the input files and script to run and plot  from the two directories
 cp ./Inputs/*in .
 cp ./Scripts/* . 
-# if your shell is not zsh substitute zsh with bash at the beginning of the script file
-run_bands.sh  close and run
+# if your shell is not zsh substitute zsh with bash at the beginning of the script file close and run it
 
 ./run_nscf-pdos.sh
 
@@ -15,9 +14,9 @@ Several files called C2L_AB_PBE_vdW_DOS.dat.pdos* should be there.
 Check here https://www.quantum-espresso.org/Doc/INPUT_PROJWFC.html#idm100
 how the different angular components are reported in the files.
 
-You can use the script plot_pdos.py to plot p_x,p_y,p_z,s of the 4 Carbon atoms
+You can use the script plot_pdos.py to plot the contribution to the DOS of p_x,p_y,p_z,s of the 4 Carbon atoms
 
 python plot_pdos.py 
 
-At the end you should have a file pdos60kpt_graphene_PBE_vdW.png  in a png format
+At the end you should have a file pdos60kpt_C2L_AB_PBE_vdW.png  in a png format
 # 
