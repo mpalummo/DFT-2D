@@ -1,4 +1,4 @@
-set terminal pngcairo enhanced size 15cm,10cm
+set terminal pngcairo enhanced size 25cm,20cm
 set output 'Etot_vs_kpt.png'
 
 set xlabel 'k-points'

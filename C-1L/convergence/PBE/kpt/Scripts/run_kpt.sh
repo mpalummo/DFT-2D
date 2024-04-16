@@ -1,4 +1,3 @@
-##!/bin/bash
 #!/bin/zsh
 
 for i in  3 6 9 12 15 18 21 24 
@@ -22,4 +21,4 @@ sed -i '' -e "s/kpt_//" kpttmp.dat
 sed -i '' -e "s/.out:!    total energy              =//" kpttmp.dat
 
 sort -n kpttmp.dat > Etot_vs_kpt.dat 
-!rm kpttmp.dat
+rm kpttmp.dat
