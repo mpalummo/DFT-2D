@@ -18,5 +18,5 @@ Here we will learn how to different stacking of the two layers influence the str
   7. Run the exercises in the folder [A1B/vc-relax]
   8. Run the exercises in the folder [A1B/scf-bands]
   9. Run the exercises in the folder [AB1/vc-relax]
-  10. Run the exercises in the folder [AB1/scf-bands]
-
+ 10. Run the exercises in the folder [AB1/scf-bands]
+#

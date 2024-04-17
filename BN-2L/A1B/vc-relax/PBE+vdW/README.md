@@ -7,6 +7,11 @@ cp ./Inputs/* .
 
 mpirun pw.x < bn_2l.vc-relax.in > bn_2l.vc-relax.out 
 
-Use the relaxed geometry in the other scf and nscf calculations
+The relaxed cell and atomic position at the end of the file have introduced in the other input bn_2l.relax.in 
+you can run it and check the atoms will not move since they are already at the equilibrium
+
+mpirun pw.x < bn_2l.relax.in > bn_2l.relax.out 
+
+The equilibrium structure is used in the inputs files of the other directories where scf and nscf or bands or post-prosessing are only done
 
 If you wish you can find the equilibrium structure for PBE and LDA cases

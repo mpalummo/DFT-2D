@@ -10,7 +10,7 @@ colonna2 = []
 
 sublists = []
 
-efermi = -.6632
+efermi = -0.6967
 
 for line in lines:
     if line.strip(): 

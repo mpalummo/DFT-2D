@@ -1,7 +1,8 @@
 #
-cd BN-2L/scf-bands/PBE+vdW
+cd BN-2L/AA1/scf-bands/PBE+vdW
 
-Copy the input files and Scripts to run and tp plot  from the two sub-directories
+Copy the input files and Scripts files to run and to plot the Bandstructure
+
 cp ./Inputs/*in .
 cp ./Scripts/* . 
 
@@ -19,6 +20,6 @@ You can use the python script plot_bands.py to plot the B*gnu file
 
 python plot_bands.py 
 
-At the end you should have a file Bands_BN_2L_PBE-vdW.png	 in a png format to plot.
+At the end you should have a file Bands_BN_2L_AA1_PBE-vdW.png in a png format 
 
 If you wish you can repeat the same calculations for the LDA and PBE relaxed structures and compare them 
