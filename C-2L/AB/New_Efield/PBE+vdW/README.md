@@ -29,4 +29,5 @@ You can use the the script plot_bands.py to plot them
 python plot_bands.py 
 
 At the end you should have a file Bande-2-C2L_AB_Efield_PBE.png that is a png format
-# 
+#
+you can repeat the simulations changing eamp from 0.004 to 0.006 and see how the final bandstructures change 
