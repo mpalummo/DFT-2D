@@ -8,6 +8,8 @@ Beginner tutorial for Density Functional Theory (DFT) calculations for 2D materi
 * A working version of gnuplot (>=5.0) (Some scripts will generate gnuplot files to plot the results. Other programs can also be used)
 * A working version of XCrySDen (http://www.xcrysden.org/), a program that can visualize input and output files of QE.
 * A working version of avogadro (https://avogadro.cc/), a program for creating and viewing molecular structures
+* A working version of python (>=3) with matplotlib and numpy installed 
+
 
 ## Installing/Compiling QE
 * QE can be installed from repository for Debian based linux distros (e.g.: Ubuntu) by running the command
@@ -43,4 +45,4 @@ Alternatively, you can download a static copy by browsing to https://github.com/
 
 #  Go in the different subdirectories in this order
 
-C_1L, C_2L, BN_1L, BN_2L
+C_1L, C_2L, BN_1L, BN_2L, MoS2-BULK, MoS2-1L,MoS2-2L
