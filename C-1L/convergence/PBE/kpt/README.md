@@ -1,4 +1,4 @@
-# Convergence on the kinetic energy cutoff
+# Convergence on the k-grids
   cd   C-1L/vc-relax/PBE/kpt
   cp ./Inputs/* .
   cp ./Scripts/* .
@@ -7,6 +7,6 @@
 
 At the end you should obtain Etot_vs_kpt.dat
 
-You can plot it is using one of the python scripts you copied from 
+You can plot it using one of the python scripts you copied from 
 the Script directory or using plot.gnu
-both procedures will create png files. 
+all procedures will create png files. 
