@@ -1,6 +1,0 @@
-&bands
- prefix = "BULK-MoS2"
- outdir = "./tmp"
- filband = "Bande-BULK-MoS2-SOC.dat"
- lsym=.true.
-/
