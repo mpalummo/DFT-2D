@@ -29,6 +29,6 @@ You can use the python script plot_bands_wsoc.py to plot the B*gnu file with soc
 
 python plot_bands_wsoc.py
 
-At the end you should have two files Bands_MoS2_bulk_PBE-vdW_nSOC.png and Bands_MoS2_bulk_PBE-vdW_wSOC.png in a png format 
+At the end you should have two files Bands_MoS2_bulk_PBE-vdW_nSOC.png and Bands_MoS2_bulk_PBE_wSOC.png in a png format 
 
 If you wish you can repeat the same calculations for the LDA and PBE relaxed structures and compare them 

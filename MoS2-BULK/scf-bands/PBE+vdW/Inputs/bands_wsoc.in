@@ -1,6 +1,6 @@
 &bands
-prefix = "MoS2_bulk_pbe_vdW_wsoc"
+prefix = "MoS2_bulk_pbe_wsoc"
 outdir = "./tmp"
-filband = "Bande_MoS2_bulk_pbe_vdW_wsoc.dat"
+filband = "Bande_MoS2_bulk_pbe_wsoc.dat"
 lsym=.true.
 /

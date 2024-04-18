@@ -1,7 +1,7 @@
 &control
     calculation='scf'
     restart_mode='from_scratch',
-    prefix='MoS2_bulk_pbe_vdW_wsoc',
+    prefix='MoS2_bulk_pbe_wsoc',
     pseudo_dir = '../../../Pseudo/PBE',
     outdir='./tmp'
     verbosity = 'high' ,

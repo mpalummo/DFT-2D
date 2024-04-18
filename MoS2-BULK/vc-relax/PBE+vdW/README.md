@@ -1,8 +1,10 @@
 # Relax the equilibrium cell and the atomic positions of the MoS2-BULK using xc PBE+vdW 
-Enter in the AB directory
+Enter in the directory
 
 cd  DFT-2D/MoS2-BULK/
 cd vc-relax/PBE+vdW
+
+cp ./Inputs/* .
 
 mpirun pw.x < MoS2_BULK.vc-relax.in > MoS2_BULK.vc-relax.out 
 
