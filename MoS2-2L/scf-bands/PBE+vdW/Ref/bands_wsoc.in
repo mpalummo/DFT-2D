@@ -1,6 +1,0 @@
-&bands
-prefix = "MoS2_2L_pbe_wsoc"
-outdir = "./tmp"
-filband = "Bande_MoS2_2L_pbe_wsoc.dat"
-lsym=.true.
-/
