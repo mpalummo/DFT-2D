@@ -17,7 +17,7 @@
                          nat = 2,
                         ntyp = 2,
                      ecutwfc = 60 ,
-!                        nbnd = 16,
+                        nbnd = 16,
                     occupations = 'smearing' ,
                     degauss = 0.005 ,
                     smearing = 'm-v' ,

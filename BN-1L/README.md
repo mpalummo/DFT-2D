@@ -9,14 +9,13 @@ We will learn how relax the atomic structure and cell parameters. How to calcula
 ## Purpose
   1. Calculate the convergence parameters: cutoff, k-points, vacuum along the non-periodic direction
   2. Calculate the equilibrium atomic structure through vc-relax using different xc-functionals
-  3. Calculate the charge density at equilibrium
-  4. Calculate and plot the dos, pdos, bandstructure
+  3. Calculate the charge density, bandstructure, dos, pdos and stm images at equilibrium
 
-## Running the exercise
+## Running the exercises
   1. Run the exercises in the folder [convergence]
   2. Run the exercises in the folder [vc-relax]
-  3. Run the exercised in the folder [bands]
-  4. Run the exercised in the folder [nscf-dos-stm]
-  5. Run the exercised in the folder [nscf-pdos]
+  3. Run the exercises in the folder [bands]
+  4. Run the exercises in the folder [nscf-dos-stm]
+  5. Run the exercises in the folder [nscf-pdos]
 
 

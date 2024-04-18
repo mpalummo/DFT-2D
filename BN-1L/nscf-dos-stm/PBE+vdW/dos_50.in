@@ -1,7 +1,0 @@
-&dos
-    outdir='./tmp50'
-    prefix='hBN_1l_PBE_vdW'
-    fildos='hBN_1l_PBE_vdW_DOS50.dat',
-    degauss=0.01
-    Emin=-10.0, Emax=10.0, DeltaE=0.01
-/

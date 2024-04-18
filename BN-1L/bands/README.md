@@ -21,4 +21,4 @@ python plot_bands.py
 
 At the end you should have a file Bands_BN_1L_PBE-vdW.png	 in a png format to plot.
 
-If you wish you can repeat the same calculations for relaxed structures at LDA and PBE level of approximation
+If you wish you can repeat the same calculations for the LDA and PBE relaxed structures and compare them 

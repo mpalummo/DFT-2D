@@ -1,5 +1,5 @@
 &PROJWFC
-prefix="hBN",
+prefix="hBN_1L_LDA",
 outdir="./tmp/",
-filpdos= 'hBN_pdos.dat'
+filpdos= 'hBN_1L_LDA_pdos.dat'
 /

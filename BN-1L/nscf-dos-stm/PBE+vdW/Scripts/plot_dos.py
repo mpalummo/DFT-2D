@@ -6,10 +6,11 @@ from matplotlib.ticker import MultipleLocator, FormatStrFormatter
 plt.rcParams['pdf.fonttype'] = 42
 plt.rcParams['ps.fonttype'] = 42
 
-dos30 = np.genfromtxt('./hBN_1l_PBE_vdW_DOS30.dat',comments="#")
-dos40 = np.genfromtxt('./hBN_1l_PBE_vdW_DOS40.dat',comments="#")
-dos50 = np.genfromtxt('./hBN_1l_PBE_vdW_DOS50.dat',comments="#")
-dos60 = np.genfromtxt('./hBN_1l_PBE_vdW_DOS60.dat',comments="#")
+dos30 = np.genfromtxt('hBN_1l_PBE_vdW_DOS30.dat',comments="#")
+dos40 = np.genfromtxt('hBN_1l_PBE_vdW_DOS40.dat',comments="#")
+dos50 = np.genfromtxt('hBN_1l_PBE_vdW_DOS50.dat',comments="#")
+dos60 = np.genfromtxt('hBN_1l_PBE_vdW_DOS60.dat',comments="#")
+
 fig, axs = plt.subplots()
 efermi=-1.2451
 axs.set_xlabel('$ E(eV) $',fontsize=16)

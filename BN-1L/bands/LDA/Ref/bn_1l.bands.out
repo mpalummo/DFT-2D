@@ -1,5 +1,5 @@
 
-     Program PWSCF v.7.2 starts on  6Apr2024 at 10: 4:51 
+     Program PWSCF v.7.2 starts on 16Apr2024 at 14: 7:53 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -10,8 +10,8 @@
      in publications or presentations arising from this work. More details at
      http://www.quantum-espresso.org/quote
 
-     Parallel version (MPI & OpenMP), running on       1 processor cores
-     Number of MPI processes:                 1
+     Parallel version (MPI & OpenMP), running on       8 processor cores
+     Number of MPI processes:                 8
      Threads/MPI process:                     1
 
      MPI processes distributed on     1 nodes
@@ -41,13 +41,16 @@ Warning: card / ignored
      Please, verify this is what you really want
 
 
+     R & G space division:  proc/nbgrp/npool/nimage =       8
      Subspace diagonalization in iterative solution of the eigenvalue problem:
      a serial algorithm will be used
 
 
-     G-vector sticks info
+     Parallelization info
      --------------------
      sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          45      45     14                 5687     5687     988
+     Max          46      46     16                 5712     5712    1001
      Sum         367     367    121                45625    45625    7963
 
      Using Slab Decomposition
@@ -391,35 +394,37 @@ E''    2.00 -1.00  0.00 -2.00  1.00  0.00
 
      Dense  grid:    45625 G-vectors     FFT dimensions: (  24,  24, 192)
 
-     Dynamical RAM for                 wfc:       1.39 MB
+     Dynamical RAM for                 wfc:       0.17 MB
 
-     Dynamical RAM for     wfc (w. buffer):       1.39 MB
+     Dynamical RAM for     wfc (w. buffer):       0.17 MB
 
-     Dynamical RAM for           str. fact:       1.39 MB
+     Dynamical RAM for           str. fact:       0.17 MB
 
      Dynamical RAM for           local pot:       0.00 MB
 
-     Dynamical RAM for          nlocal pot:       1.39 MB
+     Dynamical RAM for          nlocal pot:       0.17 MB
 
      Dynamical RAM for                qrad:       0.71 MB
 
-     Dynamical RAM for          rho,v,vnew:       4.62 MB
+     Dynamical RAM for          rho,v,vnew:       0.58 MB
 
-     Dynamical RAM for           G-vectors:       2.96 MB
+     Dynamical RAM for           G-vectors:       0.37 MB
 
      Dynamical RAM for          h,s,v(r/c):       0.05 MB
 
      Dynamical RAM for          <psi|beta>:       0.00 MB
 
-     Dynamical RAM for                 psi:       2.78 MB
+     Dynamical RAM for                 psi:       0.35 MB
 
-     Dynamical RAM for                hpsi:       2.78 MB
+     Dynamical RAM for                hpsi:       0.35 MB
 
-     Dynamical RAM for      wfcinit/wfcrot:       2.79 MB
+     Dynamical RAM for      wfcinit/wfcrot:       0.35 MB
 
-     Estimated static dynamical RAM per process >      18.77 MB
+     Estimated static dynamical RAM per process >       2.97 MB
 
-     Estimated max dynamical RAM per process >      24.39 MB
+     Estimated max dynamical RAM per process >       3.71 MB
+
+     Estimated total dynamical RAM >      29.70 MB
 
      The potential is recalculated from file :
      ./tmp/hBN_1L_LDA.save/charge-density
@@ -470,7 +475,7 @@ E''    2.00 -1.00  0.00 -2.00  1.00  0.00
 
 
      -----------------------------------------------
-     Non-local corr. energy    =       0.10727994 Ry
+     Non-local corr. energy    =       0.10728068 Ry
      -----------------------------------------------
 
      Starting wfcs are    8 randomized atomic wfcs +    8 random wfcs
@@ -479,470 +484,470 @@ E''    2.00 -1.00  0.00 -2.00  1.00  0.00
      Davidson diagonalization with overlap
 
      Computing kpt #:     1  of    51
-     total cpu time spent up to now is       57.6 secs
+     total cpu time spent up to now is       10.7 secs
 
      Computing kpt #:     2  of    51
-     total cpu time spent up to now is       58.1 secs
+     total cpu time spent up to now is       10.8 secs
 
      Computing kpt #:     3  of    51
-     total cpu time spent up to now is       58.6 secs
+     total cpu time spent up to now is       11.1 secs
 
      Computing kpt #:     4  of    51
-     total cpu time spent up to now is       59.2 secs
+     total cpu time spent up to now is       11.3 secs
 
      Computing kpt #:     5  of    51
-     total cpu time spent up to now is       59.7 secs
+     total cpu time spent up to now is       11.5 secs
 
      Computing kpt #:     6  of    51
-     total cpu time spent up to now is       60.3 secs
+     total cpu time spent up to now is       11.7 secs
 
      Computing kpt #:     7  of    51
-     total cpu time spent up to now is       60.9 secs
+     total cpu time spent up to now is       11.9 secs
 
      Computing kpt #:     8  of    51
-     total cpu time spent up to now is       61.4 secs
+     total cpu time spent up to now is       12.1 secs
 
      Computing kpt #:     9  of    51
-     total cpu time spent up to now is       62.0 secs
+     total cpu time spent up to now is       12.3 secs
 
      Computing kpt #:    10  of    51
-     total cpu time spent up to now is       62.5 secs
+     total cpu time spent up to now is       12.5 secs
 
      Computing kpt #:    11  of    51
-     total cpu time spent up to now is       63.1 secs
+     total cpu time spent up to now is       12.8 secs
 
      Computing kpt #:    12  of    51
-     total cpu time spent up to now is       63.6 secs
+     total cpu time spent up to now is       13.0 secs
 
      Computing kpt #:    13  of    51
-     total cpu time spent up to now is       64.2 secs
+     total cpu time spent up to now is       13.2 secs
 
      Computing kpt #:    14  of    51
-     total cpu time spent up to now is       64.8 secs
+     total cpu time spent up to now is       13.4 secs
 
      Computing kpt #:    15  of    51
-     total cpu time spent up to now is       65.5 secs
+     total cpu time spent up to now is       13.6 secs
 
      Computing kpt #:    16  of    51
-     total cpu time spent up to now is       66.3 secs
+     total cpu time spent up to now is       13.9 secs
 
      Computing kpt #:    17  of    51
-     total cpu time spent up to now is       67.3 secs
+     total cpu time spent up to now is       14.3 secs
 
      Computing kpt #:    18  of    51
-     total cpu time spent up to now is       68.1 secs
+     total cpu time spent up to now is       14.6 secs
 
      Computing kpt #:    19  of    51
-     total cpu time spent up to now is       69.2 secs
+     total cpu time spent up to now is       15.1 secs
 
      Computing kpt #:    20  of    51
-     total cpu time spent up to now is       70.2 secs
+     total cpu time spent up to now is       15.6 secs
 
      Computing kpt #:    21  of    51
-     total cpu time spent up to now is       71.1 secs
+     total cpu time spent up to now is       16.0 secs
 
      Computing kpt #:    22  of    51
-     total cpu time spent up to now is       72.0 secs
+     total cpu time spent up to now is       16.4 secs
 
      Computing kpt #:    23  of    51
-     total cpu time spent up to now is       72.9 secs
+     total cpu time spent up to now is       16.8 secs
 
      Computing kpt #:    24  of    51
-     total cpu time spent up to now is       74.0 secs
+     total cpu time spent up to now is       17.1 secs
 
      Computing kpt #:    25  of    51
-     total cpu time spent up to now is       74.9 secs
+     total cpu time spent up to now is       17.5 secs
 
      Computing kpt #:    26  of    51
-     total cpu time spent up to now is       75.7 secs
+     total cpu time spent up to now is       17.9 secs
 
      Computing kpt #:    27  of    51
-     total cpu time spent up to now is       76.4 secs
+     total cpu time spent up to now is       18.2 secs
 
      Computing kpt #:    28  of    51
-     total cpu time spent up to now is       77.2 secs
+     total cpu time spent up to now is       18.6 secs
 
      Computing kpt #:    29  of    51
-     total cpu time spent up to now is       78.0 secs
+     total cpu time spent up to now is       18.9 secs
 
      Computing kpt #:    30  of    51
-     total cpu time spent up to now is       78.7 secs
+     total cpu time spent up to now is       19.2 secs
 
      Computing kpt #:    31  of    51
-     total cpu time spent up to now is       79.5 secs
+     total cpu time spent up to now is       19.5 secs
 
      Computing kpt #:    32  of    51
-     total cpu time spent up to now is       80.2 secs
+     total cpu time spent up to now is       19.8 secs
 
      Computing kpt #:    33  of    51
-     total cpu time spent up to now is       81.0 secs
+     total cpu time spent up to now is       20.2 secs
 
      Computing kpt #:    34  of    51
-     total cpu time spent up to now is       81.8 secs
+     total cpu time spent up to now is       20.5 secs
 
      Computing kpt #:    35  of    51
-     total cpu time spent up to now is       82.5 secs
+     total cpu time spent up to now is       20.8 secs
 
      Computing kpt #:    36  of    51
-     total cpu time spent up to now is       83.3 secs
+     total cpu time spent up to now is       21.0 secs
 
      Computing kpt #:    37  of    51
-     total cpu time spent up to now is       84.0 secs
+     total cpu time spent up to now is       21.3 secs
 
      Computing kpt #:    38  of    51
-     total cpu time spent up to now is       84.6 secs
+     total cpu time spent up to now is       21.5 secs
 
      Computing kpt #:    39  of    51
-     total cpu time spent up to now is       85.1 secs
+     total cpu time spent up to now is       21.8 secs
 
      Computing kpt #:    40  of    51
-     total cpu time spent up to now is       85.8 secs
+     total cpu time spent up to now is       21.9 secs
 
      Computing kpt #:    41  of    51
-     total cpu time spent up to now is       86.3 secs
+     total cpu time spent up to now is       22.1 secs
 
      Computing kpt #:    42  of    51
-     total cpu time spent up to now is       86.9 secs
+     total cpu time spent up to now is       22.3 secs
 
      Computing kpt #:    43  of    51
-     total cpu time spent up to now is       87.4 secs
+     total cpu time spent up to now is       22.5 secs
 
      Computing kpt #:    44  of    51
-     total cpu time spent up to now is       87.9 secs
+     total cpu time spent up to now is       22.6 secs
 
      Computing kpt #:    45  of    51
-     total cpu time spent up to now is       88.4 secs
+     total cpu time spent up to now is       22.8 secs
 
      Computing kpt #:    46  of    51
-     total cpu time spent up to now is       88.9 secs
+     total cpu time spent up to now is       23.0 secs
 
      Computing kpt #:    47  of    51
-     total cpu time spent up to now is       89.5 secs
+     total cpu time spent up to now is       23.2 secs
 
      Computing kpt #:    48  of    51
-     total cpu time spent up to now is       90.0 secs
+     total cpu time spent up to now is       23.4 secs
 
      Computing kpt #:    49  of    51
-     total cpu time spent up to now is       90.5 secs
+     total cpu time spent up to now is       23.6 secs
 
      Computing kpt #:    50  of    51
-     total cpu time spent up to now is       91.0 secs
+     total cpu time spent up to now is       23.8 secs
 
      Computing kpt #:    51  of    51
-     total cpu time spent up to now is       91.5 secs
+     total cpu time spent up to now is       23.9 secs
 
-     ethr =  1.25E-08,  avg # of iterations = 37.6
+     ethr =  1.25E-08,  avg # of iterations = 36.5
 
-     total cpu time spent up to now is       91.5 secs
+     total cpu time spent up to now is       23.9 secs
 
      End of band structure calculation
 
           k = 0.0000 0.0000 0.0000 (  5691 PWs)   bands (ev):
 
-   -21.6921  -9.5106  -5.6389  -5.6389   0.2213   1.2330   1.7874   2.6057
-     3.1075   4.6918   5.2524   7.2932   7.5017   7.5017   7.9564   9.3051
+   -21.6917  -9.5104  -5.6384  -5.6384   0.2213   1.2330   1.7874   2.6057
+     3.1075   4.6918   5.2525   7.2933   7.5017   7.5017   7.9564   9.3052
 
           k =-0.0159 0.0275 0.0000 (  5675 PWs)   bands (ev):
 
-   -21.6775  -9.4907  -5.6995  -5.6685   0.2465   1.2560   1.8118   2.6292
-     3.1321   4.7134   5.2775   7.3010   7.4931   7.5670   7.9895   9.2871
+   -21.6771  -9.4905  -5.6990  -5.6680   0.2466   1.2560   1.8118   2.6293
+     3.1321   4.7134   5.2775   7.3011   7.4931   7.5670   7.9896   9.2872
 
           k =-0.0317 0.0550 0.0000 (  5667 PWs)   bands (ev):
 
-   -21.6339  -9.4316  -5.8775  -5.7561   0.3219   1.3249   1.8849   2.6997
-     3.2059   4.7776   5.3520   7.3201   7.4734   7.7491   8.0912   9.2357
+   -21.6335  -9.4313  -5.8770  -5.7557   0.3219   1.3249   1.8849   2.6997
+     3.2059   4.7777   5.3520   7.3203   7.4735   7.7492   8.0913   9.2358
 
           k =-0.0476 0.0825 0.0000 (  5671 PWs)   bands (ev):
 
-   -21.5616  -9.3332  -6.1595  -5.9006   0.4461   1.4394   2.0068   2.8169
-     3.3283   4.8830   5.4746   7.3368   7.4603   7.9939   8.2914   9.1624
+   -21.5612  -9.3329  -6.1590  -5.9002   0.4461   1.4394   2.0068   2.8169
+     3.3283   4.8831   5.4746   7.3370   7.4603   7.9939   8.2914   9.1625
 
           k =-0.0635 0.1100 0.0000 (  5679 PWs)   bands (ev):
 
-   -21.4610  -9.1962  -6.5256  -6.0968   0.6180   1.5987   2.1772   2.9803
-     3.4989   5.0262   5.6439   7.3267   7.4660   8.2190   8.6404   9.0954
+   -21.4606  -9.1959  -6.5251  -6.0964   0.6181   1.5987   2.1772   2.9803
+     3.4989   5.0263   5.6439   7.3269   7.4661   8.2190   8.6405   9.0955
 
           k =-0.0794 0.1375 0.0000 (  5683 PWs)   bands (ev):
 
-   -21.3327  -9.0212  -6.9548  -6.3394   0.8367   1.8018   2.3962   3.1890
-     3.7173   5.2000   5.8587   7.2583   7.5021   8.4334   9.0764   9.0937
+   -21.3323  -9.0209  -6.9544  -6.3390   0.8367   1.8019   2.3962   3.1890
+     3.7173   5.2000   5.8587   7.2584   7.5022   8.4335   9.0764   9.0938
 
           k =-0.0952 0.1650 0.0000 (  5680 PWs)   bands (ev):
 
-   -21.1774  -8.8089  -7.4287  -6.6218   1.1014   2.0467   2.6637   3.4412
-     3.9831   5.3871   6.1185   7.1211   7.5748   8.6651   9.1437   9.5844
+   -21.1770  -8.8087  -7.4283  -6.6213   1.1014   2.0467   2.6637   3.4412
+     3.9831   5.3872   6.1186   7.1212   7.5748   8.6652   9.1436   9.5844
 
           k =-0.1111 0.1925 0.0000 (  5680 PWs)   bands (ev):
 
-   -20.9963  -8.5608  -7.9307  -6.9368   1.4119   2.3293   2.9796   3.7330
-     4.2962   5.5444   6.4227   6.9639   7.6884   8.9206   9.3081  10.0707
+   -20.9959  -8.5605  -7.9303  -6.9363   1.4120   2.3293   2.9796   3.7330
+     4.2963   5.5446   6.4227   6.9640   7.6885   8.9207   9.3081  10.0708
 
           k =-0.1270 0.2200 0.0000 (  5676 PWs)   bands (ev):
 
-   -20.7908  -8.4462  -8.2787  -7.2777   1.7681   2.6409   3.3440   4.0543
-     4.6566   5.5862   6.7707   6.9136   7.8450   9.1990   9.5583  10.5341
+   -20.7904  -8.4458  -8.2784  -7.2773   1.7681   2.6410   3.3440   4.0544
+     4.6566   5.5864   6.7707   6.9136   7.8451   9.1991   9.5583  10.5342
 
           k =-0.1428 0.2474 0.0000 (  5678 PWs)   bands (ev):
 
-   -20.5629  -8.9639  -7.9650  -7.6372   2.1696   2.9604   3.7569   4.3736
-     5.0639   5.4900   7.0717   7.1614   8.0435   9.4965   9.8768  10.9776
+   -20.5625  -8.9635  -7.9647  -7.6368   2.1697   2.9605   3.7569   4.3737
+     5.0639   5.4901   7.0717   7.1615   8.0437   9.4966   9.8768  10.9777
 
           k =-0.1587 0.2749 0.0000 (  5694 PWs)   bands (ev):
 
-   -20.3150  -9.4743  -8.0087  -7.6219   2.6163   3.2284   4.2181   4.5995
-     5.4714   5.5178   7.3962   7.5935   8.2807   9.8075  10.2472  11.4169
+   -20.3145  -9.4739  -8.0083  -7.6216   2.6164   3.2285   4.2181   4.5996
+     5.4714   5.5179   7.3962   7.5935   8.2808   9.8076  10.2472  11.4169
 
           k =-0.1746 0.3024 0.0000 (  5704 PWs)   bands (ev):
 
-   -20.0502  -9.9672  -8.3861  -7.2537   3.1078   3.3034   4.7278   4.7401
-     5.7469   6.0182   7.8193   8.0644   8.5518  10.1278  10.6502  11.8694
+   -20.0498  -9.9669  -8.3857  -7.2533   3.1079   3.3036   4.7278   4.7401
+     5.7468   6.0182   7.8193   8.0644   8.5519  10.1279  10.6502  11.8694
 
           k =-0.1905 0.3299 0.0000 (  5710 PWs)   bands (ev):
 
-   -19.7726 -10.4347  -8.7635  -6.8646   3.0928   3.6436   5.0384   5.2858
-     6.2106   6.5641   8.3053   8.5697   8.8485  10.4562  11.0505  12.3490
+   -19.7722 -10.4343  -8.7632  -6.8642   3.0930   3.6436   5.0384   5.2858
+     6.2106   6.5641   8.3053   8.5698   8.8487  10.4563  11.0505  12.3491
 
           k =-0.2063 0.3574 0.0000 (  5710 PWs)   bands (ev):
 
-   -19.4875 -10.8684  -9.1365  -6.4604   2.7136   4.2226   5.4994   5.8920
-     6.7628   7.1544   8.8320   9.0893   9.1722  10.7978  11.3625  12.8642
+   -19.4871 -10.8680  -9.1362  -6.4600   2.7138   4.2226   5.4994   5.8920
+     6.7628   7.1544   8.8320   9.0894   9.1723  10.7979  11.3625  12.8642
 
           k =-0.2222 0.3849 0.0000 (  5714 PWs)   bands (ev):
 
-   -19.2020 -11.2592  -9.5006  -6.0502   2.2808   4.8434   6.0493   6.5462
-     7.3710   7.7867   9.3689   9.4414   9.6769  11.1659  11.4500  13.2234
+   -19.2016 -11.2589  -9.5002  -6.0498   2.2809   4.8435   6.0493   6.5462
+     7.3710   7.7867   9.3689   9.4415   9.6770  11.1660  11.4500  13.2234
 
           k =-0.2381 0.4124 0.0000 (  5710 PWs)   bands (ev):
 
-   -18.9244 -11.5974  -9.8516  -5.6448   1.8493   5.5038   6.6455   7.2483
-     8.0178   8.4552   9.7160   9.8423  10.2379  11.4012  11.5796  13.5742
+   -18.9240 -11.5971  -9.8512  -5.6443   1.8494   5.5038   6.6455   7.2482
+     8.0178   8.4552   9.7162   9.8424  10.2380  11.4012  11.5796  13.5742
 
           k =-0.2539 0.4399 0.0000 (  5724 PWs)   bands (ev):
 
-   -18.6657 -11.8726 -10.1862  -5.2582   1.4493   6.1994   7.2482   7.9973
-     8.6767   9.1400   9.9549  10.1199  10.7817  11.5717  12.0509  14.0441
+   -18.6652 -11.8722 -10.1859  -5.2577   1.4493   6.1995   7.2482   7.9972
+     8.6767   9.1401   9.9551  10.1199  10.7818  11.5717  12.0509  14.0442
 
           k =-0.2698 0.4674 0.0000 (  5718 PWs)   bands (ev):
 
-   -18.4374 -12.0741 -10.4999  -4.9083   1.1025   6.9229   7.7826   8.7908
-     9.2844   9.7321  10.2505  10.3176  11.2586  12.0702  12.5576  13.6560
+   -18.4369 -12.0738 -10.4996  -4.9078   1.1025   6.9230   7.7826   8.7908
+     9.2844   9.7323  10.2506  10.3176  11.2587  12.0702  12.5576  13.6560
 
           k =-0.2857 0.4949 0.0000 (  5708 PWs)   bands (ev):
 
-   -18.2516 -12.1947 -10.7871  -4.6143   0.8272   7.6577   8.1157   9.6092
-     9.8099   9.9961  10.7880  10.8221  11.5705  12.6972  12.9539  13.5364
+   -18.2511 -12.1944 -10.7868  -4.6138   0.8272   7.6578   8.1157   9.6092
+     9.8099   9.9963  10.7880  10.8221  11.5705  12.6972  12.9539  13.5364
 
           k =-0.3016 0.5224 0.0000 (  5710 PWs)   bands (ev):
 
-   -18.1178 -12.2353 -11.0374  -4.3967   0.6356   8.2018   8.3610   9.9936
-    10.4172  10.5602  11.2110  11.5011  11.8700  12.8493  13.1847  13.3720
+   -18.1173 -12.2350 -11.0372  -4.3961   0.6356   8.2018   8.3611   9.9937
+    10.4172  10.5602  11.2110  11.5011  11.8700  12.8493  13.1848  13.3720
 
           k =-0.3174 0.5499 0.0000 (  5710 PWs)   bands (ev):
 
-   -18.0400 -12.2147 -11.2284  -4.2674   0.5303   8.1747   8.9072  10.1028
-    10.9641  11.1188  11.5030  12.1766  12.4906  12.5145  12.9198  13.0228
+   -18.0395 -12.2144 -11.2281  -4.2668   0.5302   8.1747   8.9073  10.1029
+    10.9642  11.1188  11.5030  12.1766  12.4906  12.5145  12.9198  13.0228
 
           k =-0.3333 0.5774 0.0000 (  5694 PWs)   bands (ev):
 
-   -18.0157 -12.1892 -11.3081  -4.2262   0.5003   8.1516   9.0914  10.2764
-    10.7407  11.5863  12.0387  12.3710  12.4578  12.5101  12.6626  13.0046
+   -18.0152 -12.1889 -11.3078  -4.2256   0.5002   8.1517   9.0916  10.2765
+    10.7407  11.5863  12.0387  12.3710  12.4578  12.5101  12.6626  13.0047
 
           k =-0.3030 0.5774 0.0000 (  5692 PWs)   bands (ev):
 
-   -18.0347 -12.2279 -11.2239  -4.2580   0.5195   8.1809   8.9898  10.0454
-    10.9068  11.3154  11.9482  11.9837  12.0405  12.7219  12.7941  12.9449
+   -18.0342 -12.2276 -11.2236  -4.2574   0.5194   8.1810   8.9899  10.0455
+    10.9069  11.3154  11.9482  11.9837  12.0405  12.7219  12.7942  12.9449
 
           k =-0.2727 0.5774 0.0000 (  5700 PWs)   bands (ev):
 
-   -18.0846 -12.3307 -10.9954  -4.3400   0.5609   8.2716   8.7658   9.6883
-    10.8842  10.9489  11.5848  11.6456  11.6601  12.3922  12.5331  12.7733
+   -18.0841 -12.3305 -10.9951  -4.3394   0.5608   8.2717   8.7660   9.6883
+    10.8843  10.9489  11.5848  11.6456  11.6600  12.3922  12.5331  12.7733
 
           k =-0.2424 0.5774 0.0000 (  5690 PWs)   bands (ev):
 
-   -18.1548 -12.4593 -10.6768  -4.4525   0.6040   8.4121   8.4718   9.3431
-    10.5627  10.6107  11.2166  11.2813  11.3762  12.0372  12.2345  12.5333
+   -18.1543 -12.4590 -10.6765  -4.4520   0.6039   8.4121   8.4720   9.3431
+    10.5628  10.6107  11.2166  11.2812  11.3762  12.0372  12.2346  12.5333
 
           k =-0.2121 0.5774 0.0000 (  5684 PWs)   bands (ev):
 
-   -18.2355 -12.5892 -10.3104  -4.5797   0.6360   8.1180   8.5722   9.0332
-    10.1258  10.3139  10.8895  10.9471  11.1379  11.7206  11.9583  12.2879
+   -18.2350 -12.5889 -10.3100  -4.5791   0.6359   8.1182   8.5723   9.0332
+    10.1258  10.3138  10.8895  10.9471  11.1379  11.7206  11.9583  12.2879
 
           k =-0.1818 0.5774 0.0000 (  5682 PWs)   bands (ev):
 
-   -18.3188 -12.7091  -9.9254  -4.7080   0.6526   7.7084   8.7117   8.7673
-     9.6951  10.0616  10.6057  10.6550  10.9506  11.4476  11.7147  12.0075
+   -18.3183 -12.7089  -9.9251  -4.7075   0.6526   7.7086   8.7117   8.7674
+     9.6952  10.0616  10.6057  10.6550  10.9506  11.4476  11.7147  12.0075
 
           k =-0.1515 0.5774 0.0000 (  5688 PWs)   bands (ev):
 
-   -18.3982 -12.8144  -9.5451  -4.8285   0.6549   7.2630   8.5470   8.7981
-     9.3279   9.8540  10.3655  10.4083  10.8048  11.2193  11.5055  11.7673
+   -18.3977 -12.8141  -9.5448  -4.8280   0.6549   7.2631   8.5470   8.7982
+     9.3280   9.8540  10.3655  10.4083  10.8048  11.2193  11.5055  11.7673
 
           k =-0.1212 0.5774 0.0000 (  5708 PWs)   bands (ev):
 
-   -18.4689 -12.9024  -9.1918  -4.9347   0.6471   6.8183   8.3699   8.8258
-     9.0396   9.6887  10.1689  10.2070  10.6861  11.0355  11.3322  11.5699
+   -18.4684 -12.9021  -9.1915  -4.9342   0.6471   6.8184   8.3699   8.8259
+     9.0396   9.6887  10.1689  10.2070  10.6861  11.0355  11.3323  11.5699
 
           k =-0.0909 0.5774 0.0000 (  5714 PWs)   bands (ev):
 
-   -18.5271 -12.9716  -8.8865  -5.0211   0.6345   6.4184   8.2339   8.8138
-     8.8263   9.5626  10.0159  10.0508  10.5878  10.8947  11.1962  11.4161
+   -18.5266 -12.9714  -8.8862  -5.0206   0.6344   6.4185   8.2340   8.8139
+     8.8263   9.5626  10.0159  10.0507  10.5878  10.8947  11.1962  11.4161
 
           k =-0.0606 0.5774 0.0000 (  5714 PWs)   bands (ev):
 
-   -18.5703 -13.0216  -8.6499  -5.0846   0.6218   6.1021   8.1375   8.6801
-     8.7871   9.4734   9.9066   9.9393  10.5123  10.7953  11.0984  11.3062
+   -18.5698 -13.0213  -8.6495  -5.0841   0.6218   6.1023   8.1376   8.6801
+     8.7872   9.4734   9.9066   9.9393  10.5123  10.7953  11.0984  11.3062
 
           k =-0.0303 0.5774 0.0000 (  5722 PWs)   bands (ev):
 
-   -18.5970 -13.0517  -8.4998  -5.1235   0.6128   5.8998   8.0798   8.5948
-     8.7643   9.4200   9.8410   9.8724  10.4646  10.7360  11.0394  11.2402
+   -18.5965 -13.0514  -8.4994  -5.1230   0.6128   5.8999   8.0799   8.5948
+     8.7644   9.4199   9.8410   9.8724  10.4646  10.7360  11.0394  11.2402
 
           k = 0.0000 0.5774 0.0000 (  5708 PWs)   bands (ev):
 
-   -18.6059 -13.0617  -8.4476  -5.1366   0.6096   5.8302   8.0607   8.5667
-     8.7557   9.4022   9.8192   9.8502  10.4484  10.7164  11.0197  11.2182
+   -18.6054 -13.0614  -8.4473  -5.1361   0.6096   5.8303   8.0607   8.5667
+     8.7557   9.4021   9.8191   9.8502  10.4484  10.7163  11.0198  11.2182
 
           k = 0.0000 0.5453 0.0000 (  5714 PWs)   bands (ev):
 
-   -18.6512 -12.9917  -8.4317  -5.2080   0.7012   5.7776   7.5864   8.2442
-     8.9470   9.1417   9.6013  10.0864  10.2926  10.7486  11.3645  11.8503
+   -18.6508 -12.9915  -8.4314  -5.2075   0.7012   5.7777   7.5865   8.2442
+     8.9470   9.1417   9.6013  10.0864  10.2926  10.7485  11.3645  11.8503
 
           k = 0.0000 0.5132 0.0000 (  5732 PWs)   bands (ev):
 
-   -18.7802 -12.7895  -8.3842  -5.4080   0.9602   5.5899   7.0649   7.5271
-     8.1579   8.9112   9.4409   9.9763  10.5770  11.2293  11.6071  11.7466
+   -18.7798 -12.7892  -8.3839  -5.4075   0.9602   5.5900   7.0649   7.5271
+     8.1579   8.9112   9.4410   9.9763  10.5771  11.2292  11.6071  11.7466
 
           k = 0.0000 0.4811 0.0000 (  5734 PWs)   bands (ev):
 
-   -18.9749 -12.4735  -8.3046  -5.7032   1.3486   5.2237   6.7242   6.8292
-     7.4076   8.1826   8.7448  10.1915  10.5817  11.1204  11.6878  12.7093
+   -18.9744 -12.4732  -8.3042  -5.7028   1.3487   5.2238   6.7242   6.8292
+     7.4076   8.1826   8.7448  10.1915  10.5818  11.1204  11.6879  12.7093
 
           k = 0.0000 0.4491 0.0000 (  5740 PWs)   bands (ev):
 
-   -19.2143 -12.0661  -8.1952  -6.0574   1.8210   4.7240   6.1756   6.4659
-     6.7796   7.4948   8.0753   9.5675  10.1697  11.6113  12.0141  13.0295
+   -19.2138 -12.0658  -8.1948  -6.0570   1.8211   4.7241   6.1755   6.4659
+     6.7797   7.4948   8.0753   9.5675  10.1697  11.6114  12.0142  13.0295
 
           k = 0.0000 0.4170 0.0000 (  5734 PWs)   bands (ev):
 
-   -19.4790 -11.5887  -8.0565  -6.4412   2.3294   4.1776   5.5818   5.9426
-     6.5175   6.8574   7.4867   8.9598   9.5610  11.6908  11.9575  12.9678
+   -19.4785 -11.5884  -8.0561  -6.4408   2.3296   4.1776   5.5817   5.9426
+     6.5176   6.8573   7.4867   8.9598   9.5611  11.6908  11.9577  12.9678
 
           k = 0.0000 0.3849 0.0000 (  5720 PWs)   bands (ev):
 
-   -19.7539 -11.0595  -7.8906  -6.8337   2.8124   3.6344   5.0745   5.3446
-     6.2794   6.3097   7.0543   8.3936   8.9847  11.2175  11.6494  13.1803
+   -19.7534 -11.0591  -7.8902  -6.8333   2.8126   3.6345   5.0745   5.3446
+     6.2794   6.3098   7.0543   8.3936   8.9847  11.2175  11.6495  13.1804
 
           k = 0.0000 0.3528 0.0000 (  5722 PWs)   bands (ev):
 
-   -20.0279 -10.4940  -7.7003  -7.2199   3.1163   3.1579   4.7177   4.7817
-     5.7836   5.9485   6.8517   7.8806   8.4588  10.7455  11.1647  13.2102
+   -20.0275 -10.4936  -7.6999  -7.2196   3.1163   3.1581   4.7177   4.7817
+     5.7836   5.9485   6.8518   7.8806   8.4588  10.7455  11.1648  13.2103
 
           k = 0.0000 0.3208 0.0000 (  5702 PWs)   bands (ev):
 
-   -20.2928  -9.9043  -7.5898  -7.4887   2.6330   3.2010   4.2646   4.5653
-     5.4508   5.5090   6.7746   7.4349   7.9975  10.3066  10.6759  12.7798
+   -20.2924  -9.9039  -7.5895  -7.4883   2.6330   3.2011   4.2646   4.5653
+     5.4508   5.5090   6.7746   7.4349   7.9975  10.3066  10.6760  12.7800
 
           k = 0.0000 0.2887 0.0000 (  5688 PWs)   bands (ev):
 
-   -20.5428  -9.3029  -7.9364  -7.2600   2.1892   2.9760   3.7955   4.3846
-     5.0750   5.4307   6.7063   7.0865   7.6272   9.9150  10.2124  11.9503
+   -20.5424  -9.3025  -7.9361  -7.2596   2.1893   2.9761   3.7955   4.3847
+     5.0750   5.4308   6.7064   7.0865   7.6272   9.9150  10.2125  11.9504
 
           k = 0.0000 0.2566 0.0000 (  5678 PWs)   bands (ev):
 
-   -20.7738  -8.7020  -8.2550  -7.0188   1.7876   2.6638   3.3751   4.0777
-     4.6736   5.5546   6.5722   6.9016   7.3926   9.5822   9.7827  11.1497
+   -20.7734  -8.7016  -8.2547  -7.0184   1.7876   2.6638   3.3751   4.0777
+     4.6736   5.5548   6.5722   6.9016   7.3926   9.5822   9.7828  11.1499
 
           k = 0.0000 0.2245 0.0000 (  5672 PWs)   bands (ev):
 
-   -20.9825  -8.5420  -8.1132  -6.7722   1.4295   2.3499   3.0037   3.7544
-     4.3134   5.5440   6.3526   6.9388   7.3019   9.3213   9.3905  10.3927
+   -20.9821  -8.5418  -8.1128  -6.7718   1.4296   2.3499   3.0037   3.7545
+     4.3134   5.5442   6.3526   6.9389   7.3020   9.3213   9.3906  10.3929
 
           k = 0.0000 0.1925 0.0000 (  5662 PWs)   bands (ev):
 
-   -21.1669  -8.7945  -7.5506  -6.5270   1.1160   2.0629   2.6816   3.4580
-     3.9978   5.3966   6.0996   7.1028   7.2974   9.0382   9.1486   9.6942
+   -21.1665  -8.7943  -7.5502  -6.5266   1.1161   2.0630   2.6816   3.4580
+     3.9978   5.3967   6.0997   7.1030   7.2975   9.0382   9.1486   9.6944
 
           k = 0.0000 0.1604 0.0000 (  5672 PWs)   bands (ev):
 
-   -21.3253  -9.0110  -7.0296  -6.2927   0.8478   1.8135   2.4087   3.2009
-     3.7285   5.2092   5.8581   7.2501   7.3299   8.7281   9.0685   9.0759
+   -21.3249  -9.0107  -7.0292  -6.2923   0.8479   1.8135   2.4087   3.2010
+     3.7285   5.2093   5.8581   7.2503   7.3300   8.7282   9.0686   9.0759
 
           k = 0.0000 0.1283 0.0000 (  5658 PWs)   bands (ev):
 
-   -21.4562  -9.1894  -6.5657  -6.0786   0.6257   1.6063   2.1853   2.9880
-     3.5066   5.0329   5.6481   7.3247   7.3763   8.4635   8.5302   9.0927
+   -21.4558  -9.1891  -6.5653  -6.0781   0.6257   1.6063   2.1853   2.9881
+     3.5066   5.0329   5.6481   7.3249   7.3764   8.4636   8.5303   9.0927
 
           k = 0.0000 0.0962 0.0000 (  5672 PWs)   bands (ev):
 
-   -21.5589  -9.3295  -6.1785  -5.8963   0.4506   1.4436   2.0113   2.8213
-     3.3328   4.8869   5.4784   7.3369   7.4233   8.0922   8.2489   9.1599
+   -21.5585  -9.3293  -6.1781  -5.8959   0.4507   1.4437   2.0113   2.8213
+     3.3328   4.8869   5.4784   7.3371   7.4234   8.0922   8.2489   9.1599
 
           k = 0.0000 0.0642 0.0000 (  5662 PWs)   bands (ev):
 
-   -21.6327  -9.4298  -5.8842  -5.7567   0.3239   1.3268   1.8870   2.7017
-     3.2079   4.7794   5.3540   7.3206   7.4641   7.7686   8.0893   9.2343
+   -21.6323  -9.4296  -5.8837  -5.7562   0.3240   1.3269   1.8869   2.7017
+     3.2079   4.7795   5.3540   7.3207   7.4642   7.7687   8.0894   9.2344
 
           k = 0.0000 0.0321 0.0000 (  5671 PWs)   bands (ev):
 
-   -21.6771  -9.4903  -5.7006  -5.6689   0.2471   1.2565   1.8123   2.6297
-     3.1327   4.7138   5.2780   7.3012   7.4923   7.5691   7.9902   9.2867
+   -21.6768  -9.4900  -5.7002  -5.6684   0.2471   1.2565   1.8123   2.6297
+     3.1327   4.7139   5.2780   7.3013   7.4923   7.5692   7.9902   9.2868
 
           k = 0.0000 0.0000 0.0000 (  5691 PWs)   bands (ev):
 
-   -21.6921  -9.5106  -5.6389  -5.6389   0.2213   1.2330   1.7874   2.6057
-     3.1075   4.6918   5.2524   7.2932   7.5017   7.5017   7.9564   9.3051
+   -21.6917  -9.5104  -5.6384  -5.6384   0.2213   1.2330   1.7874   2.6057
+     3.1075   4.6918   5.2525   7.2933   7.5017   7.5017   7.9564   9.3052
 
      Writing all to output data dir ./tmp/hBN_1L_LDA.save/
 
-     init_run     :     56.43s CPU     56.65s WALL (       1 calls)
-     electrons    :     41.79s CPU     34.78s WALL (       1 calls)
+     init_run     :     10.13s CPU     10.34s WALL (       1 calls)
+     electrons    :     13.40s CPU     13.50s WALL (       1 calls)
 
      Called by init_run:
      wfcinit      :      0.00s CPU      0.00s WALL (       1 calls)
-     wfcinit:atom :      0.04s CPU      0.04s WALL (      51 calls)
-     wfcinit:wfcr :      1.72s CPU      1.64s WALL (      51 calls)
-     potinit      :     55.90s CPU     56.08s WALL (       1 calls)
-     hinit0       :      0.49s CPU      0.52s WALL (       1 calls)
+     wfcinit:atom :      0.01s CPU      0.01s WALL (      51 calls)
+     wfcinit:wfcr :      0.42s CPU      0.44s WALL (      51 calls)
+     potinit      :      9.75s CPU      9.95s WALL (       1 calls)
+     hinit0       :      0.35s CPU      0.36s WALL (       1 calls)
 
      Called by electrons:
-     c_bands      :     41.79s CPU     34.77s WALL (       1 calls)
-     v_of_rho     :     55.90s CPU     56.07s WALL (       1 calls)
+     c_bands      :     13.40s CPU     13.50s WALL (       1 calls)
+     v_of_rho     :      9.75s CPU      9.94s WALL (       1 calls)
      v_h          :      0.00s CPU      0.00s WALL (       1 calls)
-     v_xc         :     55.90s CPU     56.06s WALL (       1 calls)
-     vdW_kernel   :     55.66s CPU     55.80s WALL (       1 calls)
+     v_xc         :      9.74s CPU      9.94s WALL (       1 calls)
+     vdW_kernel   :      9.69s CPU      9.88s WALL (       1 calls)
 
      Called by c_bands:
-     init_us_2    :      0.04s CPU      0.04s WALL (      51 calls)
-     init_us_2:cp :      0.04s CPU      0.04s WALL (      51 calls)
-     cegterg      :     39.87s CPU     32.89s WALL (     124 calls)
+     init_us_2    :      0.01s CPU      0.01s WALL (      51 calls)
+     init_us_2:cp :      0.01s CPU      0.01s WALL (      51 calls)
+     cegterg      :     12.92s CPU     13.00s WALL (     121 calls)
 
      Called by sum_band:
 
      Called by *egterg:
-     cdiaghg      :      0.48s CPU      0.49s WALL (    1971 calls)
-     cegterg:over :      3.10s CPU      3.11s WALL (    1920 calls)
-     cegterg:upda :      3.19s CPU      0.96s WALL (    1920 calls)
-     cegterg:last :      4.90s CPU      1.12s WALL (    1247 calls)
-     h_psi        :     29.04s CPU     27.99s WALL (    2095 calls)
-     g_psi        :      0.37s CPU      0.37s WALL (    1920 calls)
+     cdiaghg      :      0.71s CPU      0.73s WALL (    1914 calls)
+     cegterg:over :      1.06s CPU      1.08s WALL (    1863 calls)
+     cegterg:upda :      0.75s CPU      0.68s WALL (    1863 calls)
+     cegterg:last :      1.33s CPU      1.00s WALL (    1247 calls)
+     h_psi        :      9.03s CPU      9.42s WALL (    2035 calls)
+     g_psi        :      0.08s CPU      0.11s WALL (    1863 calls)
 
      Called by h_psi:
-     h_psi:calbec :      1.02s CPU      1.03s WALL (    2095 calls)
-     vloc_psi     :     26.27s CPU     26.40s WALL (    2095 calls)
-     add_vuspsi   :      1.64s CPU      0.44s WALL (    2095 calls)
+     h_psi:calbec :      0.38s CPU      0.40s WALL (    2035 calls)
+     vloc_psi     :      8.18s CPU      8.54s WALL (    2035 calls)
+     add_vuspsi   :      0.40s CPU      0.41s WALL (    2035 calls)
 
      General routines
-     calbec       :      1.02s CPU      1.02s WALL (    2095 calls)
-     fft          :      0.45s CPU      0.47s WALL (      61 calls)
-     fftw         :     23.28s CPU     23.35s WALL (   38062 calls)
-     davcio       :      0.00s CPU      0.05s WALL (     102 calls)
+     calbec       :      0.38s CPU      0.39s WALL (    2035 calls)
+     fft          :      0.29s CPU      0.29s WALL (      61 calls)
+     fftw         :      7.40s CPU      7.69s WALL (   37878 calls)
+     davcio       :      0.00s CPU      0.01s WALL (     102 calls)
 
      Parallel routines
 
-     PWSCF        :   1m38.37s CPU   1m31.71s WALL
+     PWSCF        :     23.73s CPU     24.13s WALL
 
 
-   This run was terminated on:  10: 6:22   6Apr2024            
+   This run was terminated on:  14: 8:17  16Apr2024            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

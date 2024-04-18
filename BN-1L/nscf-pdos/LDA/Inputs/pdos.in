@@ -1,0 +1,5 @@
+&PROJWFC
+prefix="hBN",
+outdir="./tmp/",
+filpdos= 'hBN_pdos.dat'
+/

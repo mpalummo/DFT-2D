@@ -1,5 +1,5 @@
 &PROJWFC
 prefix="hBN_1l_PBE_vdW",
 outdir="./tmp/",
-filpdos= 'bn_1l_PBE_vdW_DOS.dat'
+filpdos= 'hBN_1l_PBE_vdW_DOS.dat'
 /
