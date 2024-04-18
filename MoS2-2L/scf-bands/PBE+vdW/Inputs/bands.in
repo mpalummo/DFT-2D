@@ -1,0 +1,6 @@
+&bands
+prefix = "MoS2_2L_pbe_vdW_nsoc"
+outdir = "./tmp"
+filband = "Bande_MoS2_2L_pbe_vdW_nsoc.dat"
+lsym=.true.
+/
