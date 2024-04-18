@@ -1,0 +1,5 @@
+&PROJWFC
+prefix="CBN2L_AB_PBE_vdW"
+outdir="./tmp/",
+filpdos= 'CBN2L_AB_PBE_vdW_DOS.dat'
+/
