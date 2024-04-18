@@ -1,0 +1,48 @@
+&control
+    calculation='bands'
+    restart_mode='from_scratch',
+    prefix='MoS2_1L_pbe_vdW_nsoc',
+    pseudo_dir = '../../../Pseudo/PBE',
+    outdir='./tmp'
+    verbosity = 'high' ,
+    tstress = .true. ,
+    tprnfor = .true. ,
+    wf_collect = .true.,
+    forc_conv_thr = 1.d-4
+    etot_conv_thr = 1.d-5
+/
+&system
+    ibrav=4,celldm(1)=5.989200,  celldm(3) =8.0
+    nat=3, ntyp= 2,
+!    noncolin = .true.,
+!    lspinorb = .true.,
+    ecutwfc = 70
+   nbnd = 60
+!   force_symmorphic=.true.
+   input_dft='vdw-df2-b86r',
+    occupations = 'smearing' ,
+           degauss = 0.005 ,
+           smearing = 'm-v' ,
+/
+ &electrons
+    startingwfc='atomic+random'
+    conv_thr =  1.d-7
+    mixing_beta = 0.7
+ /
+&ions
+    ion_dynamics='bfgs',
+    upscale=10
+/
+ATOMIC_SPECIES
+  S   32.065  S.upf
+ Mo   183.84  Mo.upf
+ATOMIC_POSITIONS (crystal)
+Mo            0.3333330000        0.6666667000        0.0000000000
+S             0.6666667000        0.3333330000        0.0618947044
+S             0.6666667000        0.3333330000       -0.0618947044
+K_POINTS {crystal_b}
+4
+0.00000 0.00000 0.00000 21 !Gamma
+-0.33333 0.666667 0.00000 11 !K
+0.00000 0.50000 0.00000 18  !M
+0.00000 0.00000 0.00000 10 !Gamma
