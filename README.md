@@ -46,3 +46,6 @@ Alternatively, you can download a static copy by browsing to https://github.com/
 #  Go in the different subdirectories in this order
 
 C_1L, C_2L, BN_1L, BN_2L, MoS2-BULK, MoS2-1L,MoS2-2L
+
+#optionally you can go also in C-BULK and BN-BULK to check different xc-vdW functionals
+#and in CBN-2L to run the hetero-bilayer of C-BN with an averaged lattice parameter to have about 1% of strain in both layers
