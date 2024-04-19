@@ -10,7 +10,7 @@ colonna2 = []
 
 sublists = []
 
-efermi = -0.8916
+efermi = -0.8892
 
 for line in lines:
     if line.strip(): 
@@ -31,7 +31,7 @@ for i, sublist in enumerate(sublists):
         plt.plot(sublist[0], sublist[1], color='black', lw=2, alpha=1)
 
 
-positions = [0,0.6349,1.,1.57]
+positions = [0,0.6667,1.,1.5773]
 labels = ['$\Gamma$','$K$','$M$','$\Gamma$']
 plt.xticks(positions, labels)
 
@@ -41,12 +41,15 @@ plt.yticks(valori_y_visualizzati)
 plt.grid(1, linestyle='--', alpha=0.7)
 
 
-xFermi=[0,1.57]
+xFermi=[0,1.5773]
 yFermi=[0,0]
 
 plt.plot(xFermi,yFermi,"--", color="black", label="$E_{F}$", lw=2)
 
-plt.xlim(0,1.57)
+#plt.xlim(0.61,0.7)
+#plt.ylim(-1,1)
+
+plt.xlim(0.,1.5773)
 plt.ylim(-10,10)
 
 plt.title("$PBE+vdW-Bands-of-2L-CBN-AB$")

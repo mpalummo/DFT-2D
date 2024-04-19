@@ -19,7 +19,7 @@
            ntyp = 3,
            ecutwfc = 70,
            occupations = 'smearing' ,
-           degauss = 0.005 ,
+           degauss = 0.0005 ,
            smearing = 'm-v' ,
            input_dft = 'vdw-df2-b86r'
 /
@@ -41,4 +41,4 @@ B             0.0000000000        0.0000000000        0.1662970000
 C             0.6666670000        0.3333330000        0.0000000000    0   0   0
 N             0.3333330000        0.6666670000        0.1662970000
 K_POINTS automatic
-12 12 1	0 0 0
+60 60 1	0 0 0

@@ -13,7 +13,7 @@ run_bands.sh,  close it  and run doing:
 
 At the end you should have  cbn_2l_AB.scf.out, cbn_2l_AB.bands.out, bands.out 
 
-Open them and check everything is ok
+Open them and check that everything is ok
 
 There should be also other 3 files Band* 
 You can use the python script plot_bands.py to plot the B*gnu file
@@ -22,4 +22,5 @@ python plot_bands.py
 
 At the end you should have a file Bands_CBN_2L_AB_PBE-vdW.png in a png format 
 
+you can repeat the plotting zooming around E_F and see how a gap is open for graphene has expected from the theoretical TB model
 If you wish you can repeat the same calculations for the LDA and PBE relaxed structures and compare them 

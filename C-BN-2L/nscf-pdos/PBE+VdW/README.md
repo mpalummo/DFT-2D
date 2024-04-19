@@ -21,7 +21,7 @@ python plot_pdos.py
 
 At the end you should have a file pdos60*.png  in a png format
 
-You can also plot Bands calculated before with PDOS
+You can also plot Bands calculated before togheter PDOS
 
 python plot_bands_pdos.py
 # 
