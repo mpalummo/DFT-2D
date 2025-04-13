@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 plt.figure(figsize=(8, 6))
 
-with open('Bande_C2L_AB_PBE_vdW.dat.gnu', 'r') as file:
+with open('Bande_C2L_AA_PBE_vdW.dat.gnu', 'r') as file:
     lines = file.readlines()
 
 colonna1 = []
@@ -10,13 +10,13 @@ colonna2 = []
 
 sublists = []
 
-efermi = -0.5713 
+efermi =  -0.5156
 
 for line in lines:
     if line.strip(): 
         values = line.split()
         colonna1.append(float(values[0]))
-        colonna2.append(float(values[1]) -efermi ) 
+        colonna2.append(float(values[1]) -efermi  ) 
     else:
         sublists.append((colonna1, colonna2))
         colonna1= []
@@ -49,9 +49,9 @@ plt.plot(xFermi,yFermi,"--", color="black", label="$E_{F}$", lw=2)
 plt.xlim(0,1.57)
 plt.ylim(-10,10)
 
-plt.title("$PBE+vdW-Bands-of-AB-BG$")
+plt.title("$PBE+vdW-Bands-of-AA-BG$")
 
-plt.savefig('Bande_C2L_AB-BG_PBE_vdW.png', format='png')
+plt.savefig('Bande_AA-BG_vdW.png', format='png')
 plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
 plt.show()
 

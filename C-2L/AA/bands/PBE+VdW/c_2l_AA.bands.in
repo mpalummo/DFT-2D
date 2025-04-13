@@ -1,0 +1,52 @@
+&CONTROL
+    calculation       = 'bands'
+!    restart_mode      = 'restart'
+    prefix            = 'C2L_AA_PBE_vdW'
+    tstress           = .true.
+    tprnfor           = .true.
+    pseudo_dir        = '../../../../Pseudo/PBE'
+    outdir            = './tmp'
+    verbosity         = 'high'
+    disk_io = 'minimal'
+    wf_collect        = .true.
+!    nstep = 200
+/
+&SYSTEM   
+           ibrav = 4,
+           celldm(1) = 4.66495,
+           celldm(3) = 8,
+           nat = 4,
+           ntyp = 1,
+           ecutwfc = 60,
+           nbnd = 16
+           occupations = 'smearing' ,
+           degauss = 0.005 ,
+           smearing = 'm-v' ,
+           input_dft = 'vdw-df2-b86r'
+/
+&ELECTRONS
+   diago_thr_init=5.0e-6,
+    diago_full_acc=.true.
+    mixing_mode = 'plain'
+    conv_thr =  1.0d-7,
+    mixing_beta = 0.7
+!    diago_david_ndim = 2
+/
+&IONS
+/
+&CELL
+cell_dofree = 'all'
+/
+ATOMIC_SPECIES
+    C   12.01100  C.upf 
+ATOMIC_POSITIONS crystal 
+C 0.000000 0.000000 0.00000 0 0 0 
+C 0.666667 0.333333 0.00000 0 0 0
+C 0.000000 0.000000  .176564
+C 0.666667 0.333333  .176564
+K_POINTS {crystal_b}
+4
+0.00000 0.00000 0.00000 50 !Gamma
+-0.33333 0.666667 0.00000 50 !K
+0.00000 0.50000 0.00000 50  !M
+0.00000 0.00000 0.00000 1 !Gamma

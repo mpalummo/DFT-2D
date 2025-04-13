@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 plt.figure(figsize=(8, 6))
 
-with open('Bande_C2L_AB_PBE_vdW.dat.gnu', 'r') as file:
+with open('Bande-2-C2L_AB_Efield_PBE.dat.gnu', 'r') as file:
     lines = file.readlines()
 
 colonna1 = []
@@ -10,13 +10,12 @@ colonna2 = []
 
 sublists = []
 
-efermi = -0.5713 
-
+efermi =  -0.5449
 for line in lines:
     if line.strip(): 
         values = line.split()
         colonna1.append(float(values[0]))
-        colonna2.append(float(values[1]) -efermi ) 
+        colonna2.append(float(values[1]) + efermi ) 
     else:
         sublists.append((colonna1, colonna2))
         colonna1= []
@@ -51,7 +50,7 @@ plt.ylim(-10,10)
 
 plt.title("$PBE+vdW-Bands-of-AB-BG$")
 
-plt.savefig('Bande_C2L_AB-BG_PBE_vdW.png', format='png')
+plt.savefig('Bande_AB-BG_vdW.png', format='png')
 plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
 plt.show()
 

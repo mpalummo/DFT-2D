@@ -47,12 +47,13 @@ Alternatively, you can download a static copy by browsing to https://github.com/
 
 C_1L, C_2L, BN_1L, BN_2L, MoS2-BULK, MoS2-1L,MoS2-2L
 
-optionally you can go also in C-BULK and BN-BULK to check how different xc-vdW functionals influence the equibrium atomic structure andconsequently all the electronic properties
+Optionally you can go also in C-BULK and BN-BULK to check how different 
+xc-vdW functionals influence the equibrium atomic structure and consequently all the electronic properties
 
-and you can go also in CBN-2L to see how graphene properties change when it is interfaced with a BN monolayer
-An averaged lattice parameter between graphene and Bn has been selected to relax the heterobilayer
-About 1% of strain is then present both layers 
-This is done to have the minumum commensurate 1x1 supercell for the hetero-bilayer
+If you go in CBN-2L and run simulations you can see how graphene properties 
+change when it is interfaced with a BN monolayer
+Note that an averaged lattice parameter between graphene and BN has been selected to relax the heterobilayer. In this way
+about 1% of strain is present for both layers. 
+This is done to have the minimum commensurate 1x1 supercell for the hetero-bilayer, in real world the two layers have slightly different lattice parameters can be even uncommensurate.
 
-
-If something goes wrong try to open inputs and scripts files and check them to understand which is the problem!
+If something goes wrong try to open inputs and scripts files and check them to understand which is the problem

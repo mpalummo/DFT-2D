@@ -19,6 +19,12 @@ plt.plot(colonna1,colonna2, color="black", lw=2)
 
 plt.plot(colonna1,colonna2, ".", color="black", lw=2)
 
+# Add horizontal lines at specific y-values
+y1 = -24.0820185  # +10 meV 
+y2 = -24.0754037  # +100 meV 
+plt.axhline(y=y1, color='red', linestyle='--', linewidth=1.5, label=f"+10meV")
+plt.axhline(y=y2, color='blue', linestyle='--', linewidth=1.5, label=f"+100meV")
+
 plt.xlabel("$Energia_{cut} \ [Ry]$")
 
 plt.ylabel("$Energia \ [Ry]$")
