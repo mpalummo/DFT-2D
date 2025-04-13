@@ -13,4 +13,4 @@ They are used in the other input file  c_bulkAB.relax.in
 You can run it to see the atoms will not move now!
 mpirun pw.x < c_bulkAB.relax.in > c_bulkAB.relax.out
 
-If you wish you can repeat similar calculations for PBE and LDA 
+If you wish you can repeat similar calculations for PBE and LDA and analyze the results and understand the differences in the atomic sstructure and why it behave differently
