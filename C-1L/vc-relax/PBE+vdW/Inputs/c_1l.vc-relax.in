@@ -21,9 +21,9 @@
                  occupations = 'smearing' ,
                      degauss = 0.005 ,
                     smearing = 'm-v' ,
-                    input_dft='vdw-df2-b86r',
+                    input_dft='vdw-df2-b86r', ! or you can try vdw_corr ='DFT-D2' or 'DFT-D3'
 /
- input_dft='vdw-df2-b86r',&ELECTRONS
+&ELECTRONS
                  mixing_beta = 0.7 ,
 /
 &IONS
