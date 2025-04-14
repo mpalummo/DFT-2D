@@ -19,7 +19,7 @@
                      ecutwfc = 60 ,
                         nbnd = 8,
                  occupations = 'smearing' ,
-                     degauss = 0.01 ,
+                     degauss = 0.005 ,
                     smearing = 'm-v' ,
 /
 &ELECTRONS
@@ -31,4 +31,4 @@ ATOMIC_POSITIONS crystal
     C      0.000000000    0.000000000    0.000000000    
     C      0.333333333    0.666666667    0.000000000    
 K_POINTS automatic
-8 8 1 0 0 0
+16 16 1 0 0 0

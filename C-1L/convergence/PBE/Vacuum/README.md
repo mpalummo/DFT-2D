@@ -1,5 +1,4 @@
 # Convergence on the Vacuum along the non-periodic direction
-  cd   C-1L/vc-relax/PBE/Vacuum
   cp ./Inputs/* .
   cp ./Scripts/* .
 
