@@ -1,5 +1,4 @@
 # Convergence on the kinetic energy cutoff
-  cd   C-1L/vc-relax/PBE/cutoff
   cp ./Inputs/* .
   cp ./Scripts/* .
 

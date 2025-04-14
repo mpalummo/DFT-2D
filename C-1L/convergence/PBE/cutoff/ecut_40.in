@@ -1,5 +1,5 @@
 &CONTROL
-4.635    calculation       = 'scf'
+    calculation       = 'scf'
     restart_mode      = 'from_scratch'
     prefix            = 'graphene_PBE'
     tstress           = .true.
@@ -16,7 +16,7 @@
                    celldm(3) = 6,
                          nat = 2,
                         ntyp = 1,
-                     ecutwfc = 20 ,
+                     ecutwfc = 40 ,
                         nbnd = 8,
                  occupations = 'smearing' ,
                      degauss = 0.005 ,
