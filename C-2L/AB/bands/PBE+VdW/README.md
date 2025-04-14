@@ -1,5 +1,4 @@
 #
-cd AB/bands/PBE+vdW
 
 Copy the input files and Scripts files to run and to plot data 
 cp ./Inputs/*in .

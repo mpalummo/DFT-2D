@@ -10,7 +10,7 @@ colonna2 = []
 
 sublists = []
 
-efermi = -0.5713 
+efermi = -0.5784
 
 for line in lines:
     if line.strip(): 
@@ -48,7 +48,7 @@ plt.plot(xFermi,yFermi,"--", color="black", label="$E_{F}$", lw=2)
 
 plt.xlim(0,1.57)
 plt.ylim(-10,10)
-
+plt.ylabel('E(eV)')
 plt.title("$PBE+vdW-Bands-of-AB-BG$")
 
 plt.savefig('Bande_C2L_AB-BG_PBE_vdW.png', format='png')
