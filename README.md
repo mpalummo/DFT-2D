@@ -57,3 +57,5 @@ about 1% of strain is present for both layers.
 This is done to have the minimum commensurate 1x1 supercell for the hetero-bilayer, in real world the two layers have slightly different lattice parameters can be even uncommensurate.
 
 If something goes wrong try to open inputs and scripts files and check them to understand which is the problem
+
+Attention in all the shell scripts: if your shell is not zsh substitute zsh with bash at the beginning of the script file
