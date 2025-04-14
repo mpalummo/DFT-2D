@@ -10,10 +10,10 @@ run_nscf-eps.sh
 
 The first script performs one scf calculation and several nscf and epsilon calculations using different k-points grids to check convergence over k-points. 
 
-./run_nscf-eps_k.sh 
+./run_nscf-eps.sh 
 
-you can plot the spectra using the pyhton script plot_eps_k.py
+you can plot the spectra using the pyhton script plot_eps.py
 
-python plot_eps_k.py 
+python plot_eps.py 
 
 # 
