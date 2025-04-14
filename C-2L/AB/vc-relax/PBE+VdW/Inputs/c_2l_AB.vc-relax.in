@@ -21,7 +21,7 @@
            occupations = 'smearing' ,
            degauss = 0.005 ,
            smearing = 'm-v' ,
-           input_dft = 'vdw-df2-b86r'
+           input_dft = 'vdw-df2-b86r' !or use any vdW_corr=DF-2 or 3  see input explanation
 /
 &ELECTRONS
                  mixing_beta = 0.7 ,
@@ -29,7 +29,7 @@
 &IONS
 /
 &CELL
-cell_dofree = 'all'
+cell_dofree = '2Dxy'
 /
 ATOMIC_SPECIES
     C   12.01100  C.upf 
