@@ -17,9 +17,6 @@
            ntyp = 2,
            ecutwfc = 60,
            nbnd = 20
-           occupations = 'smearing' ,
-           degauss = 0.005 ,
-           smearing = 'm-v' ,
            input_dft = 'vdw-df2-b86r'
 /
 &ELECTRONS

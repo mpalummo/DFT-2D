@@ -1,0 +1,14 @@
+&inputpp
+outdir='./tmp'
+prefix='C2L_AB_PBE_vdW'
+calculation='eps'
+/
+&energy_grid
+smeartype='gauss'
+intersmear=0.05d0
+intrasmear=0.0d0
+wmax=20.0d0
+wmin=0.0d0
+nw=1000
+shift=0.0d0
+/
