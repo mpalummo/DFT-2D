@@ -1,0 +1,71 @@
+
+     Program epsilon v.7.0 starts on 14Apr2025 at  7: 0:47 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on       8 processor cores
+     Number of MPI processes:                 8
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       8
+     0 MiB available memory on the printing compute node when the environment starts
+
+
+
+     Reading input file...
+     Broadcasting variables...
+     Reading PW restart file...
+
+     Reading xml data from directory:
+
+     ./tmp/BN2L_AA1_PBE_vdW.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          45      45     15                 5791     5791    1151
+     Max          46      46     16                 5824     5824    1190
+     Sum         367     367    121                46525    46525    9289
+
+     Using Slab Decomposition
+
+
+
+     Fermi energy [eV] is: -2.37256
+     The system is a dielectric...
+     metallic system: redefining wmin =     0.000000
+
+     Performing eps calculation...
+
+     xx,yy,zz plasmon frequences [eV] are:    11.104982477   11.104870079    9.357504655
+
+     Writing output on file...
+
+
+     eps          :      0.55s CPU      0.62s WALL (       1 calls)
+     dipole_calc  :      0.40s CPU      0.47s WALL (     256 calls)
+
+
+     epsilon      :      1.18s CPU      1.26s WALL
+
+
+   This run was terminated on:   7: 0:49  14Apr2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

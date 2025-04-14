@@ -2,7 +2,7 @@
     calculation       = 'scf'
 !    restart_mode      = 'restart'
     prefix            = 'BN2L_AA1_PBE_vdW'
-    pseudo_dir        = '../../../../../Pseudo/PBE'
+    pseudo_dir        = '../../../../Pseudo/PBE'
     outdir            = './tmp'
     verbosity         = 'high'
     disk_io = 'minimal'
