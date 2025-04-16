@@ -1,0 +1,6 @@
+&INPUTPP
+       prefix = 'graphene_PBE',
+       outdir = './tmp',
+      filplot = 'graphene_PBE.pot',
+     plot_num = 11
+/
