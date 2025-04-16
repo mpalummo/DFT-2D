@@ -28,7 +28,7 @@ axs.plot(pot5[:,0],pot5[:,1],linewidth=2,color='y',label='c/a=8')
 axs.legend(loc="upper right")
 
 axs.set_xlim(0,32)
-axs.set_ylim(0.1,0.3)
+axs.set_ylim(0.0,0.3)
 
 plt.savefig('Avg_pot.png', format='png')
 plt.show()

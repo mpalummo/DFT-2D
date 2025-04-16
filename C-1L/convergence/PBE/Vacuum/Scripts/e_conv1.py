@@ -6,7 +6,7 @@ from matplotlib.ticker import MultipleLocator, FormatStrFormatter
 plt.rcParams['pdf.fonttype'] = 42
 plt.rcParams['ps.fonttype'] = 42
 
-etot_vs_ecut = np.genfromtxt('./Etot_vs_ecut.dat',comments="#")
+etot_vs_ecut = np.genfromtxt('./Etot_vs_vac_PBE.dat',comments="#")
 
 fig, axs = plt.subplots(2)
 #fig.suptitle('Convergence')
@@ -24,11 +24,11 @@ axs[0].legend(loc="upper right")
 axs[1].plot(etot_vs_ecut[:,0],etot_vs_ecut[:,1]*13.6057039763,linewidth=2,color='k',label='graphene 1L')
 axs[1].scatter(etot_vs_ecut[:,0],etot_vs_ecut[:,1]*13.6057039763,color='k')
 axs[1].legend(loc="upper right")
-axs[1].set_xlabel('$E_{cut}(Ry)$',fontsize=16)
-axs[0].set_xlim(40,100)
-axs[1].set_xlim(40,100)
-axs[0].set_ylim(-24.086,-24.)
-axs[1].set_ylim(-327.70,-327.50)
+axs[1].set_xlabel('size cell',fontsize=16)
+axs[0].set_xlim(15,45)
+axs[1].set_xlim(15,45)
+axs[0].set_ylim(-24.095,-24.085)
+axs[1].set_ylim(-327.756,-327.750)
 
 plt.savefig('Etot_vs_ecut.png', format='png')
 plt.show()

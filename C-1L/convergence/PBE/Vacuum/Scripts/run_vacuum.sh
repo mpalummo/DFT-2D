@@ -10,8 +10,8 @@ echo "starting calculation for celldm(3) = $cellz"
 
 sed "s/celldm(3) = 6/celldm(3) = $cellz/" c_1l.scf.in > c_1l.scf_$c.in
 
-pw.x < c_1l.scf_$c.in > c_1l.scf_$c.out
-pp.x < pp.in > pp.out
+mpirun pw.x < c_1l.scf_$c.in > c_1l.scf_$c.out
+mpirun pp.x < pp.in > pp.out
 average.x < average.in > average.out
 
 rm -fr tmp
